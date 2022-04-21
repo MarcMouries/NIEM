@@ -15,6 +15,19 @@ Extension of ServiceNow data model with selected elements from the National Info
 | Core          | Request       | A formal message requesting something that is submitted to an authority.
 
 
+## Person
+A human being
+| Property                  | Definition   | Type               | NIEM Type.       | ServiceNow Type
+| ------------------------- | ------------- | ------------------- | ---------------- | -------------- 
+| PersonBirthDate           | (nc:DateType)	| A date a person was born.
+| PersonName                | (nc:PersonNameType) | A combination of names and/or titles by which a person is known. | We don't store the history of name changes
+| PersonBirthDate           | (nc:DateType)	| A date a person was born.
+| PersonFullName            |                    | A complete name of a person.
+| PersonGivenName           |                    | A first name of a person.
+| PersonSurName             |                    | A last name or family name of a person.
+| PersonNameSalutationText  |                    | A formal sign or expression of greeting that is appropriate for this person.
+| PersonUSCitizenIndicator  |                    | True if a person is a citizen of the United States; false otherwise.
+
 
 
 
