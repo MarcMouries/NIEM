@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" type="collection"/>
+    <element extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" sizeclass="0" type="collection">
+        <element label="Date of birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Email address" max_length="40" name="email_address" type="email"/>
+        <element label="First name" max_length="40" name="first_name" type="string_full_utf8"/>
+        <element label="Full name" max_length="40" name="full_name" type="string_full_utf8"/>
+        <element label="Last name" max_length="40" name="last_name" type="string_full_utf8"/>
+    </element>
 </database>
