@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_niem_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sn_niem_case">numberISNOTEMPTY^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>CaseNumber</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var gdt = new GlideDateTime();
+    var year = gdt.getYearLocalTime();
+    var case_type = current.sys_class_name;
+    var log_msg = "";
+    log_msg = "NIEM: sys_class   : " + case_type + "\n";
+
+    // GET THE PREFIX FOR THE CASE
+    var sys_class = "x_snc_corresp_mgmt_correspondence";
+    var gr = new GlideRecord('sys_number');
+    gr.addQuery('category', sys_class);
+    gr.query();
+    if (gr.next()) {
+        var prefix = gr.prefix;
+        var whole_number = current.number;
+        log_msg += "NIEM: Case Type   : " + case_type + "\n";
+        log_msg += "NIEM: Case Year   : " + year + "\n";
+        log_msg += "NIEM: Whole_number: " + whole_number + "\n";
+        log_msg += "NIEM: Prefix.     : " + prefix + "\n";
+        var split = whole_number.split(prefix);
+        var number = split[1];
+        var new_number = year + "-" + prefix + "-" + number;
+        log_msg += "NIEM: Case Number : " + new_number + "\n";
+		gs.info(log_msg);
+        current.u_number = new_number;
+    }
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-05-03 11:39:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78157a201b13c550ce2b6579b04bcb3b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>CaseNumber</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_script_78157a201b13c550ce2b6579b04bcb3b</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-05-05 20:43:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=78157a201b13c550ce2b6579b04bcb3b"/>
+</record_update>
