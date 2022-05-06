@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_number" label="Case Number" language="en" table="sn_niem_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <help/>
+            <hint/>
+            <label>Case Number</label>
+            <language>en</language>
+            <name>sn_niem_case</name>
+            <plural>Case Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-05-05 17:49:02</sys_created_on>
+            <sys_id>77cd12511b570110ce2b6579b04bcbe0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Case Number</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_documentation_sn_niem_case_u_number_en</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-05-05 17:54:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
