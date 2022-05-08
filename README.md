@@ -30,6 +30,7 @@ A human being
 | PersonBirthDate           | (nc:DateType)	| A date a person was born.
 | PersonFullName            |                    | A complete name of a person.
 | PersonGivenName           |                    | A first name of a person.
+| PersonJobTitleText        |                    | A title or label that briefly describes the position or kind of work a person does. | JobTitleText 
 | PersonSurName             |                    | A last name or family name of a person.
 | PersonNameSalutationText  |                    | A formal sign or expression of greeting that is appropriate for this person.
 | PersonUSCitizenIndicator  |                    | True if a person is a citizen of the United States; false otherwise.
