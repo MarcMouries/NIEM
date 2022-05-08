@@ -15,7 +15,7 @@ Extension of ServiceNow data model with selected elements from the National Info
 | Core          | Address       | A postal location to which paper mail can be directed.
 | Core          | Case          | An aggregation of information about a set of related activities and events
 | Core          | Entity        | A person, organization, or item
-| Core          | Incident      | An occurrence or an event that may require a response. | Use the standard Incident table to manage unplanned          interruption to or quality reduction of an IT service. 
+| Core          | Incident      | An occurrence or an event that may require a response. | Use the standard Incident table to manage unplanned interruption to or quality reduction of an IT service. 
 | Core          | Person        | A human being
 | Core          | Organization  | A unit which conducts some sort of business or operation
 | Core          | Request       | A formal message requesting something that is submitted to an authority.
@@ -30,7 +30,7 @@ A human being
 | PersonBirthDate           | (nc:DateType)	| A date a person was born.
 | PersonFullName            |                    | A complete name of a person.
 | PersonGivenName           |                    | A first name of a person.
-| PersonJobTitleText        |                    | A title or label that briefly describes the position or kind of work a person does. | JobTitleText 
+| PersonJobTitleText        |                    | A title or label that briefly describes the position or kind of work a person does. | nc:TextType   | JobTitleText 
 | PersonSurName             |                    | A last name or family name of a person.
 | PersonNameSalutationText  |                    | A formal sign or expression of greeting that is appropriate for this person.
 | PersonUSCitizenIndicator  |                    | True if a person is a citizen of the United States; false otherwise.
