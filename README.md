@@ -60,12 +60,14 @@ A data type for a formal message requesting something that is submitted to an au
 
 ## Case
 
-| Property            | Definition   | Type               | NIEM Type.       | ServiceNow Column name
-| ----------------- | ------------- | ------------------- | ---------------- | -------------- 
-| CaseYearDate      |  A year a case is opened.           |                  | u_caseyeardate
-| CaseResolutionText|  A result of a case.                | (nc:TextType)    |
-| CaseTitleText     |  An official name of a case.        | (nc:TextType)    |
-| CaseTrackingID    |  An identifier used to track a case.| string           |
+| Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
+| ------------------ | ---------------------------------------------- | -----------------| ---------------- | -------------- 
+| CaseYearDate       |  A year a case is opened.                      |                  |                  | u_caseyeardate
+| CaseResolutionText |  A result of a case.                           | (nc:TextType)    |                  |
+| CaseTitleText      |  An official name of a case.                   | (nc:TextType)    |                  |
+| CaseTrackingID     |  An identifier used to track a case.           | string           |                  |
+| CurrentMilestone   |  The current milestone                         |                  |                  |
+| Milestones         |  Accomplishments during the execution of a case| List             |                  |
 
 
 
