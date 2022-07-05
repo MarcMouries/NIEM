@@ -68,6 +68,9 @@ A data type for a formal message requesting something that is submitted to an au
 | Milestones         |  Accomplishments during the execution of a case| List             |                  |
 
 
-
+## Organization
+| Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
+| ------------------ | ---------------------------------------------- | -----------------| ---------------- | -------------- 
+|         |  .                      |                  |                  | 
 
        
