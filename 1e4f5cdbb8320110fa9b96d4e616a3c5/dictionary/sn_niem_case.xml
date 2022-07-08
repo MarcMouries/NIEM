@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Case" max_length="40" name="sn_niem_case" sizeclass="6" type="collection">
+    <element extends="task" label="Case" max_length="40" name="sn_niem_case" sizeclass="7" text_index="true" type="collection">
         <element label="Case YearDate" max_length="40" name="u_caseyeardate" type="string"/>
         <element label="Case Number" max_length="40" name="u_number" type="string"/>
     </element>

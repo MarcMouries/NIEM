@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>create</operation>
+        <source_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Steve.Ly</sys_created_by>
+        <sys_created_on>2022-05-03 14:37:31</sys_created_on>
+        <sys_id>eccedb6c1b93c550ce2b6579b04bcbae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_corresp_mgmt_correspondence</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_scope_privilege_eccedb6c1b93c550ce2b6579b04bcbae</sys_update_name>
+        <sys_updated_by>Steve.Ly</sys_updated_by>
+        <sys_updated_on>2022-05-03 14:38:08</sys_updated_on>
+        <target_name>x_snc_corresp_mgmt_correspondence</target_name>
+        <target_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_scope_privilege_eccedb6c1b93c550ce2b6579b04bcbae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>create</operation><source_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>Steve.Ly</sys_created_by><sys_created_on>2022-05-03 14:37:31</sys_created_on><sys_id>eccedb6c1b93c550ce2b6579b04bcbae</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_snc_corresp_mgmt_correspondence</sys_name><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_update_name>sys_scope_privilege_eccedb6c1b93c550ce2b6579b04bcbae</sys_update_name><sys_updated_by>Steve.Ly</sys_updated_by><sys_updated_on>2022-05-03 14:38:08</sys_updated_on><target_name>x_snc_corresp_mgmt_correspondence</target_name><target_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>737922108</payload_hash>
+        <record_name>x_snc_corresp_mgmt_correspondence</record_name>
+        <reverted_from/>
+        <source>660adfe41b93c550ce2b6579b04bcb08</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Steve.Ly</sys_created_by>
+        <sys_created_on>2022-05-03 14:38:08</sys_created_on>
+        <sys_id>d8fe13ac1b93c550ce2b6579b04bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1808a5b69f00000001</sys_recorded_at>
+        <sys_updated_by>Steve.Ly</sys_updated_by>
+        <sys_updated_on>2022-05-03 14:38:08</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>50fe13ac2393c550d621009ab4227224</update_guid>
+        <update_guid_history>50fe13ac2393c550d621009ab4227224:737922108,dfce5f6c8793c550091dd52184c441b6:1456239705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Steve.Ly</sys_created_by>
+        <sys_created_on>2022-05-03 14:40:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>01fc8a208c2048608060f062b5564c40</sys_id>
+        <sys_metadata>eccedb6c1b93c550ce2b6579b04bcbae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_corresp_mgmt_correspondence</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_eccedb6c1b93c550ce2b6579b04bcbae</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_eccedb6c1b93c550ce2b6579b04bcbae">d8fe13ac1b93c550ce2b6579b04bcb24</sys_update_version>
+        <sys_updated_by>Steve.Ly</sys_updated_by>
+        <sys_updated_on>2022-05-03 14:40:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
