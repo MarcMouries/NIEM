@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NAICS" max_length="40" name="sn_niem_naics" type="collection">
+        <element label="Code" max_length="6" name="code" type="string" unique="true"/>
+        <element label="Description" max_length="120" name="description" type="string"/>
+        <index name="index" unique="true">
+            <element name="code"/>
+        </index>
+    </element>
+</database>
