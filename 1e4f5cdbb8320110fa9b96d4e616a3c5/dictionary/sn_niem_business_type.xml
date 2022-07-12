@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Business Type" max_length="40" name="sn_niem_business_type" sizeclass="22" type="collection">
-        <element label="Code" max_length="2" name="code" type="string"/>
+        <element label="Code" max_length="2" name="code" type="string" unique="true"/>
         <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <index name="index" unique="true">
+            <element name="code"/>
+        </index>
     </element>
 </database>
