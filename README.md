@@ -71,9 +71,18 @@ A data type for a formal message requesting something that is submitted to an au
 | Property             | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
 | -------------------- | ---------------------------------------------- | -----------------| ---------------- | -------------- 
 | DoingBusinessAsName  |                        |                  |                  | 
+| cageCode             | The Commercial And Government Entity (CAGE) Code is a five-character alphanumeric identifier assigned to entities located in the United States and its outlying areas by the Defense Logistics Agency (DLA) Commercial and Government Entity (CAGE) Program to identify a given facility or location of a commercial or government entity.
 | ueiSAM               | Entities that conduct business with the federal government will begin to use a Unique Entity Identifier (UEI) created in SAM.gov. .                      |                  |                  | 
-| Business Types       | The different business types that can classify an entity | Reference | SAM.gov
+| Business Types       | The different business types that can classify an entity as described by SAM.gov | Reference | 
 
-##
+
+## Entity Structure
+The structure of the entity as defined by the IRS.
+| Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
+| ------------------ | ---------------------------------------------- | -----------------| ---------------- | -------------- 
+| Code       |  
+| Description|  
+## Business Type
+
 
        
