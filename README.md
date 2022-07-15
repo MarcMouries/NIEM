@@ -77,12 +77,19 @@ A data type for a formal message requesting something that is submitted to an au
 
 
 ## Entity Structure
-The structure of the entity as defined by the IRS.
+### The structure of the entity as defined by the IRS.
 | Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
 | ------------------ | ---------------------------------------------- | -----------------| ---------------- | -------------- 
-| Code       |  
-| Description|  
+| Code               |  String
+| Description.       |  String
+
+
 ## Business Type
+### The different business types that can classify an entity as described by SAM.gov. Ex: SBA Certified 8(a) Program Participant
+| Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
+| ------------------ | ---------------------------------------------- | -----------------| ---------------- | -------------- 
+| Code               |  String
+| Description.       |  String
 
 
        
