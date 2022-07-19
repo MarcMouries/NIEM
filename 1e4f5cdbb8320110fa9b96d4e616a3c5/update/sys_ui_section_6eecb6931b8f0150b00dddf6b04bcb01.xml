@@ -14,6 +14,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_structure</element>
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-14 22:36:30</sys_created_on>
+            <sys_id>a9ee3bb71b249910b00dddf6b04bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-14 22:36:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>3</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-15 20:06:12</sys_created_on>
+            <sys_id>6916245c1bb4d910b00dddf6b04bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-15 20:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

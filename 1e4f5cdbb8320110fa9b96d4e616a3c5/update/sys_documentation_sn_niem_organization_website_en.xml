@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="website" label="Website" language="en" table="sn_niem_organization">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <help/>
+            <hint/>
+            <label>Website</label>
+            <language>en</language>
+            <name>sn_niem_organization</name>
+            <plural>Websites</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-15 20:06:12</sys_created_on>
+            <sys_id>2116245c1bb4d910b00dddf6b04bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Website</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_documentation_sn_niem_organization_website_en</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-15 20:06:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
