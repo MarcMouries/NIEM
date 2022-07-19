@@ -70,11 +70,12 @@ A data type for a formal message requesting something that is submitted to an au
 ## Organization
 | Property             | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
 | -------------------- | ---------------------------------------------- | -----------------| ---------------- | -------------- 
+| Legal Business Name  | The legal name of 
 | Name                 | A name of an organization.                     | String           | OrganizationName
 | DoingBusinessAsName  | A name an organization uses for conducting business.  |                  |                  | 
 | cageCode             | The Commercial And Government Entity (CAGE) Code is a five-character alphanumeric identifier assigned to entities located in the United States and its outlying areas by the Defense Logistics Agency (DLA) Commercial and Government Entity (CAGE) Program to identify a given facility or location of a commercial or government entity.
-| ueiSAM               | The Unique Entity ID from SAM.gov is the authoritative identifier for entities doing business with the federal government.     
-|                  |                  | 
+| ueiSAM               | The Unique Entity ID from SAM.gov is the authoritative identifier for entities doing business with the federal government.|                  |                  | 
+
 | Business Types       | The different business types that can classify an entity as described by SAM.gov | Reference | 
 | Website              | 
 
