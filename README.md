@@ -78,6 +78,7 @@ A data type for a formal message requesting something that is submitted to an au
 
 | Business Types       | The different business types that can classify an entity as described by SAM.gov | Reference | 
 | Website              | 
+| country_of_incorporation | Reference | core_country
 
 
 ## Entity Structure
