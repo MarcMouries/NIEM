@@ -70,7 +70,8 @@ A data type for a formal message requesting something that is submitted to an au
 ## Organization
 | Property             | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
 | -------------------- | ---------------------------------------------- | -----------------| ---------------- | -------------- 
-| DoingBusinessAsName  |                        |                  |                  | 
+| Name                 | A name of an organization.                     | String           | OrganizationName
+| DoingBusinessAsName  | A name an organization uses for conducting business.  |                  |                  | 
 | cageCode             | The Commercial And Government Entity (CAGE) Code is a five-character alphanumeric identifier assigned to entities located in the United States and its outlying areas by the Defense Logistics Agency (DLA) Commercial and Government Entity (CAGE) Program to identify a given facility or location of a commercial or government entity.
 | ueiSAM               | The Unique Entity ID from SAM.gov is the authoritative identifier for entities doing business with the federal government.     
 |                  |                  | 
@@ -93,5 +94,14 @@ A data type for a formal message requesting something that is submitted to an au
 | Code               |  String
 | Description.       |  String
 
-
-       
+## Address
+### A set of location information, often described by postal information.
+| Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
+| ------------------- | ---------------------------------------------- | ----------------| ---------------- | -------------- 
+| addressLine1        |                                                | String          |                  |                  |   
+| addressLine2        |                                                | String          |                  |                  |    
+| city                |                                                | String          |  cityName        |                  |    
+| postalCode          |                                                | String          |                  |                                
+| postalExtensionCode |                                                | String          |                  |                                
+| country             |                                                | reference       |                  | core_country                               
+ 
