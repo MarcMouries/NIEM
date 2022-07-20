@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sn_niem_entity" label="Organization" max_length="40" name="sn_niem_organization" sizeclass="0" type="collection">
         <element label="CAGE Code" max_length="5" name="cage_code" type="string"/>
+        <element label="Country of incorporation" max_length="32" name="country_of_incorporation" reference="core_country" type="reference"/>
         <element label="Entity Structure" max_length="32" name="entity_structure" reference="sn_niem_entity_structure" type="reference"/>
+        <element label="Legal Business Name" max_length="255" name="legal_business_name" type="string_full_utf8"/>
         <element label="UEI" max_length="12" name="ueisam" type="string" unique="true"/>
         <element label="Website" max_length="1024" name="website" type="url"/>
         <index name="index" unique="true">
@@ -9,6 +11,9 @@
         </index>
         <index name="index2">
             <element name="entity_structure"/>
+        </index>
+        <index name="index3">
+            <element name="country_of_incorporation"/>
         </index>
     </element>
 </database>
