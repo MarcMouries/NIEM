@@ -106,4 +106,3 @@ A data type for a formal message requesting something that is submitted to an au
 | postalCode          |                                                | String          |                  |                                
 | postalExtensionCode |                                                | String          |                  |                                
 | country             |                                                | reference       |                  | core_country                               
- 
