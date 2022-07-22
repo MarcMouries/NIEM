@@ -105,4 +105,13 @@ A data type for a formal message requesting something that is submitted to an au
 | city                |                                                | String          |  cityName        |                  |    
 | postalCode          |                                                | String          |                  |                                
 | postalExtensionCode |                                                | String          |                  |                                
-| country             |                                                | reference       |                  | core_country                               
+| country             |                                                | reference       |                  | core_country            
+
+
+
+## Airport
+### A facility where an aircraft may take off, land, be repaired or sheltered, or receive supplies.
+
+| Property           | Definition                                     | Type             | NIEM Type.       | ServiceNow Column name
+| ------------------- | ---------------------------------------------- | ----------------| ---------------- | -------------- 
+|  IATA code         |                                                | String          |      AirportCodeAbstract            |                  |   
