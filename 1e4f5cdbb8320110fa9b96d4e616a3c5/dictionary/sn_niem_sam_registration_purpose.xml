@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="SAM Registration Purpose" max_length="40" name="sn_niem_sam_registration_purpose" type="collection">
+        <element label="Code" mandatory="true" max_length="2" name="code" type="string" unique="true"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <index name="index" unique="true">
+            <element name="code"/>
+        </index>
+    </element>
+</database>
