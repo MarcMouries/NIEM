@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="entity_url" table="sn_niem_sam_entity">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="registration_status" table="sn_niem_sam_entity">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Entity URL</column_label>
+        <column_label>Registration Status</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,20 +27,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>entity_url</element>
+        <element>registration_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="URL">url</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1024</max_length>
+        <max_length>32</max_length>
         <name>sn_niem_sam_entity</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sn_niem_sam_registration_status">sn_niem_sam_registration_status</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
-        <sys_created_on>2022-07-27 17:03:47</sys_created_on>
-        <sys_id>c330b5841b8d9950b00dddf6b04bcbcc</sys_id>
+        <sys_created_on>2022-07-27 17:52:32</sys_created_on>
+        <sys_id>666a39c01bcd9950b00dddf6b04bcb1c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Entity URL</sys_name>
+        <sys_name>Registration Status</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_sam_entity_entity_url</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_niem_sam_entity_registration_status</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-07-27 17:54:34</sys_updated_on>
+        <sys_updated_on>2022-07-27 17:53:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

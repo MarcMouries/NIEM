@@ -28,6 +28,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registration_status</element>
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-27 17:52:33</sys_created_on>
+            <sys_id>2c9ab9c01bcd9950b00dddf6b04bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_sam_entity" sys_domain="global" view="Default view">6221fdc41b8d9950b00dddf6b04bcb96</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-27 17:52:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="entity_url" label="Entity URL" language="en" table="sn_niem_sam_entity">
+    <sys_documentation element="registration_status" label="Registration Status" language="en" table="sn_niem_sam_entity">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>entity_url</element>
+            <element>registration_status</element>
             <help/>
             <hint/>
-            <label>Entity URL</label>
+            <label>Registration Status</label>
             <language>en</language>
             <name>sn_niem_sam_entity</name>
-            <plural>Entity URLs</plural>
+            <plural>Registration Status</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-27 17:03:47</sys_created_on>
-            <sys_id>cf30b5841b8d9950b00dddf6b04bcbcc</sys_id>
+            <sys_created_on>2022-07-27 17:52:33</sys_created_on>
+            <sys_id>e09ab9c01bcd9950b00dddf6b04bcb8a</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_name>Entity URL</sys_name>
+            <sys_name>Registration Status</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-            <sys_update_name>sys_documentation_sn_niem_sam_entity_entity_url_en</sys_update_name>
+            <sys_update_name>sys_documentation_sn_niem_sam_entity_registration_status_en</sys_update_name>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-27 17:54:34</sys_updated_on>
+            <sys_updated_on>2022-07-27 17:53:30</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

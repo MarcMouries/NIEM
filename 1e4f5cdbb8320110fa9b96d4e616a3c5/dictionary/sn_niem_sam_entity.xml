@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="SAM Entity" max_length="40" name="sn_niem_sam_entity" type="collection">
         <element label="cageCode" max_length="40" name="cage_code" type="string"/>
-        <element label="entityURL" max_length="1024" name="entity_url" type="url"/>
+        <element label="Entity URL" max_length="1024" name="entity_url" type="url"/>
         <element label="exclusionStatusFlag" max_length="40" name="exclusion_status_flag" type="boolean"/>
         <element label="legalBusinessName" max_length="40" name="legal_business_name" type="string"/>
+        <element label="Registration Status" max_length="32" name="registration_status" reference="sn_niem_sam_registration_status" type="reference"/>
         <element label="UEI" max_length="12" name="uei" type="string" unique="true"/>
-        <index name="index" unique="true">
+        <index name="index">
+            <element name="registration_status"/>
+        </index>
+        <index name="index2" unique="true">
             <element name="uei"/>
         </index>
     </element>
