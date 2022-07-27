@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NIEM">9722b7761b605510b00dddf6b04bcbd9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>SAM Registration Purposes</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_niem_sam_registration_purpose</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>sn_niem.sam_registration_purpose_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-27 21:42:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a1f620c1b81d950b00dddf6b04bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAM Registration Purposes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_app_module_7a1f620c1b81d950b00dddf6b04bcbe0</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-27 21:42:04</sys_updated_on>
+        <timeline_page/>
+        <title>SAM Registration Purposes</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_app_module_7a1f620c1b81d950b00dddf6b04bcbe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NIEM">9722b7761b605510b00dddf6b04bcbd9</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>SAM Registration Purposes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sn_niem_sam_registration_purpose</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>sn_niem.sam_registration_purpose_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2022-07-27 21:42:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a1f620c1b81d950b00dddf6b04bcbe0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SAM Registration Purposes</sys_name><sys_overrides/><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_update_name>sys_app_module_7a1f620c1b81d950b00dddf6b04bcbe0</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2022-07-27 21:42:04</sys_updated_on><timeline_page/><title>SAM Registration Purposes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>358620338</payload_hash>
+        <record_name>SAM Registration Purposes</record_name>
+        <reverted_from/>
+        <source>9714d4a91b741150b00dddf6b04bcba5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-27 21:42:04</sys_created_on>
+        <sys_id>fa1f620c1b81d950b00dddf6b04bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182419c14fb0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-27 21:42:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f21f620ca281d950d73007ccf03ae0e3</update_guid>
+        <update_guid_history>f21f620ca281d950d73007ccf03ae0e3:358620338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SAM Registration Purposes">6790f28c1b81d950b00dddf6b04bcba1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-27 21:48:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0f875197df84471c8dd08cd253f0d291</sys_id>
+        <sys_metadata>7a1f620c1b81d950b00dddf6b04bcbe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAM Registration Purposes</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_app_module_7a1f620c1b81d950b00dddf6b04bcbe0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7a1f620c1b81d950b00dddf6b04bcbe0">fa1f620c1b81d950b00dddf6b04bcbe3</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-27 21:48:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
