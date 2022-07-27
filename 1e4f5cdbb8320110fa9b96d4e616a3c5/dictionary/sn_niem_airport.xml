@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Airport" max_length="40" name="sn_niem_airport" sizeclass="0" type="collection"/>
+</database>
