@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SAM Entity" max_length="40" name="sn_niem_sam_entity" type="collection">
+        <element label="entityURL" max_length="1024" name="entity_url" type="url"/>
+        <element label="UEI" max_length="12" name="uei" type="string"/>
+    </element>
+</database>
