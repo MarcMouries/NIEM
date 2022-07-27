@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="SAM Registration Status" max_length="40" name="sn_niem_sam_registration_status" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
