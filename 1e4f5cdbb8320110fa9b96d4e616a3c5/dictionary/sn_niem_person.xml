@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="sn_niem_entity" max_length="40" name="sn_niem_person" sizeclass="0" type="collection">
+    <element audit="true" extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var duration;&#10;&#9;var today = new GlideDate();&#10;&#9;var bday = new GlideDateTime(current.date_of_birth.getDisplayValue());&#10;&#10;&#9;duration = GlideDateTime.subtract( bday, today ).getDayPart();&#10;&#9;duration = parseInt( duration / 365 ); // Years&#10;&#9;return duration;&#10;&#10;})(current);" label="Age" max_length="40" name="age" type="integer" virtual="true"/>
         <element label="Birth Date" max_length="40" name="birth_date" type="glide_date"/>
         <element label="Birth Location" max_length="32" name="birth_location" reference="cmn_location" type="reference"/>
@@ -47,7 +47,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Middle Name" max_length="40" name="middle_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Person Description" max_length="4000" name="person_description" type="string"/>
         <element attributes="pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="Preferred Name" max_length="40" name="preferred_name" type="string"/>
