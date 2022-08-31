@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="citizenship_status" table="sn_niem_citizenship" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>citizenship_status</element>
+            <name>sn_niem_citizenship</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 14:51:11</sys_created_on>
+            <sys_id>e9b0291b47e1991024e32782846d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>citizenship_status</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_citizenship_citizenship_status</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 14:51:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>citizenship_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Citizen</label>
+            <language>en</language>
+            <name>sn_niem_citizenship</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 14:51:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b0291b47e1991024e32782846d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 14:51:11</sys_updated_on>
+            <value>Citizen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>citizenship_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Permanent or Conditional Resident</label>
+            <language>en</language>
+            <name>sn_niem_citizenship</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 14:51:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61b0291b47e1991024e32782846d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 14:51:11</sys_updated_on>
+            <value>Permanent or Conditional Resident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>citizenship_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-Immigrant</label>
+            <language>en</language>
+            <name>sn_niem_citizenship</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 14:51:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21b0291b47e1991024e32782846d4313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 14:51:11</sys_updated_on>
+            <value>Non-Immigrant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>citizenship_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Undocumented</label>
+            <language>en</language>
+            <name>sn_niem_citizenship</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 14:51:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edb0291b47e1991024e32782846d4313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 14:51:11</sys_updated_on>
+            <value>Undocumented</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

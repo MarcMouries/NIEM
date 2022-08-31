@@ -5,11 +5,18 @@
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	var str = current.last_name.toString().toUpperCase();
+	if (current.first_name) str += ', '+current.first_name.toString();
+	if (current.middle_name) str += ' '+current.middle_name.toString();
+	return str;
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Full name</column_label>
+        <column_label>Full Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -17,7 +24,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -48,22 +55,22 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-05-05 13:24:03</sys_created_on>
-        <sys_id>aa2169d91bd30110b00dddf6b04bcb34</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Full name</sys_name>
+        <sys_id>eaffe93097e1511081dd33271153af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Full Name</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_dictionary_sn_niem_person_full_name</sys_update_name>
-        <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-05-05 13:24:04</sys_updated_on>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 19:26:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

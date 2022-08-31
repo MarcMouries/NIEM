@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="NIEM">e777699b1b68d510b00dddf6b04bcb63</application>
+        <filter/>
+        <name>Locations</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-08-31 16:09:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fb27d1b4725991024e32782846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Locations</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ui_module_5fb27d1b4725991024e32782846d435e</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 16:09:58</sys_updated_on>
+        <table>sn_niem_location</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_ui_module_5fb27d1b4725991024e32782846d435e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NIEM">e777699b1b68d510b00dddf6b04bcb63</application><filter/><name>Locations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-08-31 16:09:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5fb27d1b4725991024e32782846d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Locations</sys_name><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_update_name>sys_ui_module_5fb27d1b4725991024e32782846d435e</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-08-31 16:09:58</sys_updated_on><table>sn_niem_location</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>456515666</payload_hash>
+        <record_name>Locations</record_name>
+        <reverted_from/>
+        <source>7d72732647a1191024e32782846d43d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-08-31 16:09:58</sys_created_on>
+        <sys_id>dfb2fd1b4725991024e32782846d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f4aa9c3b0000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 16:09:58</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1bb2fd1bc1259910e00759b6e72aac20</update_guid>
+        <update_guid_history>1bb2fd1bc1259910e00759b6e72aac20:456515666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-08-31 18:18:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>4d90eb3ffdc44c20afc1c434ddc1da64</sys_id>
+        <sys_metadata>5fb27d1b4725991024e32782846d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Locations</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_ui_module_5fb27d1b4725991024e32782846d435e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_5fb27d1b4725991024e32782846d435e">dfb2fd1b4725991024e32782846d4320</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 18:18:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

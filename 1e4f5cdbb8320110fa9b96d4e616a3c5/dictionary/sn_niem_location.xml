@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmn_location" label="Location" max_length="40" name="sn_niem_location" type="collection"/>
+</database>

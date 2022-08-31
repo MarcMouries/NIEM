@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_niem_location</collection>
+        <condition>current.location_street.changes() || current.location_city.changes() || current.location_state.changes() || current.location_zip.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>get_lat_long_census</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var request = new sn_ws.RESTMessageV2();
+request.setHttpMethod('get');
+var street = new String(current.location_street);
+street = street.replaceAll("\r","");
+street = street.replaceAll("\n"," ");
+street = street.replaceAll(" ","+");
+
+var city = new String(current.location_city).replaceAll(" ","+");
+var state = new String(current.location_state.getDisplayValue()).replaceAll(" ","+");
+var zip = new String(current.location_zip).replaceAll(" ","+");
+
+var address = "street=" + street + "&city=" + city + "&state=" + state + "&zip=" + zip + "&benchmark=4&format=json";
+gs.info(address);
+var re = request.setEndpoint("https://geocoding.geo.census.gov/geocoder/locations/address?" +address);
+var response = request.execute();
+var httpResponseStatus = response.getStatusCode();
+var httpResponseContentType = response.getHeader('Content-Type');
+var httpResponseBody;
+
+gs.info("http response status_code: " + httpResponseStatus);
+gs.info("http response content-type: " + httpResponseContentType);
+
+//var ws = new HTTPAdaptor("https://maps.googleapis.com/maps/api/geocode/json?");
+//var ret = ws.doGet(address);
+if (httpResponseStatus == 200 && httpResponseContentType == 'application/json; charset=UTF-8') {
+	httpResponseBody = response.getBody();
+}
+
+var lat = 0, lng = 0;
+try {
+	var output = JSON.parse(httpResponseBody);
+	if (output.status == "OK") {
+		lat = output['result'][0]['addressMatches']['coordinates']['x'];
+		lng = output['result'][0]['addressMatches']['coordinates']['y'];
+		current.location_latitude = lat;
+		current.location_longitude = lng;
+		current.update();
+	} else {
+		gs.info("Get_Lat_Long Lookup Error: " + output.status);
+		gs.info("Address: " + address);
+		gs.info("API Response: " + ret);
+	}
+} catch (err) {
+	gs.info("Geocoding error: " + output);
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-08-31 16:26:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83c5bddb4725991024e32782846d4381</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>get_lat_long_census</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_script_83c5bddb4725991024e32782846d4381</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 18:09:16</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=83c5bddb4725991024e32782846d4381"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_script_83c5bddb4725991024e32782846d4381</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_niem_location&lt;/collection&gt;&lt;condition&gt;current.location_street.changes() || current.location_city.changes() || current.location_state.changes() || current.location_zip.changes()&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;get_lat_long_census&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var request = new sn_ws.RESTMessageV2();
+request.setHttpMethod('get');
+var street = new String(current.location_street);
+street = street.replaceAll("\r","");
+street = street.replaceAll("\n"," ");
+street = street.replaceAll(" ","+");
+
+var city = new String(current.location_city).replaceAll(" ","+");
+var state = new String(current.location_state.getDisplayValue()).replaceAll(" ","+");
+var zip = new String(current.location_zip).replaceAll(" ","+");
+
+var address = "street=" + street + "&amp;city=" + city + "&amp;state=" + state + "&amp;zip=" + zip + "&amp;benchmark=4&amp;format=json";
+gs.info(address);
+var re = request.setEndpoint("https://geocoding.geo.census.gov/geocoder/locations/address?" +address);
+var response = request.execute();
+var httpResponseStatus = response.getStatusCode();
+var httpResponseContentType = response.getHeader('Content-Type');
+var httpResponseBody;
+
+gs.info("http response status_code: " + httpResponseStatus);
+gs.info("http response content-type: " + httpResponseContentType);
+
+//var ws = new HTTPAdaptor("https://maps.googleapis.com/maps/api/geocode/json?");
+//var ret = ws.doGet(address);
+if (httpResponseStatus == 200 &amp;&amp; httpResponseContentType == 'application/json; charset=UTF-8') {
+	httpResponseBody = response.getBody();
+}
+
+var lat = 0, lng = 0;
+try {
+	var output = JSON.parse(httpResponseBody);
+	if (output.status == "OK") {
+		lat = output['result'][0]['addressMatches']['coordinates']['x'];
+		lng = output['result'][0]['addressMatches']['coordinates']['y'];
+		current.location_latitude = lat;
+		current.location_longitude = lng;
+		current.update();
+	} else {
+		gs.info("Get_Lat_Long Lookup Error: " + output.status);
+		gs.info("Address: " + address);
+		gs.info("API Response: " + ret);
+	}
+} catch (err) {
+	gs.info("Geocoding error: " + output);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;steven.ly&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-31 16:26:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;83c5bddb4725991024e32782846d4381&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;get_lat_long_census&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NIEM" source="sn_niem"&gt;1e4f5cdbb8320110fa9b96d4e616a3c5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NIEM"&gt;1e4f5cdbb8320110fa9b96d4e616a3c5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_83c5bddb4725991024e32782846d4381&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;steven.ly&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-31 18:09:16&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async_always&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=83c5bddb4725991024e32782846d4381"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-992985588</payload_hash>
+        <record_name>get_lat_long_census</record_name>
+        <reverted_from/>
+        <source>7d72732647a1191024e32782846d43d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-08-31 18:09:17</sys_created_on>
+        <sys_id>df0e065347a5991024e32782846d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f517d8f90000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 18:09:17</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>170e0653a7a599102db7cbf1876a99d3</update_guid>
+        <update_guid_history>170e0653a7a599102db7cbf1876a99d3:-992985588,d45d0a1377a599102adb93e320405cfc:1662624675,b92d06137da599105021014829994058:1773367682,0afc461342a59910042884aa4ee6c929:1662624675,62bccadf53659910cd8519f0ab9ca2d7:2127947826,275ccadff4659910e1efe6cbd8f11d3a:-161771462,6e194a1fc1659910555634188b76b040:-941101753,baa8861f9865991076ea6578383018ae:-1261203464,0778061fb8659910d1d5ac9074e61b01:-463264748,5338821fcd659910a3f13660d59537d4:-961998387,9d2e7dd31f659910c124650fdfde43cf:-760874428,b0ad39d381659910b2b8f627a3e4ea71:-489096931,151d31d3be659910e40673210a3c7abe:565710298,5efcbd93fa659910e9362d2448d813e4:-157224605,57dcf993d36599103aeef527ee8f52e3:737398960,da9c399374659910742adf07065d1d4b:1294512738,7f4cf1939e6599109ac176d136a38aa6:-2097265259,444c71930165991008ab8ac1990bd2e0:1274095887,7ff9fddf4825991012a15a7b5c8e06d8:537924990,d17975df462599100c9675d2a40d1041:1048802376,60297d9fe425991036658eef8659cd0e:318406000,b9d83d9f1b259910335c06c042c205b2:1095376934,3568759fde259910eb5d6fbd3e616001:1674094071,b4e6b91fec25991057897f0f8e105f3b:1095376934,cca6f51ff8259910776b06d43ef030d7:1102252831</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-08-31 18:17:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>02a9471cb436416c9da36d6cadb96110</sys_id>
+        <sys_metadata>83c5bddb4725991024e32782846d4381</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_lat_long_census</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent display_value="">72a27d1b4725991024e32782846d43cf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_script_83c5bddb4725991024e32782846d4381</sys_update_name>
+        <sys_update_version display_value="sys_script_83c5bddb4725991024e32782846d4381">df0e065347a5991024e32782846d43d3</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-08-31 18:17:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

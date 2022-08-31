@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="marital_status" table="sn_niem_person" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>marital_status</element>
+            <name>sn_niem_person</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 13:30:14</sys_created_on>
+            <sys_id>632e89d747a1991024e32782846d43dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>marital_status</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_person_marital_status</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 13:30:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Married</label>
+            <language>en</language>
+            <name>sn_niem_person</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 13:30:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb2e89d747a1991024e32782846d43db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 13:30:25</sys_updated_on>
+            <value>m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Widowed</label>
+            <language>en</language>
+            <name>sn_niem_person</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 13:30:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b2e89d747a1991024e32782846d43dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 13:30:29</sys_updated_on>
+            <value>w</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divorced</label>
+            <language>en</language>
+            <name>sn_niem_person</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 13:30:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b2e89d747a1991024e32782846d43de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 13:30:33</sys_updated_on>
+            <value>d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Separated</label>
+            <language>en</language>
+            <name>sn_niem_person</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 13:30:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab2e89d747a1991024e32782846d43df</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 13:30:37</sys_updated_on>
+            <value>s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>marital_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Never Married</label>
+            <language>en</language>
+            <name>sn_niem_person</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 13:30:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb2e89d747a1991024e32782846d43e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 13:30:41</sys_updated_on>
+            <value>nm</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

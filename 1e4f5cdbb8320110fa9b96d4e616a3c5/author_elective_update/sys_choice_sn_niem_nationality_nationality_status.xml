@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="nationality_status" table="sn_niem_nationality" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>nationality_status</element>
+            <name>sn_niem_nationality</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 15:19:02</sys_created_on>
+            <sys_id>e117a19f47e1991024e32782846d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>nationality_status</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_nationality_nationality_status</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 15:19:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nationality_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Natural-born</label>
+            <language>en</language>
+            <name>sn_niem_nationality</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 15:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d17a19f47e1991024e32782846d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 15:19:02</sys_updated_on>
+            <value>Natural-born</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nationality_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Naturalized</label>
+            <language>en</language>
+            <name>sn_niem_nationality</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-08-31 15:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2917a19f47e1991024e32782846d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-08-31 15:19:02</sys_updated_on>
+            <value>Naturalized</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
