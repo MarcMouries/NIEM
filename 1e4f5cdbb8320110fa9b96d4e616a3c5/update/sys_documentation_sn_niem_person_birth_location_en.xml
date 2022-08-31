@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="date_of_birth" label="Date of birth" language="en" table="sn_niem_person">
+    <sys_documentation element="birth_location" label="Birth Location" language="en" table="sn_niem_person">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>date_of_birth</element>
+            <element>birth_location</element>
             <help/>
             <hint/>
-            <label>Date of birth</label>
+            <label>Birth Location</label>
             <language>en</language>
             <name>sn_niem_person</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-05-05 13:25:09</sys_created_on>
-            <sys_id>e661211d1bd30110b00dddf6b04bcbc7</sys_id>
+            <sys_created_on>2022-08-31 16:03:56</sys_created_on>
+            <sys_id>cb513d971be9d950b00dddf6b04bcb1b</sys_id>
             <sys_mod_count>3</sys_mod_count>
-            <sys_name>Date of birth</sys_name>
+            <sys_name>Birth Location</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-            <sys_update_name>sys_documentation_sn_niem_person_date_of_birth_en</sys_update_name>
+            <sys_update_name>sys_documentation_sn_niem_person_birth_location_en</sys_update_name>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-05-05 13:25:10</sys_updated_on>
+            <sys_updated_on>2022-08-31 16:03:57</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
