@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="state" table="sn_niem_address">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="organization" table="sn_niem_address">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>State / Province</column_label>
+        <column_label>Organization</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>state</element>
+        <element>organization</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_niem_state">sn_niem_state</reference>
+        <reference display_value="" name="sn_niem_organization">sn_niem_organization</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>steven.ly</sys_created_by>
-        <sys_created_on>2022-08-31 15:27:54</sys_created_on>
-        <sys_id>5719e1134725991024e32782846d43e0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>State / Province</sys_name>
+        <sys_created_on>2022-09-01 16:25:53</sys_created_on>
+        <sys_id>1aff722f47e5d91024e32782846d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organization</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_address_state</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_niem_address_organization</sys_update_name>
         <sys_updated_by>steven.ly</sys_updated_by>
-        <sys_updated_on>2022-09-01 17:35:39</sys_updated_on>
+        <sys_updated_on>2022-09-01 16:25:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

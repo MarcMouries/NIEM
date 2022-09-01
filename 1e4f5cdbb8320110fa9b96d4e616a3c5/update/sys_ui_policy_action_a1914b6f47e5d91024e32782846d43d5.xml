@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>person</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 16:33:02</sys_created_on>
+        <sys_id>a1914b6f47e5d91024e32782846d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>person</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a1914b6f47e5d91024e32782846d43d5</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 16:33:02</sys_updated_on>
+        <table>sn_niem_address</table>
+        <ui_policy display_value="Hide Person Field">ff71c76f47e5d91024e32782846d43fc</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

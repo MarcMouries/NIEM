@@ -2,34 +2,48 @@
     <sys_ui_related sys_domain="global" table="sn_niem_person" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="sn_niem_person - Default view" name="sn_niem_person" related_list="NULL" sys_domain="global" view="Default view">e0a7ad9f47e1991024e32782846d433c</list_id>
+            <list_id display_value="Person - Default view" name="sn_niem_person" related_list="NULL" sys_domain="global" view="Default view">8831836f47e5d91024e32782846d4312</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sn_niem_citizenship.person</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-08-31 15:21:26</sys_created_on>
-            <sys_id>a4a7ad9f47e1991024e32782846d433d</sys_id>
+            <sys_created_on>2022-09-01 16:31:11</sys_created_on>
+            <sys_id>0c31836f47e5d91024e32782846d4313</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 15:21:26</sys_updated_on>
+            <sys_updated_on>2022-09-01 16:31:11</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="sn_niem_person - Default view" name="sn_niem_person" related_list="NULL" sys_domain="global" view="Default view">e0a7ad9f47e1991024e32782846d433c</list_id>
+            <list_id display_value="Person - Default view" name="sn_niem_person" related_list="NULL" sys_domain="global" view="Default view">8831836f47e5d91024e32782846d4312</list_id>
             <order_by/>
             <position>1</position>
             <related_list>sn_niem_nationality.person</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-08-31 15:21:26</sys_created_on>
-            <sys_id>aca7ad9f47e1991024e32782846d433d</sys_id>
+            <sys_created_on>2022-09-01 16:31:11</sys_created_on>
+            <sys_id>0431836f47e5d91024e32782846d4314</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 15:21:26</sys_updated_on>
+            <sys_updated_on>2022-09-01 16:31:11</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Person - Default view" name="sn_niem_person" related_list="NULL" sys_domain="global" view="Default view">8831836f47e5d91024e32782846d4312</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sn_niem_address.person</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:31:11</sys_created_on>
+            <sys_id>0831836f47e5d91024e32782846d4314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:31:11</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>sn_niem_person - Default view</calculated_name>
+            <calculated_name>Person - Default view</calculated_name>
             <filter/>
             <name>sn_niem_person</name>
             <order_by/>
@@ -37,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-08-31 15:21:25</sys_created_on>
+            <sys_created_on>2022-09-01 16:31:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e0a7ad9f47e1991024e32782846d433c</sys_id>
+            <sys_id>8831836f47e5d91024e32782846d4312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Person - Default view</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
@@ -48,7 +62,7 @@
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_ui_related_sn_niem_person_null</sys_update_name>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 15:21:25</sys_updated_on>
+            <sys_updated_on>2022-09-01 16:31:11</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

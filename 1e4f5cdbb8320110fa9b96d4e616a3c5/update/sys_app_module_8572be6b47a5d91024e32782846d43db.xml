@@ -13,7 +13,7 @@
         <mobile_title>Organization Categories</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>sn_niem_organization_category</name>
-        <order/>
+        <order>1080</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8572be6b47a5d91024e32782846d43db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Organization Categories</sys_name>
         <sys_overrides/>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_app_module_8572be6b47a5d91024e32782846d43db</sys_update_name>
         <sys_updated_by>steven.ly</sys_updated_by>
-        <sys_updated_on>2022-09-01 15:26:49</sys_updated_on>
+        <sys_updated_on>2022-09-01 16:20:08</sys_updated_on>
         <timeline_page/>
         <title>Organization Categories</title>
         <uncancelable>false</uncancelable>

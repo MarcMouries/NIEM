@@ -13,7 +13,7 @@
         <mobile_title>Entity Structures</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>sn_niem_entity_structure</name>
-        <order>200</order>
+        <order>2005</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,15 +24,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97ac3ff31b249910b00dddf6b04bcba5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Entity Structures</sys_name>
         <sys_overrides/>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_app_module_97ac3ff31b249910b00dddf6b04bcba5</sys_update_name>
-        <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2022-07-27 17:43:21</sys_updated_on>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 16:15:15</sys_updated_on>
         <timeline_page/>
         <title>Entity Structures</title>
         <uncancelable>false</uncancelable>
