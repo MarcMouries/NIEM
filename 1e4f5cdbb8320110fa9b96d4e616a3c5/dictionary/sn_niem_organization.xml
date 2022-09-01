@@ -1,19 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sn_niem_entity" label="Organization" max_length="40" name="sn_niem_organization" sizeclass="2" text_index="true" type="collection">
+    <element extends="sn_niem_entity" label="Organization" max_length="40" name="sn_niem_organization" sizeclass="0" type="collection">
         <element label="CAGE Code" max_length="5" name="cage_code" type="string"/>
         <element label="Country of incorporation" max_length="32" name="country_of_incorporation" reference="core_country" type="reference"/>
         <element label="Entity Structure" max_length="32" name="entity_structure" reference="sn_niem_entity_structure" type="reference"/>
-        <element display="true" label="Legal Business Name" max_length="255" name="legal_business_name" type="string_full_utf8"/>
-        <element label="UEI" max_length="12" name="ueisam" type="string" unique="true"/>
+        <element label="Legal Business Name" max_length="255" name="legal_business_name" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Organization Category" max_length="32" name="org_category" reference="sn_niem_organization_category" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization Description" max_length="4000" name="org_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Effective Date" max_length="40" name="org_effective_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Emergency Contact" max_length="32" name="org_emergency_contact" reference="sn_niem_person" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Establish Date" max_length="40" name="org_establish_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Incorporation Date" max_length="40" name="org_incorporation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization ID #" max_length="40" name="org_indentification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="License #" max_length="40" name="org_license_indentification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Organization / Branch Name" max_length="100" name="org_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Organization Parent" max_length="32" name="org_parent" reference="sn_niem_organization" type="reference"/>
+        <element attributes="encode_utf8=false" label="Primary Contact" max_length="32" name="org_primary_contact" reference="sn_niem_person" type="reference"/>
+        <element attributes="encode_utf8=false" label="Principal Official" max_length="32" name="org_principal_official" reference="sn_niem_person" type="reference"/>
+        <element label="Organization Size" max_length="40" name="org_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Organization Status" max_length="40" name="org_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Unknown" sequence="1" value="Unknown"/>
+                <element inactive_on_update="false" label="Terminated" sequence="2" value="Terminated"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tax ID #" max_length="40" name="org_tax_identification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Termination Date" max_length="40" name="org_termination_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Organization Type" max_length="40" name="org_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Organization (Primary)" sequence="0" value="Organization"/>
+                <element inactive_on_update="false" label="Branch" sequence="1" value="Branch"/>
+                <element inactive_on_update="false" label="Subunit" sequence="2" value="Subunit"/>
+                <element inactive_on_update="false" label="Foreign Affiliate" sequence="3" value="Foreign Affiliate"/>
+            </choice>
+        </element>
+        <element label="SAM UEI #" max_length="12" name="ueisam" type="string" unique="true"/>
         <element label="Website" max_length="1024" name="website" type="url"/>
-        <index name="index" unique="true">
+        <index name="index">
+            <element name="org_parent"/>
+        </index>
+        <index name="index2" unique="true">
             <element name="ueisam"/>
         </index>
-        <index name="index2">
+        <index name="index3">
             <element name="entity_structure"/>
         </index>
-        <index name="index3">
+        <index name="index4">
             <element name="country_of_incorporation"/>
+        </index>
+        <index name="index5">
+            <element name="org_emergency_contact"/>
+        </index>
+        <index name="index6">
+            <element name="org_primary_contact"/>
+        </index>
+        <index name="index7">
+            <element name="org_category"/>
+        </index>
+        <index name="index8">
+            <element name="org_principal_official"/>
         </index>
     </element>
 </database>

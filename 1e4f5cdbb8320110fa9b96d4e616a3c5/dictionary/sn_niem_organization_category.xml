@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Organization Category" max_length="40" name="sn_niem_organization_category" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Category" max_length="40" name="category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Category Code" max_length="40" name="category_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NDEx Code" max_length="40" name="ndex_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NLETS Code" max_length="40" name="nlets_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SAM Code" max_length="40" name="sam_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subcategory" max_length="40" name="subcategory" type="string"/>
+    </element>
+</database>

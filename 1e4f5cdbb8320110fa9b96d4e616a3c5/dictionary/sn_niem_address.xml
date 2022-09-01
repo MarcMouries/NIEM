@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Address" max_length="40" name="sn_niem_address" type="collection">
+    <element label="Address" max_length="40" name="sn_niem_address" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Address Type" max_length="40" name="address_type" type="string">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="State / Province" max_length="32" name="state" reference="u_states" type="reference">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" reference="sn_niem_country" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="State / Province" max_length="32" name="state" reference="sn_niem_state" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="street" type="string"/>

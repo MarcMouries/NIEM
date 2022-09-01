@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="org_status" table="sn_niem_organization" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>org_status</element>
+            <name>sn_niem_organization</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 15:34:48</sys_created_on>
+            <sys_id>4a44beeb47a5d91024e32782846d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>org_status</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_organization_org_status</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 15:34:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active</label>
+            <language>en</language>
+            <name>sn_niem_organization</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 15:34:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c244beeb47a5d91024e32782846d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 15:34:48</sys_updated_on>
+            <value>Active</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>sn_niem_organization</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 15:34:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e44beeb47a5d91024e32782846d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 15:34:48</sys_updated_on>
+            <value>Unknown</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terminated</label>
+            <language>en</language>
+            <name>sn_niem_organization</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 15:34:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e44beeb47a5d91024e32782846d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 15:34:48</sys_updated_on>
+            <value>Terminated</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

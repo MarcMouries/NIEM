@@ -1,100 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="6eecb6931b8f0150b00dddf6b04bcb01" sys_domain="global" table="sn_niem_organization" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cage_code</element>
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>20abbe6747e5d91024e32782846d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
             <position>1</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-14 22:23:47</sys_created_on>
-            <sys_id>9ffbffb31b249910b00dddf6b04bcb51</sys_id>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>24abbe6747e5d91024e32782846d434c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-14 22:23:47</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>entity_structure</element>
+            <element>org_category</element>
             <position>2</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-14 22:36:30</sys_created_on>
-            <sys_id>a9ee3bb71b249910b00dddf6b04bcb5a</sys_id>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>28abbe6747e5d91024e32782846d434c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-14 22:36:30</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>website</element>
+            <element>org_type</element>
             <position>3</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-15 20:06:12</sys_created_on>
-            <sys_id>6916245c1bb4d910b00dddf6b04bcbac</sys_id>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>2cabbe6747e5d91024e32782846d434c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-15 20:06:12</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>uei</element>
+            <element>.split</element>
             <position>4</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-19 14:15:23</sys_created_on>
-            <sys_id>212cb3111b341150b00dddf6b04bcbf2</sys_id>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>20abbe6747e5d91024e32782846d434d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-19 14:15:23</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>org_status</element>
+            <position>5</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>24abbe6747e5d91024e32782846d434d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ueisam</element>
-            <position>5</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-19 14:16:10</sys_created_on>
-            <sys_id>815c77111b341150b00dddf6b04bcb58</sys_id>
+            <element>org_parent</element>
+            <position>6</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>28abbe6747e5d91024e32782846d434d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-19 14:16:10</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>org_size</element>
+            <position>7</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>2cabbe6747e5d91024e32782846d434d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>20abbe6747e5d91024e32782846d434e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>org_name</element>
+            <position>9</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>24abbe6747e5d91024e32782846d434e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legal_business_name</element>
-            <position>6</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-19 15:49:34</sys_created_on>
-            <sys_id>59b15ce51b741150b00dddf6b04bcba6</sys_id>
+            <position>10</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>28abbe6747e5d91024e32782846d434e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-19 15:49:34</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>country_of_incorporation</element>
-            <position>7</position>
-            <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2022-07-19 20:24:28</sys_created_on>
-            <sys_id>c4a0d9a51b781150b00dddf6b04bcb5a</sys_id>
+            <element>org_description</element>
+            <position>11</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>2cabbe6747e5d91024e32782846d434e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
-            <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2022-07-19 20:24:28</sys_updated_on>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>12</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
+            <sys_id>20abbe6747e5d91024e32782846d434f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
