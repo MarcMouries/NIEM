@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl Sn Niem Eye Color" max_length="40" name="u_imp_tmpl_sn_niem_eye_color" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Eye Color" label="Eye Color" max_length="40" name="u_eye_color" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Eye Color Code" label="Eye Color Code" max_length="40" name="u_eye_color_code" type="string"/>
-    </element>
-</database>

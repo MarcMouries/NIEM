@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Imp Tmpl Sn Niem Country" max_length="40" name="u_imp_tmpl_sn_niem_country" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alpha-2 Code" label="Alpha-2 Code" max_length="40" name="u_alpha_2_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alpha-3 Code" label="Alpha-3 Code" max_length="40" name="u_alpha_3_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
-        <element attributes="import_attribute_name=Numeric Code" label="Numeric Code" max_length="40" name="u_numeric_code" type="integer"/>
-    </element>
-</database>

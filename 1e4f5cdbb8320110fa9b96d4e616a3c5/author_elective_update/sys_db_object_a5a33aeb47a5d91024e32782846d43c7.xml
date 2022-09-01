@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Imp Tmpl Sn Niem Organization Category</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_imp_tmpl_sn_niem_organization_category</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">6a0e50e04721111024e32782846d4397</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 15:32:02</sys_created_on>
+        <sys_id>a5a33aeb47a5d91024e32782846d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl Sn Niem Organization Category</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_db_object_a5a33aeb47a5d91024e32782846d43c7</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 15:32:02</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_db_object_a5a33aeb47a5d91024e32782846d43c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Imp Tmpl Sn Niem Organization Category</label><live_feed_enabled>false</live_feed_enabled><name>u_imp_tmpl_sn_niem_organization_category</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">6a0e50e04721111024e32782846d4397</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-09-01 15:32:02</sys_created_on><sys_id>a5a33aeb47a5d91024e32782846d43c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl Sn Niem Organization Category</sys_name><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_update_name>sys_db_object_a5a33aeb47a5d91024e32782846d43c7</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-09-01 15:32:02</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>183159222</payload_hash>
+        <record_name>Imp Tmpl Sn Niem Organization Category</record_name>
+        <reverted_from/>
+        <source>7d72732647a1191024e32782846d43d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 15:32:02</sys_created_on>
+        <sys_id>2da33aeb47a5d91024e32782846d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f9ae3fb30000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 15:32:02</sys_updated_on>
+        <type>Table</type>
+        <update_guid>a5a33aeb8fa5d910e9c37934c9722adf</update_guid>
+        <update_guid_history>a5a33aeb8fa5d910e9c37934c9722adf:183159222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 20:26:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>7baf3658dcbe47869170f4f5f7e39484</sys_id>
+        <sys_metadata>a5a33aeb47a5d91024e32782846d43c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl Sn Niem Organization Category</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_db_object_a5a33aeb47a5d91024e32782846d43c7</sys_update_name>
+        <sys_update_version display_value="sys_db_object_a5a33aeb47a5d91024e32782846d43c7">2da33aeb47a5d91024e32782846d43df</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 20:26:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
