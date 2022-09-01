@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sn Niem M2m Persons Organizations" max_length="40" name="sn_niem_m2m_persons_organizations" type="collection">
+        <element attributes="encode_utf8=false" label="Organization" max_length="32" name="organization" reference="sn_niem_organization" type="reference"/>
+        <element attributes="encode_utf8=false" label="Person" max_length="32" name="person" reference="sn_niem_person" type="reference"/>
+        <index name="index">
+            <element name="person"/>
+        </index>
+        <index name="index2">
+            <element name="organization"/>
+        </index>
+    </element>
+</database>
