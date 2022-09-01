@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sn_niem_person" label="Alias" max_length="40" name="sn_niem_alias" type="collection">
+        <element attributes="encode_utf8=false" label="Person" max_length="32" name="person" reference="sn_niem_person" type="reference"/>
+        <index name="index">
+            <element name="person"/>
+        </index>
+    </element>
+</database>

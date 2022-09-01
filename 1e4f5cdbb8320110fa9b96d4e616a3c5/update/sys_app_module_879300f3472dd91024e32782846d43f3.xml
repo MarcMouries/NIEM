@@ -4,17 +4,15 @@
         <application display_value="NIEM">9722b7761b605510b00dddf6b04bcbd9</application>
         <assessment/>
         <device_type/>
-        <filter table="sn_niem_person">sys_class_name=sn_niem_person^EQ<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="sn_niem_person"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Persons</mobile_title>
+        <mobile_title>Alias</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>sn_niem_person</name>
+        <name>sn_niem_alias</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -22,21 +20,21 @@
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>steven.ly</sys_created_by>
-        <sys_created_on>2022-08-31 15:04:21</sys_created_on>
+        <sys_created_on>2022-09-01 21:21:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9ea3e1db47e1991024e32782846d4348</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Persons</sys_name>
+        <sys_id>879300f3472dd91024e32782846d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alias</sys_name>
         <sys_overrides/>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_app_module_9ea3e1db47e1991024e32782846d4348</sys_update_name>
+        <sys_update_name>sys_app_module_879300f3472dd91024e32782846d43f3</sys_update_name>
         <sys_updated_by>steven.ly</sys_updated_by>
-        <sys_updated_on>2022-09-01 21:26:56</sys_updated_on>
+        <sys_updated_on>2022-09-01 21:21:23</sys_updated_on>
         <timeline_page/>
-        <title>Persons</title>
+        <title>Alias</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
