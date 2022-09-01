@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" sizeclass="0" type="collection">
+    <element audit="true" extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var duration;&#10;&#9;var today = new GlideDate();&#10;&#9;var bday = new GlideDateTime(current.date_of_birth.getDisplayValue());&#10;&#10;&#9;duration = GlideDateTime.subtract( bday, today ).getDayPart();&#10;&#9;duration = parseInt( duration / 365 ); // Years&#10;&#9;return duration;&#10;&#10;})(current);" label="Age" max_length="40" name="age" type="integer" virtual="true"/>
         <element label="Birth Date" max_length="40" name="birth_date" type="glide_date"/>
         <element label="Birth Location" max_length="32" name="birth_location" reference="cmn_location" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="City of Birth" max_length="40" name="city_of_birth" type="string"/>
-        <element attributes="encode_utf8=false" label="Country of Birth" max_length="32" name="country_of_birth" reference="core_country" type="reference"/>
+        <element attributes="encode_utf8=false" label="Country of Birth" max_length="32" name="country_of_birth" reference="sn_niem_country" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date of Death" max_length="40" name="date_of_death" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email_address" type="email"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Eye Color" max_length="40" name="eye_color" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Eye Color" max_length="40" name="eye_color" reference="sn_niem_eye_color" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice>
                 <element inactive_on_update="false" label="Blue" sequence="0" value="blu"/>
                 <element inactive_on_update="false" label="Maroon" sequence="1" value="mar"/>
@@ -21,17 +21,8 @@
         </element>
         <element label="First Name" max_length="40" name="first_name" type="string_full_utf8"/>
         <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var str = current.last_name.toString().toUpperCase();&#10;&#9;if (current.first_name) str += ', '+current.first_name.toString();&#10;&#9;if (current.middle_name) str += ' '+current.middle_name.toString();&#10;&#9;return str;&#10;&#10;})(current);" display="true" label="Full Name" max_length="40" name="full_name" type="string_full_utf8" virtual="true"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Hair Color" max_length="40" name="hair_color" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Bald" sequence="0" value="bld"/>
-                <element inactive_on_update="false" label="Red or Auburn" sequence="1" value="red"/>
-                <element inactive_on_update="false" label="Black" sequence="2" value="blk"/>
-                <element inactive_on_update="false" label="White" sequence="3" value="whi"/>
-                <element inactive_on_update="false" label="Unknown" sequence="4" value="xxx"/>
-                <element inactive_on_update="false" label="Brown" sequence="5" value="bro"/>
-                <element inactive_on_update="false" label="Gray or Partially Gray" sequence="6" value="gry"/>
-                <element inactive_on_update="false" label="Blonde or Strawberry" sequence="7" value="bln"/>
-            </choice>
+        <element attributes="encode_utf8=false" choice="1" label="Hair Color" max_length="32" name="hair_color" reference="sn_niem_hair_color" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Height" max_length="40" name="height" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string_full_utf8"/>
@@ -52,7 +43,7 @@
         <element attributes="pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="Preferred Name" max_length="40" name="preferred_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prefix" max_length="40" name="prefix" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Race" max_length="40" name="race" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Race" max_length="40" name="race" reference="sn_niem_race" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice>
                 <element inactive_on_update="false" label="American Indian or Alaskan Native" sequence="0" value="I"/>
                 <element inactive_on_update="false" label="Asian or Pacific Islander" sequence="1" value="a"/>
@@ -62,7 +53,7 @@
                 <element inactive_on_update="false" label="Hispanic or Latino" sequence="5" value="h"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" reference="sn_niem_sex" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice>
                 <element inactive_on_update="false" label="Female" sequence="0" value="f"/>
                 <element inactive_on_update="false" label="Male" sequence="1" value="m"/>
@@ -71,7 +62,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Social Security Number" max_length="40" name="ssn" type="string"/>
-        <element attributes="encode_utf8=false" choice="1" label="State of Birth" max_length="32" name="state_of_birth" reference="u_states" type="reference">
+        <element attributes="encode_utf8=false" choice="1" label="State of Birth" max_length="32" name="state_of_birth" reference="sn_niem_state" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
@@ -96,6 +87,9 @@
         </index>
         <index name="index3">
             <element name="country_of_birth"/>
+        </index>
+        <index name="index4">
+            <element name="hair_color"/>
         </index>
     </element>
 </database>

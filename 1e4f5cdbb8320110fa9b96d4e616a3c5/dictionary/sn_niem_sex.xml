@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" extends="sys_metadata" label="Sex" max_length="40" name="sn_niem_sex" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Sex" max_length="40" name="sex" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Sex" max_length="40" name="sex" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Sex Code" max_length="40" name="sex_code" type="string"/>
     </element>
 </database>

@@ -5,6 +5,6 @@
         <element attributes="edge_encryption_enabled=true" label="ISO 639-2/B" max_length="40" name="iso639_2_b" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISO 639-2/T" max_length="40" name="iso639_2_t" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ISO 639-3" max_length="40" name="iso639_3" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Language" max_length="40" name="language" type="string"/>
     </element>
 </database>

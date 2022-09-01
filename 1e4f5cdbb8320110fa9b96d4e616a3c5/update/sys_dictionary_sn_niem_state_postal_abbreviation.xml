@@ -6,7 +6,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Postal Abbreviation</column_label>
@@ -17,7 +17,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -49,14 +49,14 @@
         <sys_created_by>steven.ly</sys_created_by>
         <sys_created_on>2022-09-01 14:32:53</sys_created_on>
         <sys_id>df16e2e74765d91024e32782846d43d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Postal Abbreviation</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_dictionary_sn_niem_state_postal_abbreviation</sys_update_name>
         <sys_updated_by>steven.ly</sys_updated_by>
-        <sys_updated_on>2022-09-01 14:32:53</sys_updated_on>
+        <sys_updated_on>2022-09-01 14:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Nationality" max_length="40" name="sn_niem_nationality" type="collection">
+    <element audit="true" label="Nationality" max_length="40" name="sn_niem_nationality" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="journal_input"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" reference="sn_niem_country" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Nationality Status" max_length="40" name="nationality_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Natural-born" sequence="0" value="Natural-born"/>

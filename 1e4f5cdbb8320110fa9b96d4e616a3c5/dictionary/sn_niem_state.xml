@@ -3,6 +3,6 @@
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="FIPS Code" max_length="40" name="fips_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Postal Abbreviation" max_length="40" name="postal_abbreviation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Postal Abbreviation" max_length="40" name="postal_abbreviation" type="string"/>
     </element>
 </database>

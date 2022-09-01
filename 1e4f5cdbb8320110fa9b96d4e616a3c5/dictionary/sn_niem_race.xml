@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" extends="sys_metadata" label="Race" max_length="40" name="sn_niem_race" sizeclass="0" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Race" max_length="40" name="race" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Race" max_length="40" name="race" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Race Code" max_length="40" name="race_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Race Description" max_length="4000" name="race_description" type="string"/>
     </element>
