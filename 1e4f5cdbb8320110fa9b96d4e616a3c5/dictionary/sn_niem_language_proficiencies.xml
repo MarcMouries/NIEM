@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Language Proficiencies" max_length="40" name="sn_niem_language_proficiencies" type="collection">
+        <element attributes="encode_utf8=false" label="Language" max_length="32" name="language" reference="sn_niem_language" type="reference"/>
+        <element attributes="encode_utf8=false" label="Person" max_length="32" name="person" reference="sn_niem_person" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Proficiency Level" max_length="40" name="proficiency_level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0 – No Practical Proficiency" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1 – Elementary Proficiency" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2 – Limited Working Proficiency" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3 – Minimum Professional Proficiency" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4 – Full Professional Proficiency" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5 – Native or Bilingual Proficiency" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="person"/>
+        </index>
+        <index name="index2">
+            <element name="language"/>
+        </index>
+    </element>
+</database>
