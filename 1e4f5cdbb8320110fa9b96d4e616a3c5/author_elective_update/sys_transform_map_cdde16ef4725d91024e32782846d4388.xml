@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>u_imp_tmpl_sn_niem_language</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>u_imp_tmpl_sn_niem_language</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 14:01:04</sys_created_on>
+        <sys_id>cdde16ef4725d91024e32782846d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_sn_niem_language</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_transform_map_cdde16ef4725d91024e32782846d4388</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 14:01:04</sys_updated_on>
+        <target_table>sn_niem_language</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_transform_map_cdde16ef4725d91024e32782846d4388</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;u_imp_tmpl_sn_niem_language&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_imp_tmpl_sn_niem_language&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;steven.ly&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-01 14:01:04&lt;/sys_created_on&gt;&lt;sys_id&gt;cdde16ef4725d91024e32782846d4388&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_imp_tmpl_sn_niem_language&lt;/sys_name&gt;&lt;sys_package display_value="NIEM" source="sn_niem"&gt;1e4f5cdbb8320110fa9b96d4e616a3c5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NIEM"&gt;1e4f5cdbb8320110fa9b96d4e616a3c5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_cdde16ef4725d91024e32782846d4388&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;steven.ly&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-01 14:01:04&lt;/sys_updated_on&gt;&lt;target_table&gt;sn_niem_language&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1760483292</payload_hash>
+        <record_name>u_imp_tmpl_sn_niem_language</record_name>
+        <reverted_from/>
+        <source>7d72732647a1191024e32782846d43d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 14:01:04</sys_created_on>
+        <sys_id>01ded6ef4725d91024e32782846d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f95af8200000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 14:01:04</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>49ded6efb325d9107c20d61b5a47ba5b</update_guid>
+        <update_guid_history>49ded6efb325d9107c20d61b5a47ba5b:-1760483292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 14:23:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>276b5437f43e45c590b52f46acd64089</sys_id>
+        <sys_metadata>cdde16ef4725d91024e32782846d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_sn_niem_language</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_transform_map_cdde16ef4725d91024e32782846d4388</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_cdde16ef4725d91024e32782846d4388">01ded6ef4725d91024e32782846d435c</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 14:23:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

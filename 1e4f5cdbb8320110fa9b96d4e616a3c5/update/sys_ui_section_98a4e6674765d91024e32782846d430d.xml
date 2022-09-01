@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="98a4e6674765d91024e32782846d430d" sys_domain="global" table="u_imp_tmpl_sn_niem_sex" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>98a4e6674765d91024e32782846d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sex</element>
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>9ca4e6674765d91024e32782846d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sex_code</element>
+            <position>2</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>90a4e6674765d91024e32782846d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>94a4e6674765d91024e32782846d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <position>4</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>98a4e6674765d91024e32782846d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>9ca4e6674765d91024e32782846d430f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>6</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_id>90a4e6674765d91024e32782846d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_sex" sys_domain="global" view="Default view">98a4e6674765d91024e32782846d430d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_sn_niem_sex</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 14:26:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98a4e6674765d91024e32782846d430d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_sn_niem_sex</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_section_98a4e6674765d91024e32782846d430d</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 14:26:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

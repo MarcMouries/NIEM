@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_niem_language">
+    <sn_niem_language action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <iso639_1>ff</iso639_1>
+        <iso639_2_b>ful</iso639_2_b>
+        <iso639_2_t>ful</iso639_2_t>
+        <iso639_3>ful + 9</iso639_3>
+        <language>Fulah</language>
+        <sys_class_name>sn_niem_language</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 14:23:02</sys_created_on>
+        <sys_id>bad3e6274765d91024e32782846d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sn_niem_language_bad3e6274765d91024e32782846d43f6</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 14:23:02</sys_updated_on>
+    </sn_niem_language>
+</record_update>

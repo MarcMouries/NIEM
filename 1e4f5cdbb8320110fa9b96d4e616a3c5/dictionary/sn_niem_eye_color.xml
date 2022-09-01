@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Eye Color" max_length="40" name="sn_niem_eye_color" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Eye Color" max_length="40" name="eye_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Eye Color Code" max_length="40" name="eye_color_code" type="string"/>
+    </element>
+</database>

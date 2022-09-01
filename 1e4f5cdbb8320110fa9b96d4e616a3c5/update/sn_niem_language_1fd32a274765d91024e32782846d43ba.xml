@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_niem_language">
+    <sn_niem_language action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <iso639_1>io</iso639_1>
+        <iso639_2_b>ido</iso639_2_b>
+        <iso639_2_t>ido</iso639_2_t>
+        <iso639_3>ido</iso639_3>
+        <language>Ido</language>
+        <sys_class_name>sn_niem_language</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-01 14:23:04</sys_created_on>
+        <sys_id>1fd32a274765d91024e32782846d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sn_niem_language_1fd32a274765d91024e32782846d43ba</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-09-01 14:23:04</sys_updated_on>
+    </sn_niem_language>
+</record_update>

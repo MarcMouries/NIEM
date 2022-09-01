@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Language" max_length="40" name="sn_niem_language" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="ISO 639-1" max_length="40" name="iso639_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISO 639-2/B" max_length="40" name="iso639_2_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISO 639-2/T" max_length="40" name="iso639_2_t" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISO 639-3" max_length="40" name="iso639_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="language" type="string"/>
+    </element>
+</database>

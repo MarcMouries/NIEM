@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Country" max_length="40" name="sn_niem_country" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Alpha-2 Code" max_length="40" name="alpha2code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alpha-3 Code" max_length="40" name="alpha3code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Numeric Code" max_length="40" name="numericcode" type="string"/>
+    </element>
+</database>
