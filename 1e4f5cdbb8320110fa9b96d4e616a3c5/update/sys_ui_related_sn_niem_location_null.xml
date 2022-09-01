@@ -2,31 +2,45 @@
     <sys_ui_related sys_domain="global" table="sn_niem_location" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Location - Default view" name="sn_niem_location" related_list="NULL" sys_domain="global" view="Default view">7390172f4729d91024e32782846d4318</list_id>
+            <list_id display_value="Location - Default view" name="sn_niem_location" related_list="NULL" sys_domain="global" view="Default view">7edd376f47e9d91024e32782846d43f1</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>cmn_location.parent</related_list>
+            <related_list>REL:bb260316c301120095ccd02422d3aed9</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 17:38:37</sys_created_on>
-            <sys_id>f390172f4729d91024e32782846d4319</sys_id>
+            <sys_created_on>2022-09-01 20:56:15</sys_created_on>
+            <sys_id>7add376f47e9d91024e32782846d43f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 17:38:37</sys_updated_on>
+            <sys_updated_on>2022-09-01 20:56:15</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Location - Default view" name="sn_niem_location" related_list="NULL" sys_domain="global" view="Default view">7390172f4729d91024e32782846d4318</list_id>
+            <list_id display_value="Location - Default view" name="sn_niem_location" related_list="NULL" sys_domain="global" view="Default view">7edd376f47e9d91024e32782846d43f1</list_id>
             <order_by/>
             <position>1</position>
+            <related_list>cmn_location.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 20:56:15</sys_created_on>
+            <sys_id>7edd376f47e9d91024e32782846d43f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 20:56:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - Default view" name="sn_niem_location" related_list="NULL" sys_domain="global" view="Default view">7edd376f47e9d91024e32782846d43f1</list_id>
+            <order_by/>
+            <position>2</position>
             <related_list>sn_niem_address.location</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 17:38:37</sys_created_on>
-            <sys_id>fb90172f4729d91024e32782846d4319</sys_id>
+            <sys_created_on>2022-09-01 20:56:15</sys_created_on>
+            <sys_id>72dd376f47e9d91024e32782846d43f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 17:38:37</sys_updated_on>
+            <sys_updated_on>2022-09-01 20:56:15</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Location - Default view</calculated_name>
@@ -37,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 17:38:37</sys_created_on>
+            <sys_created_on>2022-09-01 20:56:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7390172f4729d91024e32782846d4318</sys_id>
+            <sys_id>7edd376f47e9d91024e32782846d43f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Location - Default view</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
@@ -48,7 +62,7 @@
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_ui_related_sn_niem_location_null</sys_update_name>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 17:38:37</sys_updated_on>
+            <sys_updated_on>2022-09-01 20:56:15</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
