@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="relationship" table="sn_niem_related_persons" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>relationship</element>
+            <name>sn_niem_related_persons</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_id>e7fee72b47a9d91024e32782846d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>relationship</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_related_persons_relationship</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Married to</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63fee72b47a9d91024e32782846d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Married to</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Father of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bfee72b47a9d91024e32782846d433b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Father of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mother of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7fee72b47a9d91024e32782846d433c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Mother of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Son of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7fee72b47a9d91024e32782846d433d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Son of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daughter of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67fee72b47a9d91024e32782846d433e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Daughter of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cousin of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27fee72b47a9d91024e32782846d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Cousin of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brother of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3fee72b47a9d91024e32782846d4340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Brother of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sister of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3fee72b47a9d91024e32782846d4341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Sister of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Relative of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27feaf2b47a9d91024e32782846d437f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Relative of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3feaf2b47a9d91024e32782846d4380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Parent of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandfather of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3feaf2b47a9d91024e32782846d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Grandfather of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandmother of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63feaf2b47a9d91024e32782846d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Grandmother of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandson of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23feaf2b47a9d91024e32782846d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Grandson of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Granddaughter of</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>effeaf2b47a9d91024e32782846d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Granddaughter of</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divorced from</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ffeaf2b47a9d91024e32782846d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Divorced from</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Separated from</label>
+            <language>en</language>
+            <name>sn_niem_related_persons</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-01 19:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ffeaf2b47a9d91024e32782846d4386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-01 19:51:18</sys_updated_on>
+            <value>Separated from</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Related Persons" max_length="40" name="sn_niem_related_persons" type="collection">
+        <element attributes="encode_utf8=false" label="Person" max_length="32" name="person" reference="sn_niem_person" type="reference"/>
+        <element attributes="encode_utf8=false" label="Related Person" max_length="32" name="related_person" reference="sn_niem_person" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Relationship" max_length="40" name="relationship" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Married to" sequence="0" value="Married to"/>
+                <element inactive_on_update="false" label="Father of" sequence="1" value="Father of"/>
+                <element inactive_on_update="false" label="Mother of" sequence="2" value="Mother of"/>
+                <element inactive_on_update="false" label="Son of" sequence="3" value="Son of"/>
+                <element inactive_on_update="false" label="Daughter of" sequence="4" value="Daughter of"/>
+                <element inactive_on_update="false" label="Cousin of" sequence="5" value="Cousin of"/>
+                <element inactive_on_update="false" label="Brother of" sequence="6" value="Brother of"/>
+                <element inactive_on_update="false" label="Sister of" sequence="7" value="Sister of"/>
+                <element inactive_on_update="false" label="Relative of" sequence="8" value="Relative of"/>
+                <element inactive_on_update="false" label="Parent of" sequence="9" value="Parent of"/>
+                <element inactive_on_update="false" label="Grandfather of" sequence="10" value="Grandfather of"/>
+                <element inactive_on_update="false" label="Grandmother of" sequence="11" value="Grandmother of"/>
+                <element inactive_on_update="false" label="Grandson of" sequence="12" value="Grandson of"/>
+                <element inactive_on_update="false" label="Granddaughter of" sequence="13" value="Granddaughter of"/>
+                <element inactive_on_update="false" label="Divorced from" sequence="15" value="Divorced from"/>
+                <element inactive_on_update="false" label="Separated from" sequence="16" value="Separated from"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="person"/>
+        </index>
+        <index name="index2">
+            <element name="related_person"/>
+        </index>
+    </element>
+</database>
