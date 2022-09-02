@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sn_niem_organization" label="Agency" max_length="40" name="sn_niem_agency" type="collection">
+        <element label="ORI" max_length="10" name="ori" type="string"/>
+    </element>
+</database>
