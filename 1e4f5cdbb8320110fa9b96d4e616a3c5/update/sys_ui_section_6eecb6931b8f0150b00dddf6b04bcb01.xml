@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>20abbe6747e5d91024e32782846d434c</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3a444ff347a51d1024e32782846d4391</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>24abbe6747e5d91024e32782846d434c</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3e444ff347a51d1024e32782846d4391</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>org_category</element>
             <position>2</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>28abbe6747e5d91024e32782846d434c</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>32444ff347a51d1024e32782846d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>org_type</element>
             <position>3</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>2cabbe6747e5d91024e32782846d434c</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>36444ff347a51d1024e32782846d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>20abbe6747e5d91024e32782846d434d</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3a444ff347a51d1024e32782846d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>org_status</element>
             <position>5</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>24abbe6747e5d91024e32782846d434d</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3e444ff347a51d1024e32782846d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>org_parent</element>
             <position>6</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>28abbe6747e5d91024e32782846d434d</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>32444ff347a51d1024e32782846d4393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>org_size</element>
             <position>7</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>2cabbe6747e5d91024e32782846d434d</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>36444ff347a51d1024e32782846d4393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>20abbe6747e5d91024e32782846d434e</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3a444ff347a51d1024e32782846d4393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>org_name</element>
             <position>9</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>24abbe6747e5d91024e32782846d434e</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3e444ff347a51d1024e32782846d4393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>legal_business_name</element>
             <position>10</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>28abbe6747e5d91024e32782846d434e</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>32444ff347a51d1024e32782846d4394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>org_description</element>
             <position>11</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>2cabbe6747e5d91024e32782846d434e</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>36444ff347a51d1024e32782846d4394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,15 +172,29 @@
             <element>website</element>
             <position>12</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:06:55</sys_created_on>
-            <sys_id>20abbe6747e5d91024e32782846d434f</sys_id>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3a444ff347a51d1024e32782846d4394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 16:06:55</sys_updated_on>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>special_handling_notes</element>
+            <position>13</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-02 11:23:14</sys_created_on>
+            <sys_id>3e444ff347a51d1024e32782846d4394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Special Handling Notes Pop Up">07103c0dc351120095ccd02422d3ae9b</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_organization" sys_domain="global" view="Default view">6eecb6931b8f0150b00dddf6b04bcb01</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-09-02 11:23:14</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
