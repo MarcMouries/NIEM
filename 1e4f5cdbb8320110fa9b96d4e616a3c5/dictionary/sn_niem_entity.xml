@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entity" max_length="40" name="sn_niem_entity" type="collection">
+    <element label="Entity" max_length="40" name="sn_niem_entity" sizeclass="6" type="collection">
+        <element label="Name" max_length="100" name="name" type="string_full_utf8"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>
