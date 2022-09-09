@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="sn_niem_entity">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="state_name" table="sn_niem_agency">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>State name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>name</element>
+        <element>state_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">string_full_utf8</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
-        <name>sn_niem_entity</name>
+        <max_length>20</max_length>
+        <name>sn_niem_agency</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,14 +52,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>marc.mouries</sys_created_by>
-        <sys_created_on>2022-09-03 19:31:02</sys_created_on>
-        <sys_id>796d3194477d5d1024e32782846d4356</sys_id>
+        <sys_created_on>2022-09-09 20:46:38</sys_created_on>
+        <sys_id>f43849da973d115081dd33271153af4b</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_name>State name</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_entity_name</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_niem_agency_state_name</sys_update_name>
         <sys_updated_by>marc.mouries</sys_updated_by>
         <sys_updated_on>2022-09-09 21:01:19</sys_updated_on>
         <table_reference>false</table_reference>

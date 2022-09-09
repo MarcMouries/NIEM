@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sn_niem_organization" label="Agency" max_length="40" name="sn_niem_agency" sizeclass="0" type="collection">
-        <element label="ORI" max_length="10" name="ori" type="string"/>
+        <element label="ORI" max_length="9" name="ori" type="string"/>
+        <element display="true" label="State name" max_length="20" name="state_name" type="string"/>
     </element>
 </database>
