@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="48bb64579771511081dd33271153af22" extends="sn_niem_scr_lead" label="Lead" max_length="40" name="sn_icms_lead" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="sn_niem_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="sn_niem_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone  Number" max_length="40" name="sn_niem_phone_number" type="string"/>
+    </element>
+</database>
