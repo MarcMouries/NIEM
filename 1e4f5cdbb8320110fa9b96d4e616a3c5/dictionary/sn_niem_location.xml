@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmn_location" label="Location" max_length="40" name="sn_niem_location" type="collection"/>
+    <element db_object_id="4ba0d21747a5991024e32782846d4334" extends="cmn_location" label="Location" max_length="40" name="sn_niem_location" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;var str = current.street.toString();&#13;&#10;&#9;if (current.city) str += ' '+current.city.toString();&#13;&#10;&#9;if (current.state.getDisplayValue()) str += ', '+current.state.getDisplayValue().toString();&#13;&#10;&#9;if (current.zip) str += ' '+current.zip.toString();&#13;&#10;&#9;return str;&#13;&#10;})(current);" display="true" label="Location Name" max_length="100" name="location_name" type="string" virtual="true"/>
+    </element>
 </database>

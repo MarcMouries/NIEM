@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="f32de2e347a5d91024e32782846d4358" sys_domain="global" table="sn_niem_location" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>location_name</element>
             <position>0</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>0c64cff347a51d1024e32782846d4381</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d0df30a547ce951024e32782846d43dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>street</element>
             <position>1</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>0064cff347a51d1024e32782846d4382</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d4df30a547ce951024e32782846d43dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>city</element>
             <position>2</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>0464cff347a51d1024e32782846d4382</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d8df30a547ce951024e32782846d43dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>state</element>
             <position>3</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>0864cff347a51d1024e32782846d4382</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>dcdf30a547ce951024e32782846d43dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>zip</element>
             <position>4</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>cc64cff347a51d1024e32782846d43c0</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d0df30a547ce951024e32782846d43de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>country</element>
             <position>5</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c064cff347a51d1024e32782846d43c1</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d4df30a547ce951024e32782846d43de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c464cff347a51d1024e32782846d43c1</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d8df30a547ce951024e32782846d43de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>contact</element>
             <position>7</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c864cff347a51d1024e32782846d43c1</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>dcdf30a547ce951024e32782846d43de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>phone</element>
             <position>8</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>cc64cff347a51d1024e32782846d43c1</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d0df30a547ce951024e32782846d43df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>fax_phone</element>
             <position>9</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c064cff347a51d1024e32782846d43c2</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d4df30a547ce951024e32782846d43df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>parent</element>
             <position>10</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c464cff347a51d1024e32782846d43c2</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d8df30a547ce951024e32782846d43df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>latitude</element>
             <position>11</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c864cff347a51d1024e32782846d43c2</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>dcdf30a547ce951024e32782846d43df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>longitude</element>
             <position>12</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>cc64cff347a51d1024e32782846d43c2</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d0df30a547ce951024e32782846d43e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>special_handling_notes</element>
             <position>13</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-02 11:23:36</sys_created_on>
-            <sys_id>c064cff347a51d1024e32782846d43c3</sys_id>
+            <sys_created_on>2022-09-19 22:29:31</sys_created_on>
+            <sys_id>d4df30a547ce951024e32782846d43e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Special Handling Notes Pop Up">07103c0dc351120095ccd02422d3ae9b</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_location" sys_domain="global" view="Default view">f32de2e347a5d91024e32782846d4358</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-02 11:23:36</sys_updated_on>
+            <sys_updated_on>2022-09-19 22:29:31</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -207,15 +207,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f32de2e347a5d91024e32782846d4358</sys_id>
-            <sys_mod_count>0</sys_mod_count>
             <sys_name>sn_niem_location</sys_name>
             <sys_overrides/>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_ui_section_f32de2e347a5d91024e32782846d4358</sys_update_name>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-01 15:03:47</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="address" table="sn_niem_address">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="location_name" table="sn_niem_location">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 	var str = current.street.toString();
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Address</column_label>
+        <column_label>Location Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>address</element>
+        <element>location_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -36,10 +36,10 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <name>sn_niem_address</name>
+        <name>sn_niem_location</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,12 +52,12 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>steven.ly</sys_created_by>
-        <sys_created_on>2022-08-31 15:27:54</sys_created_on>
-        <sys_name>Address</sys_name>
+        <sys_created_on>2022-09-19 22:29:01</sys_created_on>
+        <sys_name>Location Name</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_address_address</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_niem_location_location_name</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

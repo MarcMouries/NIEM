@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name> 1424 16th St NW Washington, DC 20036</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-19 22:32:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9608da547ce951024e32782846d434e</sys_id>
+        <sys_name> 1424 16th St NW Washington, DC 20036</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_template_b9608da547ce951024e32782846d434e</sys_update_name>
+        <table>sn_niem_address</table>
+        <template>location.city=Washington^location.state=27e39d389761511081dd33271153af44^location.street= 1424 16th St NW^location.zip=20036^EQ</template>
+        <user display_value="Steven Ly">43d63f604765511024e32782846d430b</user>
+        <view/>
+    </sys_template>
+</record_update>
