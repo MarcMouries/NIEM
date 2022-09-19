@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sn_niem_entity" label="Organization" max_length="40" name="sn_niem_organization" sizeclass="1" type="collection">
+    <element db_object_id="26ffe93097e1511081dd33271153af6f" extends="sn_niem_entity" label="Organization" max_length="40" name="sn_niem_organization" type="collection">
         <element label="CAGE Code" max_length="5" name="cage_code" type="string"/>
         <element label="Country of incorporation" max_length="32" name="country_of_incorporation" reference="core_country" type="reference"/>
         <element label="Entity Structure" max_length="32" name="entity_structure" reference="sn_niem_entity_structure" type="reference"/>
@@ -13,7 +13,7 @@
         <element attributes="edge_encryption_enabled=true" label="Incorporation Date" max_length="40" name="org_incorporation_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Organization ID #" max_length="40" name="org_indentification" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="License #" max_length="40" name="org_license_indentification" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Organization / Branch Name" max_length="100" name="org_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Organization / Branch Name" max_length="100" name="org_name" type="string"/>
         <element attributes="encode_utf8=false" label="Organization Parent" max_length="32" name="org_parent" reference="sn_niem_organization" type="reference"/>
         <element attributes="encode_utf8=false" label="Primary Contact" max_length="32" name="org_primary_contact" reference="sn_niem_person" type="reference"/>
         <element attributes="encode_utf8=false" label="Principal Official" max_length="32" name="org_principal_official" reference="sn_niem_person" type="reference"/>
@@ -38,28 +38,28 @@
         <element label="SAM UEI #" max_length="12" name="ueisam" type="string" unique="true"/>
         <element label="Website" max_length="1024" name="website" type="url"/>
         <index name="index">
-            <element name="org_parent"/>
-        </index>
-        <index name="index2" unique="true">
-            <element name="ueisam"/>
-        </index>
-        <index name="index3">
-            <element name="entity_structure"/>
-        </index>
-        <index name="index4">
             <element name="country_of_incorporation"/>
         </index>
-        <index name="index5">
+        <index name="index2">
+            <element name="entity_structure"/>
+        </index>
+        <index name="index3">
+            <element name="org_category"/>
+        </index>
+        <index name="index4">
             <element name="org_emergency_contact"/>
+        </index>
+        <index name="index5">
+            <element name="org_parent"/>
         </index>
         <index name="index6">
             <element name="org_primary_contact"/>
         </index>
         <index name="index7">
-            <element name="org_category"/>
-        </index>
-        <index name="index8">
             <element name="org_principal_official"/>
+        </index>
+        <index name="index8" unique="true">
+            <element name="ueisam"/>
         </index>
     </element>
 </database>
