@@ -21,6 +21,7 @@
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
         <element attributes="encode_utf8=false" label="Organization" max_length="32" name="organization" reference="sn_niem_organization" type="reference"/>
         <element attributes="encode_utf8=false" label="Person" max_length="32" name="person" reference="sn_niem_person" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Related Record" max_length="40" name="related_record" reference="task" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="State / Province" max_length="32" name="state" reference="sn_niem_state" type="reference">
             <choice/>
