@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Bonitas, Jose</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-20 12:51:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73058cf1474ad51024e32782846d43d1</sys_id>
+        <sys_name>Bonitas, Jose</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_template_73058cf1474ad51024e32782846d43d1</sys_update_name>
+        <table>sn_niem_person</table>
+        <template>date_of_birth=08-30-1979^eye_color=4e7d9e6f4725d91024e32782846d4386^first_name=Jose^hair_color=8b0e5aaf4725d91024e32782846d4363^height=6'0"^last_name=Bonitas^marital_status=nm^person_description=For Leads Testing^preferred_name=Jojo^race=57b3c4b1474ad51024e32782846d43af^sex=e5a4e6674765d91024e32782846d4352^ssn=123-45-6456^status=Unknown^weight=180^EQ</template>
+        <user display_value="Steven Ly">43d63f604765511024e32782846d430b</user>
+        <view/>
+    </sys_template>
+</record_update>
