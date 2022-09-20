@@ -9,9 +9,8 @@
         <create_access>false</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Address</label>
+        <label>Related Addresses</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>sn_niem_address</name>
         <number_ref/>
@@ -19,20 +18,15 @@
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class/>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>steven.ly</sys_created_by>
         <sys_created_on>2022-08-31 15:22:47</sys_created_on>
         <sys_id>2ed7a1df47e1991024e32782846d4338</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Address</sys_name>
+        <sys_name>Related Addresses</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_db_object_2ed7a1df47e1991024e32782846d4338</sys_update_name>
-        <sys_updated_by>steven.ly</sys_updated_by>
-        <sys_updated_on>2022-08-31 15:22:47</sys_updated_on>
         <update_access>false</update_access>
         <user_role/>
         <ws_access>true</ws_access>
