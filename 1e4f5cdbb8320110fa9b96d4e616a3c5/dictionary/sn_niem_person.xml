@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" sizeclass="5" type="collection">
+    <element audit="true" db_object_id="66ffe93097e1511081dd33271153af59" extends="sn_niem_entity" label="Person" max_length="40" name="sn_niem_person" type="collection">
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var duration;&#13;&#10;&#9;var today = new GlideDate();&#13;&#10;&#9;var bday = new GlideDateTime(current.date_of_birth.getDisplayValue());&#13;&#10;&#13;&#10;&#9;if(current.date_of_birth){&#13;&#10;&#9;&#9;duration = GlideDateTime.subtract( bday, today ).getDayPart();&#13;&#10;&#9;&#9;duration = parseInt( duration / 365 ); // Years&#13;&#10;&#9;&#9;return duration;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;})(current);" label="Age" max_length="40" name="age" type="integer" virtual="true"/>
         <element label="Birth Date" max_length="40" name="birth_date" type="glide_date"/>
         <element label="Birth Location" max_length="32" name="birth_location" reference="cmn_location" type="reference"/>
@@ -45,12 +45,12 @@
         <element attributes="edge_encryption_enabled=true" label="Prefix" max_length="40" name="prefix" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Race" max_length="40" name="race" reference="sn_niem_race" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice>
-                <element inactive_on_update="false" label="American Indian or Alaskan Native" sequence="0" value="I"/>
-                <element inactive_on_update="false" label="Asian or Pacific Islander" sequence="1" value="a"/>
-                <element inactive_on_update="false" label="White or Caucasian" sequence="2" value="w"/>
-                <element inactive_on_update="false" label="Unknown" sequence="3" value="u"/>
-                <element inactive_on_update="false" label="Black or African American" sequence="4" value="b"/>
-                <element inactive_on_update="false" label="Hispanic or Latino" sequence="5" value="h"/>
+                <element inactive="true" inactive_on_update="true" label="American Indian or Alaskan Native" sequence="0" value="I"/>
+                <element inactive="true" inactive_on_update="true" label="Asian or Pacific Islander" sequence="1" value="a"/>
+                <element inactive="true" inactive_on_update="true" label="White or Caucasian" sequence="2" value="w"/>
+                <element inactive="true" inactive_on_update="true" label="Unknown" sequence="3" value="u"/>
+                <element inactive="true" inactive_on_update="true" label="Black or African American" sequence="4" value="b"/>
+                <element inactive="true" inactive_on_update="true" label="Hispanic or Latino" sequence="5" value="h"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" reference="sn_niem_sex" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
@@ -80,16 +80,16 @@
         <element attributes="edge_encryption_enabled=true" label="Suffix" max_length="40" name="suffix" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Weight (lbs)" max_length="40" name="weight" type="string"/>
         <index name="index">
-            <element name="birth_location"/>
-        </index>
-        <index name="index2">
-            <element name="state_of_birth"/>
-        </index>
-        <index name="index3">
             <element name="country_of_birth"/>
         </index>
-        <index name="index4">
+        <index name="index2">
             <element name="hair_color"/>
+        </index>
+        <index name="index3">
+            <element name="birth_location"/>
+        </index>
+        <index name="index4">
+            <element name="state_of_birth"/>
         </index>
     </element>
 </database>

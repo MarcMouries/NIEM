@@ -6,21 +6,17 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
-            <sys_id>355c495747a1991024e32782846d43fb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
             <sys_name>race</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_choice_sn_niem_person_race</sys_update_name>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:22:11</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>race</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>American Indian or Alaskan Native</label>
             <language>en</language>
             <name>sn_niem_person</name>
@@ -30,17 +26,13 @@
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd5c495747a1991024e32782846d43fa</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:22:53</sys_updated_on>
             <value>I</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>race</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Asian or Pacific Islander</label>
             <language>en</language>
             <name>sn_niem_person</name>
@@ -50,17 +42,13 @@
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f15c495747a1991024e32782846d43fc</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:23:07</sys_updated_on>
             <value>a</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>race</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>White or Caucasian</label>
             <language>en</language>
             <name>sn_niem_person</name>
@@ -70,17 +58,13 @@
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>355c495747a1991024e32782846d43fd</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:23:18</sys_updated_on>
             <value>w</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>race</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Unknown</label>
             <language>en</language>
             <name>sn_niem_person</name>
@@ -90,17 +74,13 @@
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>755c495747a1991024e32782846d43fe</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:23:03</sys_updated_on>
             <value>u</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>race</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Black or African American</label>
             <language>en</language>
             <name>sn_niem_person</name>
@@ -110,17 +90,13 @@
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d5c819747a1991024e32782846d4341</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:23:27</sys_updated_on>
             <value>b</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>race</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Hispanic or Latino</label>
             <language>en</language>
             <name>sn_niem_person</name>
@@ -130,10 +106,6 @@
             <sys_created_on>2022-08-31 13:22:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d5c819747a1991024e32782846d4342</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-08-31 13:23:30</sys_updated_on>
             <value>h</value>
         </sys_choice>
     </sys_choice>
