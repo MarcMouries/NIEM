@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="state_name" table="sn_niem_agency">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_organization___branch_name" table="u_imp_tmpl_sn_niem_agency">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Organization / Branch Name</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>State</column_label>
+        <column_label>Organization / Branch Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>state_name</element>
+        <element>u_organization___branch_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -34,8 +29,8 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>20</max_length>
-        <name>sn_niem_agency</name>
+        <max_length>89</max_length>
+        <name>u_imp_tmpl_sn_niem_agency</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -50,13 +45,13 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>marc.mouries</sys_created_by>
-        <sys_created_on>2022-09-09 20:46:38</sys_created_on>
-        <sys_name>State</sys_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-20 19:11:35</sys_created_on>
+        <sys_name>Organization / Branch Name</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_agency_state_name</sys_update_name>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_sn_niem_agency_u_organization___branch_name</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

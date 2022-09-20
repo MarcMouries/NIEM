@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="org_type" table="sn_niem_agency" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>org_type</element>
+            <name>sn_niem_agency</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_name>org_type</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_agency_org_type</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Municipality</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Municipality</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Borough</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Borough</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>City and Borough</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>City and Borough</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Census Area</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Census Area</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>County</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>County</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>City</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>City</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>University or College</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>University or College</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other State Agency</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Other State Agency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tribal</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Tribal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State Police</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>State Police</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parish</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Parish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>org_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Federal</label>
+            <language>en</language>
+            <name>sn_niem_agency</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-09-20 19:18:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Federal</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>sn_icms_case</basic_apply_to>
+        <basic_query_from>sn_niem_address</basic_query_from>
+        <insert_callback/>
+        <name>Related Addresses - All Leads</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+	
+	//Get list of Leads associated with Cases
+	var leads = [];
+	//leads.push(parent.sys_id.toString());
+	var recLead = new GlideRecord('sn_icms_lead');
+	recLead.addQuery('case_id', parent.sys_id);
+	recLead.query();
+
+	while (recLead.next()) {
+		leads.push(recLead.sys_id.toString());
+	}
+	current.addQuery('related_record', 'IN', leads.join());
+	
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-20 18:44:48</sys_created_on>
+        <sys_id>5ef599fd474ed51024e32782846d4379</sys_id>
+        <sys_name>Related Addresses - All Leads</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_relationship_5ef599fd474ed51024e32782846d4379</sys_update_name>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ef599fd474ed51024e32782846d4379"/>
+</record_update>

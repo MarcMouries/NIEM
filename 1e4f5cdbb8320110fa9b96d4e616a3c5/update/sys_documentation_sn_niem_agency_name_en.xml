@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="organization" label="Agency / Organization" language="en" table="sn_niem_address">
+    <sys_documentation element="name" label="Agency Name" language="en" table="sn_niem_agency">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>organization</element>
+            <element>name</element>
             <help/>
             <hint/>
-            <label>Agency / Organization</label>
+            <label>Agency Name</label>
             <language>en</language>
-            <name>sn_niem_address</name>
-            <plural>Agency / Organizations</plural>
+            <name>sn_niem_agency</name>
+            <plural>Agency Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-01 16:25:53</sys_created_on>
-            <sys_name>Agency / Organization</sys_name>
+            <sys_created_on>2022-09-20 19:19:38</sys_created_on>
+            <sys_name>Agency Name</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-            <sys_update_name>sys_documentation_sn_niem_address_organization_en</sys_update_name>
+            <sys_update_name>sys_documentation_sn_niem_agency_name_en</sys_update_name>
             <url/>
             <url_target/>
         </sys_documentation>
