@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="sn_niem_phone_number" label="Phone  Number" language="en" table="sn_icms_lead">
+    <sys_documentation element="sn_niem_phone_number" label="Phone" language="en" table="sn_icms_lead">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>sn_niem_phone_number</element>
             <help/>
             <hint/>
-            <label>Phone  Number</label>
+            <label>Phone</label>
             <language>en</language>
             <name>sn_icms_lead</name>
-            <plural>Phone  Numbers</plural>
+            <plural>Phones</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
             <sys_created_on>2022-09-19 21:30:18</sys_created_on>
-            <sys_name>Phone  Number</sys_name>
+            <sys_name>Phone</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
