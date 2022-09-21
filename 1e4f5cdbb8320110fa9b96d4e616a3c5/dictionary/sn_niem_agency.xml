@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6b58f404473d1d1024e32782846d4334" extends="sn_niem_organization" label="Agency" max_length="40" name="sn_niem_agency" type="collection">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var str;&#13;&#10;&#9;if (current.ori) str = current.ori.toString();&#13;&#10;&#9;if (current.name) str += ' - '+ current.name.toString();&#13;&#10;&#9;return str;&#13;&#10;&#13;&#10;})(current);" display="true" label="Agency" max_length="100" name="agency" type="string" virtual="true"/>
         <element label="ORI" max_length="9" name="ori" type="string"/>
         <element label="State" max_length="20" name="state_name" type="string"/>
     </element>
