@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <benchmarking>false</benchmarking>
+        <business_calendar/>
+        <collect>scores_text</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <entered_time/>
+        <kill_job>false</kill_job>
+        <name>PA [Leads Test]</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="Kevin Littell">21b2b7ac4725511024e32782846d4395</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-09-21 17:38:52</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>daily</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>1</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>1</score_relative_start>
+        <score_relative_start_interval>days</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>kevin.littell</sys_created_by>
+        <sys_created_on>2022-09-21 17:39:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d670160647ce191024e32782846d436e</sys_id>
+        <sys_name>PA [Leads Test]</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sysauto_pa_d670160647ce191024e32782846d436e</sys_update_name>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="delete_multiple" query="documentkey=d670160647ce191024e32782846d436e"/>
+</record_update>

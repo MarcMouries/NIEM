@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>PA [Leads Test] - Active Leads</display>
+        <indicator display_value="Active Leads">19c7567747f9511024e32782846d4350</indicator>
+        <job display_value="PA [Leads Test]">d670160647ce191024e32782846d436e</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>kevin.littell</sys_created_by>
+        <sys_created_on>2022-09-21 17:40:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54c0d60647ce191024e32782846d439f</sys_id>
+        <sys_name>Active Leads.PA [Leads Test]</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>pa_job_indicators_54c0d60647ce191024e32782846d439f</sys_update_name>
+    </pa_job_indicators>
+</record_update>
