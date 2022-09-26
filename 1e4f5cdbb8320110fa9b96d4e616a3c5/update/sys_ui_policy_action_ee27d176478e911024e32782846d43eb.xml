@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>end_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-09-23 21:24:04</sys_created_on>
+        <sys_id>ee27d176478e911024e32782846d43eb</sys_id>
+        <sys_name>end_date</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ee27d176478e911024e32782846d43eb</sys_update_name>
+        <table>sn_niem_address</table>
+        <ui_policy display_value="Hide Fields if Type is related record">ecb6d936478e911024e32782846d43f8</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

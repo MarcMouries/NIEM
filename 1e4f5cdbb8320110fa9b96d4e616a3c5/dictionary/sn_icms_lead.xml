@@ -3,6 +3,5 @@
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="sn_niem_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Name" max_length="100" name="sn_niem_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="sn_niem_phone_number" type="string"/>
-        <element attributes="encode_utf8=false" label="Spotlight Score" max_length="32" name="sn_niem_spotlight_score" reference="spotlight" type="reference"/>
     </element>
 </database>
