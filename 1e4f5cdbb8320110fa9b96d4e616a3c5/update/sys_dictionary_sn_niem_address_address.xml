@@ -5,10 +5,10 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
-	var str = current.street.toString();
-	if (current.city) str += ' '+current.city.toString();
-	if (current.state.getDisplayValue()) str += ', '+current.state.getDisplayValue().toString();
-	if (current.zip) str += ' '+current.zip.toString();
+	var str = current.location.street.toString();
+	if (current.location.city) str += ' '+current.location.city.toString();
+	if (current.location.state.getDisplayValue()) str += ', '+current.location.state.getDisplayValue().toString();
+	if (current.location.zip) str += ' '+current.location.zip.toString();
 	return str;
 })(current);]]></calculation>
         <choice/>

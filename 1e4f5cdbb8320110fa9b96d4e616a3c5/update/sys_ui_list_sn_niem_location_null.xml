@@ -3,152 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location_name</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
+            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0c40658497de951081dd33271153af56</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>1f0085a547ce951024e32782846d431a</sys_id>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
+            <sys_id>4c40658497de951081dd33271153af7c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
+            <sys_updated_on>2022-09-27 19:16:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>contact</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
+            <element>city</element>
+            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0c40658497de951081dd33271153af56</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>170085a547ce951024e32782846d431b</sys_id>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
+            <sys_id>4040658497de951081dd33271153af7d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
+            <sys_updated_on>2022-09-27 19:16:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>phone</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
+            <element>state</element>
+            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0c40658497de951081dd33271153af56</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>1b0085a547ce951024e32782846d431b</sys_id>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
+            <sys_id>4440658497de951081dd33271153af7d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
+            <sys_updated_on>2022-09-27 19:16:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>city</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
+            <element>latitude</element>
+            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0c40658497de951081dd33271153af56</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>1f0085a547ce951024e32782846d431b</sys_id>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
+            <sys_id>4840658497de951081dd33271153af7d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
+            <sys_updated_on>2022-09-27 19:16:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
+            <element>longitude</element>
+            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0c40658497de951081dd33271153af56</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>130085a547ce951024e32782846d431c</sys_id>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
+            <sys_id>4c40658497de951081dd33271153af7d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
+            <sys_updated_on>2022-09-27 19:16:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>latitude</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0c40658497de951081dd33271153af56</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>170085a547ce951024e32782846d431c</sys_id>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
+            <sys_id>4040658497de951081dd33271153af7e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>longitude</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>1b0085a547ce951024e32782846d431c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>cmn_location_type</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>1f0085a547ce951024e32782846d431c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>130085a547ce951024e32782846d431d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>parent</element>
-            <list_id display_value="sn_niem_location" element="NULL" name="sn_niem_location" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db0085a547ce951024e32782846d4319</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
-            <sys_id>170085a547ce951024e32782846d431d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-09-19 22:30:32</sys_updated_on>
+            <sys_updated_on>2022-09-27 19:16:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -162,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-09-19 22:30:32</sys_created_on>
+            <sys_created_on>2022-09-27 19:16:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>db0085a547ce951024e32782846d4319</sys_id>
+            <sys_id>0c40658497de951081dd33271153af56</sys_id>
             <sys_name>sn_niem_location</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>

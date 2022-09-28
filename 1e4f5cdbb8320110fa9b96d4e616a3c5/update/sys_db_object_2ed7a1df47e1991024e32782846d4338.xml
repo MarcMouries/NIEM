@@ -6,9 +6,9 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>false</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <is_extendable>false</is_extendable>
         <label>Related Addresses</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_db_object_2ed7a1df47e1991024e32782846d4338</sys_update_name>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
