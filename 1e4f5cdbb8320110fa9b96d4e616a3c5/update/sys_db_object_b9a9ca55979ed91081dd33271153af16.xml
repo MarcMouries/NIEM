@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>StateISO3166Code</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_niem_stateiso3166code</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Application File" name="sys_metadata">dd4d10204721111024e32782846d4386</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-10-01 19:44:00</sys_created_on>
+        <sys_id>b9a9ca55979ed91081dd33271153af16</sys_id>
+        <sys_name>StateISO3166Code</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_db_object_b9a9ca55979ed91081dd33271153af16</sys_update_name>
+        <update_access>false</update_access>
+        <user_role display_value="sn_niem.stateiso3166code_user" name="sn_niem.stateiso3166code_user">fc0d0a19979ed91081dd33271153af87</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

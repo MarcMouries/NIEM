@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="sn_icms_operation_plan" relationship="" sys_domain="global" table="sn_niem_address" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>address</element>
+            <list_id display_value="sn_niem_address" element="NULL" name="sn_niem_address" parent="sn_icms_operation_plan" relationship="NULL" sys_domain="global" view="Default view">8e99a7b89796991081dd33271153af61</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_id>0299a7b89796991081dd33271153af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-09-30 13:11:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>address_type</element>
+            <list_id display_value="sn_niem_address" element="NULL" name="sn_niem_address" parent="sn_icms_operation_plan" relationship="NULL" sys_domain="global" view="Default view">8e99a7b89796991081dd33271153af61</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_id>0a99a7b89796991081dd33271153af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-09-30 13:11:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="sn_niem_address" element="NULL" name="sn_niem_address" parent="sn_icms_operation_plan" relationship="NULL" sys_domain="global" view="Default view">8e99a7b89796991081dd33271153af61</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_id>0e99a7b89796991081dd33271153af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-09-30 13:11:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>organization</element>
+            <list_id display_value="sn_niem_address" element="NULL" name="sn_niem_address" parent="sn_icms_operation_plan" relationship="NULL" sys_domain="global" view="Default view">8e99a7b89796991081dd33271153af61</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_id>0299a7b89796991081dd33271153af64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-09-30 13:11:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>related_record</element>
+            <list_id display_value="sn_niem_address" element="NULL" name="sn_niem_address" parent="sn_icms_operation_plan" relationship="NULL" sys_domain="global" view="Default view">8e99a7b89796991081dd33271153af61</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_id>0699a7b89796991081dd33271153af64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-09-30 13:11:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="sn_niem_address" element="NULL" name="sn_niem_address" parent="sn_icms_operation_plan" relationship="NULL" sys_domain="global" view="Default view">8e99a7b89796991081dd33271153af61</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_id>0a99a7b89796991081dd33271153af64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-09-30 13:11:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_niem_address</name>
+            <parent>sn_icms_operation_plan</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-09-30 13:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e99a7b89796991081dd33271153af61</sys_id>
+            <sys_name>sn_niem_address</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_list_sn_niem_address_sn_icms_operation_plan_null</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f6fa3e94716515024e32782846d43c8" label="Assessment Definition" max_length="40" name="sn_niem_assessment_definition" type="collection">
+        <element label="Assessment for" max_length="32" name="assessment_for" reference="sys_db_object" type="reference"/>
+        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <index name="index">
+            <element name="assessment_for"/>
+        </index>
+    </element>
+</database>

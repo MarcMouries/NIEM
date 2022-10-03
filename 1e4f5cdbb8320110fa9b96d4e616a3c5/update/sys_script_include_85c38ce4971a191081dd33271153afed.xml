@@ -9,7 +9,32 @@
         <name>AssessmentHelper</name>
         <script><![CDATA[var AssessmentHelper = Class.create();
 AssessmentHelper.prototype = {
-    initialize: function() {
+    initialize: function() {},
+
+    /**
+     * Function called from a BR to create an assessment upon creation of a case.
+     *
+     * Ex: createAssessment ( caseGr, "Operation Risk Assessment") 
+     */
+    createAssessment: function(caseGr, assessmentName) {
+        // first, check if we already have one for the current case
+        var caseSysId = caseGr.getValue('sys_id');
+        var assessmentGr = new GlideRecord('sn_niem_assessment');
+        assessmentGr.addQuery('case', caseSysId);
+        assessmentGr.addQuery('name', assessmentName);
+        assessmentGr.query();
+        var assesmentExists = assessmentGr.hasNext();
+        gs.addInfoMessage("AssessmentHelper: assesment with name '" + assessmentName + "' Exists: " + assesmentExists);
+        // if not, create a new assessment
+        
+        if (!assesmentExists) {
+            assessmentGr.initialize();
+            assessmentGr.setValue('case', caseSysId);
+            assessmentGr.setValue('name', assessmentName);
+            assessmentGr.insert();
+            // questions will be handled by a BR on the Assessment
+        }
+		
     },
 
     type: 'AssessmentHelper'

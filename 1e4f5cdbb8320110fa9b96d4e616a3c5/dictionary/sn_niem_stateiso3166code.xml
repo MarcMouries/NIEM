@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="b9a9ca55979ed91081dd33271153af16" extends="sys_metadata" label="StateISO3166Code" max_length="40" name="sn_niem_stateiso3166code" type="collection"/>
+</database>

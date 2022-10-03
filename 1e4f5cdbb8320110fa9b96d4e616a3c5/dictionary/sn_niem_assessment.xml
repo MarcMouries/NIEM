@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8dacb350971a191081dd33271153afab" label="Assessment" max_length="40" name="sn_niem_assessment" type="collection">
-        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element label="Case" max_length="32" name="case" reference="sn_niem_case" type="reference"/>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string_full_utf8"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="case"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="name"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

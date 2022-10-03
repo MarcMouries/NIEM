@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>name</col_name_string>
+        <index_col_name element="name" name="sn_niem_assessment">7eb28ca4971a191081dd33271153af60</index_col_name>
+        <logical_table_name>sn_niem_assessment</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-30 14:00:52</sys_created_on>
+        <sys_id>fce4b3b897d6991081dd33271153afaa</sys_id>
+        <sys_name>sn_niem_assessment</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_index_sn_niem_assessment_name</sys_update_name>
+        <table display_value="Assessment" name="sn_niem_assessment">8dacb350971a191081dd33271153afab</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>
