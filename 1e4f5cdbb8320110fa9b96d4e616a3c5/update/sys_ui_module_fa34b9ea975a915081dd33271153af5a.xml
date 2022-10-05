@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Assessment Response">ba34b9ea975a915081dd33271153af57</application>
+        <filter/>
+        <name>Assessment QuestionResponses</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>sn_niem.assessment_questionresponse_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-10-05 15:08:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa34b9ea975a915081dd33271153af5a</sys_id>
+        <sys_name>Assessment QuestionResponses</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ui_module_fa34b9ea975a915081dd33271153af5a</sys_update_name>
+        <table>sn_niem_assessment_qtn_resp</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

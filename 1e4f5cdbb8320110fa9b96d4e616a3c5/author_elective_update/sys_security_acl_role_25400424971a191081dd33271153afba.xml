@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-09-29 01:33:39</sys_created_on>
+        <sys_id>25400424971a191081dd33271153afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem_assessment.sn_niem.assessment_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_security_acl display_value="sn_niem_assessment">5d400424971a191081dd33271153afb7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_25400424971a191081dd33271153afba</sys_update_name>
+        <sys_updated_by>marc.mouries</sys_updated_by>
+        <sys_updated_on>2022-09-29 01:33:39</sys_updated_on>
+        <sys_user_role display_value="sn_niem.assessment_user" name="sn_niem.assessment_user">11404ca0971a191081dd33271153afcd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_security_acl_role_25400424971a191081dd33271153afba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>marc.mouries</sys_created_by><sys_created_on>2022-09-29 01:33:39</sys_created_on><sys_id>25400424971a191081dd33271153afba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_niem_assessment.sn_niem.assessment_user</sys_name><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_security_acl display_value="sn_niem_assessment">5d400424971a191081dd33271153afb7</sys_security_acl><sys_update_name>sys_security_acl_role_25400424971a191081dd33271153afba</sys_update_name><sys_updated_by>marc.mouries</sys_updated_by><sys_updated_on>2022-09-29 01:33:39</sys_updated_on><sys_user_role display_value="sn_niem.assessment_user" name="sn_niem.assessment_user">11404ca0971a191081dd33271153afcd</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-304719767</payload_hash>
+        <record_name>sn_niem_assessment.sn_niem.assessment_user</record_name>
+        <reverted_from/>
+        <source>1779562b4725d91024e32782846d4367</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-09-29 01:33:39</sys_created_on>
+        <sys_id>a5400424971a191081dd33271153afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18386e0bef00000001</sys_recorded_at>
+        <sys_updated_by>marc.mouries</sys_updated_by>
+        <sys_updated_on>2022-09-29 01:33:39</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ed400424b81a19108a0c535cd5a2b8bb</update_guid>
+        <update_guid_history>ed400424b81a19108a0c535cd5a2b8bb:-304719767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_niem_assessment.sn_niem.assessment_user">e193c59e4712555024e32782846d43da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-10-04 16:57:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5f00fc53ec954e78b352060cf77665a4</sys_id>
+        <sys_metadata>25400424971a191081dd33271153afba</sys_metadata>
+        <sys_name>sn_niem_assessment.sn_niem.assessment_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent display_value="">5d400424971a191081dd33271153afb7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_25400424971a191081dd33271153afba</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_25400424971a191081dd33271153afba">a5400424971a191081dd33271153afbc</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

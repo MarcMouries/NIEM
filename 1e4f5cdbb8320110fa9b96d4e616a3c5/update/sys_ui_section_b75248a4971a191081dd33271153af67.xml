@@ -70,6 +70,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assessment_definition</element>
+            <position>5</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-04 20:55:42</sys_created_on>
+            <sys_id>683a799e4756555024e32782846d43d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment_question" sys_domain="global" view="Default view">b75248a4971a191081dd33271153af67</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-04 20:55:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

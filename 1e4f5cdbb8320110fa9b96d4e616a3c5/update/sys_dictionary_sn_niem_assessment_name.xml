@@ -21,7 +21,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">string_full_utf8</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>255</max_length>
         <name>sn_niem_assessment</name>
         <next_element/>
@@ -51,7 +51,7 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>marc.mouries</sys_created_by>
-        <sys_created_on>2022-09-29 01:44:54</sys_created_on>
+        <sys_created_on>2022-10-04 16:58:38</sys_created_on>
         <sys_name>Name</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>

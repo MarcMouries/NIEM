@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-09-30 13:42:48</sys_created_on>
+        <sys_id>88c07f3497d6991081dd33271153af52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem_assessment_answer.sn_niem.assessment_answer_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_security_acl display_value="sn_niem_assessment_answer">80c07f3497d6991081dd33271153af50</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_88c07f3497d6991081dd33271153af52</sys_update_name>
+        <sys_updated_by>marc.mouries</sys_updated_by>
+        <sys_updated_on>2022-09-30 13:42:48</sys_updated_on>
+        <sys_user_role display_value="sn_niem.assessment_answer_user" name="sn_niem.assessment_answer_user">f3b0fb3497d6991081dd33271153af06</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_security_acl_role_88c07f3497d6991081dd33271153af52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>marc.mouries</sys_created_by><sys_created_on>2022-09-30 13:42:48</sys_created_on><sys_id>88c07f3497d6991081dd33271153af52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_niem_assessment_answer.sn_niem.assessment_answer_user</sys_name><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_security_acl display_value="sn_niem_assessment_answer">80c07f3497d6991081dd33271153af50</sys_security_acl><sys_update_name>sys_security_acl_role_88c07f3497d6991081dd33271153af52</sys_update_name><sys_updated_by>marc.mouries</sys_updated_by><sys_updated_on>2022-09-30 13:42:48</sys_updated_on><sys_user_role display_value="sn_niem.assessment_answer_user" name="sn_niem.assessment_answer_user">f3b0fb3497d6991081dd33271153af06</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1636748693</payload_hash>
+        <record_name>sn_niem_assessment_answer.sn_niem.assessment_answer_user</record_name>
+        <reverted_from/>
+        <source>1779562b4725d91024e32782846d4367</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-09-30 13:42:48</sys_created_on>
+        <sys_id>0cc07f3497d6991081dd33271153af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1838ea2a95f0000001</sys_recorded_at>
+        <sys_updated_by>marc.mouries</sys_updated_by>
+        <sys_updated_on>2022-09-30 13:42:48</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>44c07f349cd6991090538729e8d0e754</update_guid>
+        <update_guid_history>44c07f349cd6991090538729e8d0e754:1636748693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_niem_assessment_answer.sn_niem.assessment_answer_user">8b4375aa975a915081dd33271153afbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-10-05 15:04:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0f8c3ef264794db4947774247b5e8490</sys_id>
+        <sys_metadata>88c07f3497d6991081dd33271153af52</sys_metadata>
+        <sys_name>sn_niem_assessment_answer.sn_niem.assessment_answer_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent display_value="">80c07f3497d6991081dd33271153af50</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_88c07f3497d6991081dd33271153af52</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_88c07f3497d6991081dd33271153af52">0cc07f3497d6991081dd33271153af54</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

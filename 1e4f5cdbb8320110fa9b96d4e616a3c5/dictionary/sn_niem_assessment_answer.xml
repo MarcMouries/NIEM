@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="eb90bb3497d6991081dd33271153afc4" label="Assessment Answer" max_length="40" name="sn_niem_assessment_answer" type="collection">
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <index name="index">
-            <element name="sys_class_name"/>
-        </index>
-    </element>
-</database>

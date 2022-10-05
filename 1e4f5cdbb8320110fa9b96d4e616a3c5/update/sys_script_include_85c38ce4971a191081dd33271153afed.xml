@@ -4,7 +4,7 @@
         <active>true</active>
         <api_name>sn_niem.AssessmentHelper</api_name>
         <caller_access/>
-        <client_callable>false</client_callable>
+        <client_callable>true</client_callable>
         <description/>
         <name>AssessmentHelper</name>
         <script><![CDATA[var AssessmentHelper = Class.create();
@@ -16,9 +16,8 @@ AssessmentHelper.prototype = {
      *
      * Ex: createAssessment ( caseGr, "Operation Risk Assessment") 
      */
-    createAssessment: function(caseGr, assessmentName) {
+    createAssessment: function(caseSysId, assessmentName) {
         // first, check if we already have one for the current case
-        var caseSysId = caseGr.getValue('sys_id');
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
         assessmentGr.addQuery('name', assessmentName);
@@ -26,15 +25,69 @@ AssessmentHelper.prototype = {
         var assesmentExists = assessmentGr.hasNext();
         gs.addInfoMessage("AssessmentHelper: assesment with name '" + assessmentName + "' Exists: " + assesmentExists);
         // if not, create a new assessment
-        
         if (!assesmentExists) {
             assessmentGr.initialize();
             assessmentGr.setValue('case', caseSysId);
             assessmentGr.setValue('name', assessmentName);
-            assessmentGr.insert();
+            var recResponse = assessmentGr.insert();
+            gs.addInfoMessage("AssessmentHelper: recResponse '" + recResponse);
+
+            //gs.log("AssessmentHelper: createAssessment '" + assessmentName + "' ");
+            //gs.log("AssessmentHelper: recResponse '" + recResponse + "' ");
+
             // questions will be handled by a BR on the Assessment
         }
-		
+    },
+
+    handleResponse: function(recResponse, sys_id_of_the_created_record) {
+        // Answer will be the sys_id_of_the_created_record or null
+        if (sys_id_of_the_created_record) {
+            gs.addInfoMessage("AssessmentHelper: Created Assesment with SysId '" + sys_id_of_the_created_record + "' ");
+        } else {
+            gs.addErrorMessage("AssessmentHelper: Failed to create the assesment");
+        }
+    },
+
+
+    getAssessmentDefinitionId: function(assessment_name) {
+        //gs.addInfoMessage("AssessmentHelper: getAssessmentDefinition for: " + assessment_name);
+        var assessmentDefGr = new GlideRecord('sn_niem_assessment_definition');
+        assessmentDefGr.addQuery('name', assessment_name);
+        assessmentDefGr.query();
+        assessmentDefGr.next();
+        return assessmentDefGr.sys_id;
+    },
+
+
+
+    createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_name) {
+        //gs.addInfoMessage("AssessmentHelper: assessment_definition: " + assessment_name );
+        var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
+        if (!assessment_definition_id) {
+            gs.addErrorMessage("Missing Assessment Definition for: " + assessment_name);
+        }
+        // Get All Questions associated with this Assessment definition
+        var questionsGr = new GlideRecord('sn_niem_assessment_question');
+        questionsGr.addQuery('assessment_definition', assessment_definition_id);
+        questionsGr.orderBy('category');
+        questionsGr.orderBy('order');
+        questionsGr.query();
+        while (questionsGr.next()) {
+            var category = questionsGr.getValue('category');
+            var text = questionsGr.getValue('text');
+            var points = questionsGr.getValue('points');
+            var questions_SysId = questionsGr.getValue('sys_id');
+           
+            // Create Question Responses and associate them with the Assessment
+            var qtn_respGr = new GlideRecord('sn_niem_assessment_qtn_resp');
+            qtn_respGr.initialize();
+            qtn_respGr.setValue('assessment', assessment_id);
+            qtn_respGr.setValue('question', questions_SysId);
+            qtn_respGr.insert();
+        }
+
+
+
     },
 
     type: 'AssessmentHelper'
