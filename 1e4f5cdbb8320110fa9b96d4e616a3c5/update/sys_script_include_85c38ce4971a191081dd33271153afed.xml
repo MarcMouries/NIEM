@@ -23,7 +23,7 @@ AssessmentHelper.prototype = {
         assessmentGr.addQuery('name', assessmentName);
         assessmentGr.query();
         var assesmentExists = assessmentGr.hasNext();
-        gs.addInfoMessage("AssessmentHelper: assesment with name '" + assessmentName + "' Exists: " + assesmentExists);
+        //gs.addInfoMessage("AssessmentHelper: assesment with name '" + assessmentName + "' Exists: " + assesmentExists);
         // if not, create a new assessment
         if (!assesmentExists) {
             assessmentGr.initialize();
@@ -35,7 +35,7 @@ AssessmentHelper.prototype = {
             //gs.log("AssessmentHelper: createAssessment '" + assessmentName + "' ");
             //gs.log("AssessmentHelper: recResponse '" + recResponse + "' ");
 
-            // questions will be handled by a BR on the Assessment
+            // the creation of questions-responses are handled by a BR on the Assessment
         }
     },
 
@@ -77,7 +77,7 @@ AssessmentHelper.prototype = {
             var text = questionsGr.getValue('text');
             var points = questionsGr.getValue('points');
             var questions_SysId = questionsGr.getValue('sys_id');
-           
+
             // Create Question Responses and associate them with the Assessment
             var qtn_respGr = new GlideRecord('sn_niem_assessment_qtn_resp');
             qtn_respGr.initialize();
@@ -85,9 +85,67 @@ AssessmentHelper.prototype = {
             qtn_respGr.setValue('question', questions_SysId);
             qtn_respGr.insert();
         }
+    },
 
+    /**
+	 * Returns the list of quesion_response for a given Case and Assessment name
+	 * 
+	    var caseSysId = "caee3601470e551024e32782846d436c";
+        var assessmentName = 'Operation Risk Assessment';
 
+        var helper = new sn_niem.AssessmentHelper();
+        var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
 
+        gs.info(JSON.stringify(questionListByCategory))
+	 * 
+	 */
+    getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
+        var assessmentGr = new GlideRecord('sn_niem_assessment');
+        assessmentGr.addQuery('case', caseSysId);
+        assessmentGr.addQuery('name', assessmentName);
+        assessmentGr.query();
+        if (assessmentGr.hasNext) {
+            assessmentGr.next();
+            var assessment_id = assessmentGr.getValue('sys_id');
+
+            // Get the assessment responses
+            var qtn_resp = new GlideRecord('sn_niem_assessment_qtn_resp');
+            qtn_resp.addQuery('assessment', assessment_id);
+            qtn_resp.orderBy('question.category');
+            qtn_resp.orderBy('question.order');
+            qtn_resp.query();
+
+            var questionListByCategory = [];
+            var currentCategory = '';
+            var categoryObject;
+
+            while (qtn_resp.next()) {
+                var category = qtn_resp.question.category + "";
+                var questionText = qtn_resp.question.text + "";
+                var order = parseInt(qtn_resp.question.order, 10);
+                var points = parseInt(qtn_resp.question.points, 10);
+
+                var newCategory = !category.equals(currentCategory);
+                if (newCategory) {
+                    //gs.info(" ✅ New Category:  " + category);
+                    categoryObject = {};
+                    categoryObject.category = category;
+                    categoryObject.questionList = [];
+                    questionListByCategory.push(categoryObject);
+                    currentCategory = category;
+                }
+                //gs.info("  ⮕ " + questionText);
+
+                var question = {
+                    "text": questionText,
+                    "order": order,
+                    "points": points
+                };
+                categoryObject.questionList.push(question);
+            }
+            //gs.info(JSON.stringify(questionListByCategory))
+            return questionListByCategory;
+        }
     },
 
     type: 'AssessmentHelper'
