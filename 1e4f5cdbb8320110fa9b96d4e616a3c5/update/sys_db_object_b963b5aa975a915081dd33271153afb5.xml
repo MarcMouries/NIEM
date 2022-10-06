@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_db_object_b963b5aa975a915081dd33271153afb5</sys_update_name>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role display_value="sn_niem.assessment_questionresponse_user" name="sn_niem.assessment_questionresponse_user">ba34b1ea975a915081dd33271153aff0</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
