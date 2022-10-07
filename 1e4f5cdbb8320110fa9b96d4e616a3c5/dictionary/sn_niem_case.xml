@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Case" max_length="40" name="sn_niem_case" sizeclass="7" text_index="true" type="collection">
+    <element db_object_id="b6ffe93097e1511081dd33271153afcb" extends="task" label="Case" max_length="40" name="sn_niem_case" text_index="true" type="collection">
+        <element label="Case Owner" max_length="32" name="case_owner" reference="sys_user" type="reference"/>
         <element label="Case YearDate" max_length="40" name="u_caseyeardate" type="string"/>
         <element label="Case Number" max_length="40" name="u_number" type="string"/>
     </element>

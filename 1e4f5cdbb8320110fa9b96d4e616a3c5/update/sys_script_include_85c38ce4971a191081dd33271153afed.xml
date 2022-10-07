@@ -9,14 +9,16 @@
         <name>AssessmentHelper</name>
         <script><![CDATA[var AssessmentHelper = Class.create();
 AssessmentHelper.prototype = {
-    initialize: function() {},
+    initialize: function () { },
+	
+    type: 'AssessmentHelper',
 
     /**
      * Function called from a BR to create an assessment upon creation of a case.
      *
      * Ex: createAssessment ( caseGr, "Operation Risk Assessment") 
      */
-    createAssessment: function(caseSysId, assessmentName) {
+    createAssessment: function (caseSysId, assessmentName) {
         // first, check if we already have one for the current case
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
@@ -39,7 +41,7 @@ AssessmentHelper.prototype = {
         }
     },
 
-    handleResponse: function(recResponse, sys_id_of_the_created_record) {
+    handleResponse: function (recResponse, sys_id_of_the_created_record) {
         // Answer will be the sys_id_of_the_created_record or null
         if (sys_id_of_the_created_record) {
             gs.addInfoMessage("AssessmentHelper: Created Assesment with SysId '" + sys_id_of_the_created_record + "' ");
@@ -49,7 +51,7 @@ AssessmentHelper.prototype = {
     },
 
 
-    getAssessmentDefinitionId: function(assessment_name) {
+    getAssessmentDefinitionId: function (assessment_name) {
         //gs.addInfoMessage("AssessmentHelper: getAssessmentDefinition for: " + assessment_name);
         var assessmentDefGr = new GlideRecord('sn_niem_assessment_definition');
         assessmentDefGr.addQuery('name', assessment_name);
@@ -59,8 +61,7 @@ AssessmentHelper.prototype = {
     },
 
 
-
-    createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_name) {
+    createQtnRespFromAssessmentDefinition: function (assessment_id, assessment_name) {
         //gs.addInfoMessage("AssessmentHelper: assessment_definition: " + assessment_name );
         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
         if (!assessment_definition_id) {
@@ -88,69 +89,91 @@ AssessmentHelper.prototype = {
     },
 
     /**
-	 * Returns the list of quesion_response for a given Case and Assessment name
-	 * 
-	    var caseSysId = "caee3601470e551024e32782846d436c";
-        var assessmentName = 'Operation Risk Assessment';
+ * Returns the list of quesion_response for a given Case and Assessment name
+ * 
+    var caseSysId = "caee3601470e551024e32782846d436c";
+    var assessmentName = 'Operation Risk Assessment';
 
-        var helper = new sn_niem.AssessmentHelper();
-        var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
+    var helper = new sn_niem.AssessmentHelper();
+    var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
 
-        gs.info(JSON.stringify(questionListByCategory))
-	 * 
-	 */
-    getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
+    gs.info(JSON.stringify(questionListByCategory))
+ * 
+ */
+    getQuestionResponsesForAssessment: function (caseSysId, assessmentName) {
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
         assessmentGr.addQuery('name', assessmentName);
         assessmentGr.query();
-        if (assessmentGr.hasNext) {
-            assessmentGr.next();
-            var assessment_id = assessmentGr.getValue('sys_id');
+        if (!assessmentGr.hasNext())
+            return [
+                { "status": "error" },
+                { "message": "no assessment found for " + assessmentName }];
 
-            // Get the assessment responses
-            var qtn_resp = new GlideRecord('sn_niem_assessment_qtn_resp');
-            qtn_resp.addQuery('assessment', assessment_id);
-            qtn_resp.orderBy('question.category');
-            qtn_resp.orderBy('question.order');
-            qtn_resp.query();
+        assessmentGr.next();
+        var assessment_id = assessmentGr.getValue('sys_id');
 
-            var questionListByCategory = [];
-            var currentCategory = '';
-            var categoryObject;
+        // Get the assessment responses
+        var qtn_resp = new GlideRecord('sn_niem_assessment_qtn_resp');
+        qtn_resp.addQuery('assessment', assessment_id);
+        qtn_resp.orderBy('question.category');
+        qtn_resp.orderBy('question.order');
+        qtn_resp.query();
 
-            while (qtn_resp.next()) {
-				var sys_id = qtn_resp.getValue('sys_id');
-                var category = qtn_resp.question.category + "";
-                var questionText = qtn_resp.question.text + "";
-                var order = parseInt(qtn_resp.question.order, 10);
-                var points = parseInt(qtn_resp.question.points, 10);
+        var responseChoices = this.getChoices('sn_niem_assessment_qtn_resp', 'response');
+        var questionListByCategory = [];
+        var currentCategory = '';
+        var categoryObject;
 
-                var newCategory = !category.equals(currentCategory);
-                if (newCategory) {
-                    //gs.info(" ✅ New Category:  " + category);
-                    categoryObject = {};
-                    categoryObject.category = category;
-                    categoryObject.questionList = [];
-                    questionListByCategory.push(categoryObject);
-                    currentCategory = category;
-                }
-                //gs.info("  ⮕ " + questionText);
+        while (qtn_resp.next()) {
+            var sys_id = qtn_resp.getValue('sys_id');
+            var category = qtn_resp.question.category + "";
+            var questionText = qtn_resp.question.text + "";
+            var order = parseInt(qtn_resp.question.order, 10);
+            var points = parseInt(qtn_resp.question.points, 10);
 
-                var question = {
-					"sys_id" : sys_id,
-                    "text": questionText,
-                    "order": order,
-                    "points": points
-                };
-                categoryObject.questionList.push(question);
+            var newCategory = !category.equals(currentCategory);
+            if (newCategory) {
+                //gs.info(" ✅ New Category:  " + category);
+                categoryObject = {};
+                categoryObject.category = category;
+                categoryObject.questionList = [];
+                questionListByCategory.push(categoryObject);
+                currentCategory = category;
             }
-            //gs.info(JSON.stringify(questionListByCategory))
-            return questionListByCategory;
+            //gs.info("  ⮕ " + questionText);
+
+            var question = {
+                "sys_id": sys_id,
+                "text": questionText,
+                "order": order,
+                "points": points,
+                "responseChoices": responseChoices
+            };
+            categoryObject.questionList.push(question);
         }
+        //gs.info(JSON.stringify(questionListByCategory))
+        return questionListByCategory;
     },
 
-    type: 'AssessmentHelper'
+    getChoices: function (tableName, fieldName) {
+        var choiceList = [];
+        var sysChoice = new GlideRecord("sys_choice");
+        sysChoice.addQuery("name", tableName); // the name of your htable
+        sysChoice.addQuery("element", fieldName); // the name of the field
+        sysChoice.addQuery("language", "en"); // language of labels, which you need
+        sysChoice.orderBy("sequence");
+        sysChoice.query();
+        while (sysChoice.next()) {
+            // gs.info("sequence=" + sysChoice.sequence + "; value=" + sysChoice.value + "; label=" + sysChoice.label);
+            var item = {
+                "id": sysChoice.getValue('value'),
+                "label": sysChoice.getValue('label')
+            };
+            choiceList.push(item);
+        }
+        return choiceList;
+    }
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>marc.mouries</sys_created_by>
