@@ -120,6 +120,7 @@ AssessmentHelper.prototype = {
             var categoryObject;
 
             while (qtn_resp.next()) {
+				var sys_id = qtn_resp.getValue('sys_id');
                 var category = qtn_resp.question.category + "";
                 var questionText = qtn_resp.question.text + "";
                 var order = parseInt(qtn_resp.question.order, 10);
@@ -137,6 +138,7 @@ AssessmentHelper.prototype = {
                 //gs.info("  ⮕ " + questionText);
 
                 var question = {
+					"sys_id" : sys_id,
                     "text": questionText,
                     "order": order,
                     "points": points

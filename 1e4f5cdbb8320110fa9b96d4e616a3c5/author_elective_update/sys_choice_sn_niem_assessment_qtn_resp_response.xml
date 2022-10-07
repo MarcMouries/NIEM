@@ -42,7 +42,7 @@
             <sys_created_on>2022-10-05 15:32:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>Yes</value>
+            <value>yes</value>
         </sys_choice>
     </sys_choice>
 </record_update>

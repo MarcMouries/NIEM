@@ -5,7 +5,7 @@
         <element choice="1" label="Response" max_length="40" name="response" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" value="no"/>
-                <element inactive_on_update="false" label="Yes" value="Yes"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
             </choice>
         </element>
         <index name="index">

@@ -6,7 +6,7 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
