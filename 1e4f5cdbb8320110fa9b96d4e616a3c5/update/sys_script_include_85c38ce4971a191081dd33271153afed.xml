@@ -108,7 +108,7 @@ AssessmentHelper.prototype = {
         if (!assessmentGr.hasNext())
             return [
                 { "status": "error" },
-                { "message": "no assessment found for " + assessmentName }];
+                { "message": "no assessment found for case: " + caseSysId + " and assessment: " + assessmentName }];
 
         assessmentGr.next();
         var assessment_id = assessmentGr.getValue('sys_id');
@@ -120,7 +120,7 @@ AssessmentHelper.prototype = {
         qtn_resp.orderBy('question.order');
         qtn_resp.query();
 
-        var responseChoices = this.getChoices('sn_niem_assessment_qtn_resp', 'response');
+        var responseOptions = this.getChoices('sn_niem_assessment_qtn_resp', 'response');
         var questionListByCategory = [];
         var currentCategory = '';
         var categoryObject;
@@ -145,10 +145,10 @@ AssessmentHelper.prototype = {
 
             var question = {
                 "sys_id": sys_id,
-                "text": questionText,
+                "questionText": questionText,
                 "order": order,
                 "points": points,
-                "responseChoices": responseChoices
+                "responseOptions": responseChoices
             };
             categoryObject.questionList.push(question);
         }
