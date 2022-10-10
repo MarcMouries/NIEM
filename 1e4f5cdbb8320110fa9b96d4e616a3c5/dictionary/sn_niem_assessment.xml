@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f0a3499e4712555024e32782846d43f9" label="Assessment" max_length="40" name="sn_niem_assessment" type="collection">
         <element label="Case" max_length="32" name="case" reference="sn_niem_case" type="reference"/>
+        <element choice="1" label="Grade" max_length="40" name="grade" read_only="true" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2 - Moderate" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3 - Low" sequence="3" value="3"/>
+            </choice>
+        </element>
         <element display="true" label="Name" max_length="255" name="name" type="string_full_utf8"/>
-        <index name="index">
+        <element label="Score" max_length="40" name="score" read_only="true" type="integer"/>
+        <index name="index" unique="true">
             <element name="case"/>
+            <element name="name"/>
         </index>
     </element>
 </database>

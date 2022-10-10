@@ -9,8 +9,8 @@
         <name>AssessmentHelper</name>
         <script><![CDATA[var AssessmentHelper = Class.create();
 AssessmentHelper.prototype = {
-    initialize: function () { },
-	
+    initialize: function() {},
+
     type: 'AssessmentHelper',
 
     /**
@@ -18,7 +18,7 @@ AssessmentHelper.prototype = {
      *
      * Ex: createAssessment ( caseGr, "Operation Risk Assessment") 
      */
-    createAssessment: function (caseSysId, assessmentName) {
+    createAssessment: function(caseSysId, assessmentName) {
         // first, check if we already have one for the current case
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
@@ -41,7 +41,7 @@ AssessmentHelper.prototype = {
         }
     },
 
-    handleResponse: function (recResponse, sys_id_of_the_created_record) {
+    handleResponse: function(recResponse, sys_id_of_the_created_record) {
         // Answer will be the sys_id_of_the_created_record or null
         if (sys_id_of_the_created_record) {
             gs.addInfoMessage("AssessmentHelper: Created Assesment with SysId '" + sys_id_of_the_created_record + "' ");
@@ -51,7 +51,7 @@ AssessmentHelper.prototype = {
     },
 
 
-    getAssessmentDefinitionId: function (assessment_name) {
+    getAssessmentDefinitionId: function(assessment_name) {
         //gs.addInfoMessage("AssessmentHelper: getAssessmentDefinition for: " + assessment_name);
         var assessmentDefGr = new GlideRecord('sn_niem_assessment_definition');
         assessmentDefGr.addQuery('name', assessment_name);
@@ -61,7 +61,7 @@ AssessmentHelper.prototype = {
     },
 
 
-    createQtnRespFromAssessmentDefinition: function (assessment_id, assessment_name) {
+    createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_name) {
         //gs.addInfoMessage("AssessmentHelper: assessment_definition: " + assessment_name );
         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
         if (!assessment_definition_id) {
@@ -89,26 +89,29 @@ AssessmentHelper.prototype = {
     },
 
     /**
- * Returns the list of quesion_response for a given Case and Assessment name
- * 
-    var caseSysId = "caee3601470e551024e32782846d436c";
-    var assessmentName = 'Operation Risk Assessment';
+     * Returns the list of quesion_response for a given Case and Assessment name
+     * 
+        var caseSysId = "caee3601470e551024e32782846d436c";
+        var assessmentName = 'Operation Risk Assessment';
 
-    var helper = new sn_niem.AssessmentHelper();
-    var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
-
-    gs.info(JSON.stringify(questionListByCategory))
- * 
- */
-    getQuestionResponsesForAssessment: function (caseSysId, assessmentName) {
+        var helper = new sn_niem.AssessmentHelper();
+        var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
+        gs.info(JSON.stringify(questionListByCategory))
+     * 
+     */
+    getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
         assessmentGr.addQuery('name', assessmentName);
         assessmentGr.query();
         if (!assessmentGr.hasNext())
-            return [
-                { "status": "error" },
-                { "message": "no assessment found for case: " + caseSysId + " and assessment: " + assessmentName }];
+            return [{
+                    "status": "error"
+                },
+                {
+                    "message": "no assessment found for case: " + caseSysId + " and assessment: " + assessmentName
+                }
+            ];
 
         assessmentGr.next();
         var assessment_id = assessmentGr.getValue('sys_id');
@@ -148,7 +151,7 @@ AssessmentHelper.prototype = {
                 "questionText": questionText,
                 "order": order,
                 "points": points,
-                "responseOptions": responseChoices
+                "responseOptions": responseOptions
             };
             categoryObject.questionList.push(question);
         }
@@ -156,7 +159,7 @@ AssessmentHelper.prototype = {
         return questionListByCategory;
     },
 
-    getChoices: function (tableName, fieldName) {
+    getChoices: function(tableName, fieldName) {
         var choiceList = [];
         var sysChoice = new GlideRecord("sys_choice");
         sysChoice.addQuery("name", tableName); // the name of your htable
