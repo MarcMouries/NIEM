@@ -51,7 +51,7 @@ AssessmentHelper.prototype = {
     },
 
 
-    getAssessmentDefinitionId: function(assessment_name) {
+    getAssessmentTemplateId: function(assessment_name) {
         //gs.addInfoMessage("AssessmentHelper: getAssessmentDefinition for: " + assessment_name);
         var assessmentDefGr = new GlideRecord('sn_niem_assessment_definition');
         assessmentDefGr.addQuery('name', assessment_name);
@@ -61,15 +61,15 @@ AssessmentHelper.prototype = {
     },
 
 
-    createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_name) {
+    createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_template_id) {
         //gs.addInfoMessage("AssessmentHelper: assessment_definition: " + assessment_name );
-        var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
-        if (!assessment_definition_id) {
-            gs.addErrorMessage("Missing Assessment Definition for: " + assessment_name);
-        }
+//         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
+//         if (!assessment_definition_id) {
+//             gs.addErrorMessage("Missing Assessment Definition for: " + assessment_name);
+//         }
         // Get All Questions associated with this Assessment definition
         var questionsGr = new GlideRecord('sn_niem_assessment_question');
-        questionsGr.addQuery('assessment_definition', assessment_definition_id);
+        questionsGr.addQuery('assessment_template', assessment_template_id);
         questionsGr.orderBy('category');
         questionsGr.orderBy('order');
         questionsGr.query();
@@ -97,12 +97,15 @@ AssessmentHelper.prototype = {
         var helper = new sn_niem.AssessmentHelper();
         var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
         gs.info(JSON.stringify(questionListByCategory))
+		
+		
+		case.sys_id=caee3601470e551024e32782846d436c^template.nameSTARTSWITHOperation Risk Assessment
      * 
      */
     getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
-        assessmentGr.addQuery('name', assessmentName);
+        assessmentGr.addQuery('template.name', assessmentName);
         assessmentGr.query();
         if (!assessmentGr.hasNext())
             return [{
@@ -176,7 +179,38 @@ AssessmentHelper.prototype = {
             choiceList.push(item);
         }
         return choiceList;
-    }
+    },
+
+	/**
+	 * Increase or decrease the number of responses when a response is provided
+	 * Used in the business rule: Update Assessment Response Count
+	 */
+    increaseNumberOfResponses: function(assessment_sysId) {
+		this._increment('sn_niem_assessment', assessment_sysId, 'number_of_responses', +1);
+    },
+    decreaseNumberOfResponses: function(assessment_sysId) {
+		this._increment('sn_niem_assessment', assessment_sysId, 'number_of_responses', -1);
+	},
+	
+	/**
+	 * Increase or decrease the number of questions when a question is added
+	 * Used in the business rule: Assessment Question Added/Deleted
+	 */
+    increaseNumberOfQuestions: function(assessment_sysId) {
+		this._increment('sn_niem_assessment', assessment_sysId, 'number_of_questions', +1);
+    },
+    decreaseNumberOfQuestions: function(assessment_sysId) {
+		this._increment('sn_niem_assessment', assessment_sysId, 'number_of_questions', -1);
+	},
+	
+	_increment: function(tableName, record_sysId, fieldName, increment) {
+        var recordGR = new GlideRecord(tableName);
+        recordGR.get(record_sysId);
+        var current_value = parseInt(recordGR.getValue(fieldName), 10);
+        recordGR.setValue(fieldName, current_value + increment);
+        recordGR.update();
+	}
+
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>marc.mouries</sys_created_by>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Assessment Definition" language="en" table="sn_niem_assessment_definition">
+    <sys_documentation element="" label="Assessment Template" language="en" table="sn_niem_assessment_definition">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Assessment Definition</label>
+            <label>Assessment Template</label>
             <language>en</language>
             <name>sn_niem_assessment_definition</name>
-            <plural>Assessment Definitions</plural>
+            <plural>Assessment Templates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>marc.mouries</sys_created_by>
             <sys_created_on>2022-10-02 21:36:04</sys_created_on>
-            <sys_name>Assessment Definition</sys_name>
+            <sys_name>Assessment Template</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>

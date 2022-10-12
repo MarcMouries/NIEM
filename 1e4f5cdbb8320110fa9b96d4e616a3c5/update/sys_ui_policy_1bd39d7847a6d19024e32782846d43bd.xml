@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>true</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+if(!g_user.hasRoleExactly('admin')) {
+	g_form.setReadOnly('grade', true);
+}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+if(!g_user.hasRoleExactly('admin')) {
+	g_form.setReadOnly('grade', true);
+}
+}]]></script_true>
+        <set_values/>
+        <short_description>Assessment</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-10-12 12:33:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1bd39d7847a6d19024e32782846d43bd</sys_id>
+        <sys_name>Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ui_policy_1bd39d7847a6d19024e32782846d43bd</sys_update_name>
+        <table>sn_niem_assessment</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -5,20 +5,20 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>sn_niem_assessment</collection>
+        <collection>sn_niem_assessment_qtn_resp</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Create Qtn Resp from Assessment Def</name>
+        <name>Update Assessment Response Count</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,25 +28,40 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-	//gs.addInfoMessage("Assessment BR");
-	//gs.addInfoMessage("Assessment BR " + current.sys_id + " - " + current.name);
+    //Assessment Response Count - From '" + previous.response + "' to '" + current.response + "'");
+    //gs.addInfoMessage("  Assessment ID = '" + current.assessment + "'");
+
+    var assessment_sysId = current.assessment;
     var helper = new sn_niem.AssessmentHelper();
-    helper.createQtnRespFromAssessmentDefinition(current.sys_id, current.template);
+
+    // From 'none' to 'yes or no'
+    if (previous.response == '') { // none
+        if (current.response != '') { // none
+            helper.increaseNumberOfResponses(assessment_sysId);
+        }
+        // From 'yes or no' to 'none'
+    } else if (current.response == '') {
+        helper.decreaseNumberOfResponses(assessment_sysId);
+
+    }
+    // From 'no' to 'yes'
+    // do nothing
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>marc.mouries</sys_created_by>
-        <sys_created_on>2022-10-05 20:19:01</sys_created_on>
+        <sys_created_on>2022-10-10 18:46:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a2a9fae29712d15081dd33271153affd</sys_id>
-        <sys_name>Create Qtn Resp from Assessment Def</sys_name>
+        <sys_id>835f4c5047a2119024e32782846d4334</sys_id>
+        <sys_name>Update Assessment Response Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_script_a2a9fae29712d15081dd33271153affd</sys_update_name>
+        <sys_update_name>sys_script_835f4c5047a2119024e32782846d4334</sys_update_name>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=a2a9fae29712d15081dd33271153affd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=835f4c5047a2119024e32782846d4334"/>
 </record_update>

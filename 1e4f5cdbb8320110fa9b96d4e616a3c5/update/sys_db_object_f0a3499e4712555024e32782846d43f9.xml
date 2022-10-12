@@ -6,7 +6,7 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_db_object_f0a3499e4712555024e32782846d43f9</sys_update_name>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role display_value="sn_niem.assessment_user" name="sn_niem.assessment_user">11404ca0971a191081dd33271153afcd</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
