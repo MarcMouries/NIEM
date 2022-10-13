@@ -40,6 +40,8 @@
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Person Description" max_length="4000" name="person_description" type="string"/>
+        <element label="Photo Front" max_length="40" name="photo_front" type="user_image"/>
+        <element label="Photo Profile" max_length="40" name="photo_profile" type="user_image"/>
         <element attributes="pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" label="Preferred Name" max_length="40" name="preferred_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prefix" max_length="40" name="prefix" type="string"/>
