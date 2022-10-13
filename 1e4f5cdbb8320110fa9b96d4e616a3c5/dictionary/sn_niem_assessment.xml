@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f0a3499e4712555024e32782846d43f9" label="Assessment" max_length="40" name="sn_niem_assessment" type="collection">
         <element label="Case" max_length="32" name="case" reference="sn_niem_case" type="reference"/>
-        <element choice="1" label="Grade" max_length="40" name="grade" type="integer">
+        <element choice="1" label="Risk" max_length="40" name="grade" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1 - High" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="2 - Moderate" sequence="2" value="2"/>
