@@ -20,7 +20,7 @@
             </choice>
         </element>
         <element label="First Name" max_length="40" name="first_name" type="string_full_utf8"/>
-        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var str = current.last_name.toString().toUpperCase();&#10;&#9;if (current.first_name) str += ', '+current.first_name.toString();&#10;&#9;if (current.middle_name) str += ' '+current.middle_name.toString();&#10;&#9;return str;&#10;&#10;})(current);" display="true" label="Full Name" max_length="40" name="full_name" type="string_full_utf8" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;//  FORMAT : Firstname Lastname&#13;&#10;&#9;return current.first_name + ' ' + current.last_name; //.toString();&#13;&#10;&#13;&#10;&#9;&#13;&#10;//  FORMAT : LASTNAME, Firstname&#13;&#10;// &#9;var str = current.last_name.toString().toUpperCase();&#13;&#10;// &#9;if (current.first_name) str += ', '+current.first_name.toString();&#13;&#10;// &#9;if (current.middle_name) str += ' '+current.middle_name.toString();&#13;&#10;//&#9;return str;&#13;&#10;&#13;&#10;})(current);" display="true" label="Full Name" max_length="40" name="full_name" type="string_full_utf8" virtual="true"/>
         <element attributes="encode_utf8=false" choice="1" label="Hair Color" max_length="32" name="hair_color" reference="sn_niem_hair_color" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice/>
         </element>
