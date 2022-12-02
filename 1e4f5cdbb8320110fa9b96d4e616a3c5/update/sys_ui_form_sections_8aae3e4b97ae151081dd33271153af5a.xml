@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8aae3e4b97ae151081dd33271153af5a" sys_domain="global" table="sn_niem_assessment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:05:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82ae7e4b97ae151081dd33271153af25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_assessment" name="sn_niem_assessment" sys_domain="global" view="Default view">8aae3e4b97ae151081dd33271153af5a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:05:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_niem_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:05:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8aae3e4b97ae151081dd33271153af5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_niem_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8aae3e4b97ae151081dd33271153af5a</sys_update_name>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:05:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

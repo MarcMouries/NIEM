@@ -1,86 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="ebb67dee975a915081dd33271153afc4" sys_domain="global" table="sn_niem_assessment" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>template</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:44:17</sys_created_on>
-            <sys_id>3b11f4144766119024e32782846d4371</sys_id>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>ff4ffa8b97ae151081dd33271153afc4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
             <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:44:17</sys_updated_on>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f34ffa8b97ae151081dd33271153afc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>2</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f74ffa8b97ae151081dd33271153afc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>fb4ffa8b97ae151081dd33271153afc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>case</element>
-            <position>1</position>
+            <position>4</position>
             <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:44:17</sys_created_on>
-            <sys_id>3f11f4144766119024e32782846d4371</sys_id>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>ff4ffa8b97ae151081dd33271153afc5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
             <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:44:17</sys_updated_on>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f34ffa8b97ae151081dd33271153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template</element>
+            <position>6</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f74ffa8b97ae151081dd33271153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>fb4ffa8b97ae151081dd33271153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>ff4ffa8b97ae151081dd33271153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>score</element>
-            <position>2</position>
+            <position>9</position>
             <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:44:17</sys_created_on>
-            <sys_id>3311f4144766119024e32782846d4372</sys_id>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f34ffa8b97ae151081dd33271153afc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
             <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:44:17</sys_updated_on>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f74ffa8b97ae151081dd33271153afc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>grade</element>
-            <position>3</position>
+            <position>11</position>
             <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:44:17</sys_created_on>
-            <sys_id>3711f4144766119024e32782846d4372</sys_id>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>fb4ffa8b97ae151081dd33271153afc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
             <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:44:17</sys_updated_on>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number_of_responses</element>
-            <position>4</position>
+            <element>.end_split</element>
+            <position>12</position>
             <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:44:17</sys_created_on>
-            <sys_id>3b11f4144766119024e32782846d4372</sys_id>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>ff4ffa8b97ae151081dd33271153afc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
             <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:44:17</sys_updated_on>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>13</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f34ffa8b97ae151081dd33271153afc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_of_questions</element>
-            <position>5</position>
+            <position>14</position>
             <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:44:17</sys_created_on>
-            <sys_id>3f11f4144766119024e32782846d4372</sys_id>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>f74ffa8b97ae151081dd33271153afc8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
             <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:44:17</sys_updated_on>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>fb4ffa8b97ae151081dd33271153afc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_responses</element>
+            <position>16</position>
+            <sys_created_by>marc.mouries</sys_created_by>
+            <sys_created_on>2022-10-19 20:08:49</sys_created_on>
+            <sys_id>ff4ffa8b97ae151081dd33271153afc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment" sys_domain="global" view="Default view">ebb67dee975a915081dd33271153afc4</sys_ui_section>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-19 20:08:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -95,12 +249,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ebb67dee975a915081dd33271153afc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>sn_niem_assessment</sys_name>
             <sys_overrides/>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_ui_section_ebb67dee975a915081dd33271153afc4</sys_update_name>
+            <sys_updated_by>marc.mouries</sys_updated_by>
+            <sys_updated_on>2022-10-12 14:16:45</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

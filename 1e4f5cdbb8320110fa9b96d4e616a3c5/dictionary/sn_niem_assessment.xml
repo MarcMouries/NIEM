@@ -8,10 +8,11 @@
                 <element inactive_on_update="false" label="3 - Low" sequence="3" value="3"/>
             </choice>
         </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element default="0" label="Number of Questions" max_length="40" name="number_of_questions" read_only="true" type="integer"/>
         <element default="0" label="Number of Responses" max_length="40" name="number_of_responses" read_only="true" type="integer"/>
         <element label="Score" max_length="40" name="score" type="integer"/>
-        <element display="true" label="Template" mandatory="true" max_length="32" name="template" reference="sn_niem_assessment_definition" type="reference"/>
+        <element label="Template" mandatory="true" max_length="32" name="template" reference="sn_niem_assessment_definition" type="reference"/>
         <index name="index">
             <element name="case"/>
         </index>
