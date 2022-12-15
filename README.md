@@ -2,7 +2,7 @@
 
 
 ## OBJECTIVE:  
-ServiceNow's objective is to facilitate the automation of work across internal and external applications. Each legacy or modern application has its own domain, its own language. To enable ServiceNow to communicate with those systems and be the “Platform of Platforms”, it is crucial to extend ServiceNow's core vocabulary. NIEM, the National Information Exchange Model provides a common framework that is used to define how information can be shared between systems, government agencies, and the private sector. It represents a collaborative partnership of agencies and organizations across all levels of government (federal, state, tribal, and local) and with private industry.
+ServiceNow's objective is to facilitate the automation of work across internal and external applications. Each legacy or modern application has its own domain, and its own language. To enable ServiceNow to communicate with those systems and be the “Platform of Platforms”, it is crucial to extend ServiceNow's core vocabulary. NIEM, the National Information Exchange Model provides a common framework that is used to define how information can be shared between systems, government agencies, and the private sector. It represents a collaborative partnership of agencies and organizations across all levels of government (federal, state, tribal, and local) and with private industry.
 
 
 ### Extension of ServiceNow data model with selected elements from the National Information Exchange Model
