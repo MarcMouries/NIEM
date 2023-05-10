@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="dd445394877e251031a07558dabb35ea" extends="sys_metadata" label="Day of Week" max_length="40" name="sn_niem_day_of_week" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+    </element>
+</database>
