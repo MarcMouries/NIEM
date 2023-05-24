@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Country" max_length="40" name="sn_niem_country" type="collection">
+    <element attributes="update_synch=true" db_object_id="9eb814b547e3d1103d2cb28a436d4353" extends="sys_metadata" label="Country" max_length="40" name="sn_niem_country" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Alpha-2 Code" max_length="40" name="alpha2code" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Alpha-3 Code" max_length="40" name="alpha3code" type="string"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Numeric Code" max_length="40" name="numericcode" type="string"/>
+        <element attributes="edge_encryption_enabled=false" label="Alpha-2 Code" max_length="40" name="alpha2code" type="string"/>
+        <element attributes="edge_encryption_enabled=false" label="Alpha-3 Code" max_length="40" name="alpha3code" type="string"/>
+        <element attributes="edge_encryption_enabled=false" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=false" label="Numeric Code" max_length="40" name="numericcode" type="string"/>
     </element>
 </database>
