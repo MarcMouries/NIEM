@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0e641b94877e251031a07558dabb3516" extends="sys_import_set_row" label="Day of Week Data Mapping" max_length="40" name="sn_niem_ihub_import_e3445bd0877e251031a07558dabb35cf" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
-    </element>
-</database>
