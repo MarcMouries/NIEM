@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>NIEM User</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>sn_niem.niem_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>niem_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-28 17:31:18</sys_created_on>
+        <sys_id>bb2f7ed81b8d5d50ce2b6579b04bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem.niem_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_user_role_bb2f7ed81b8d5d50ce2b6579b04bcb29</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-28 17:31:18</sys_updated_on>
+    </sys_user_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>f6b5194edbf4f410e03ad7c8f4961911</instance_id>
+        <instance_name>icmsdemo</instance_name>
+        <name>sys_user_role_bb2f7ed81b8d5d50ce2b6579b04bcb29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>NIEM User</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>sn_niem.niem_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>niem_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-28 17:31:18</sys_created_on>
+        <sys_id>bb2f7ed81b8d5d50ce2b6579b04bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem.niem_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_user_role_bb2f7ed81b8d5d50ce2b6579b04bcb29</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-28 17:31:18</sys_updated_on>
+    </sys_user_role>
+</record_update>]]></payload>
+        <payload_hash>-1741786873</payload_hash>
+        <record_name>sn_niem.niem_user</record_name>
+        <reverted_from/>
+        <source>13a2967b1bf3a1103b5084c3604bcba0</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-10 00:20:48</sys_created_on>
+        <sys_id>5b13da7f1bf3a1103b5084c3604bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1893d2c1c4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-10 00:20:48</sys_updated_on>
+        <type>Role</type>
+        <update_guid>1b13da7f4bf3a110e064f83f61183e46</update_guid>
+        <update_guid_history>1b13da7f4bf3a110e064f83f61183e46:-1741786873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_niem.niem_user">d51e100f1b04fd100cb9cae5624bcbf9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2023-07-19 18:09:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>25d3b881b92d45208aa34f9424dbdc91</sys_id>
+        <sys_metadata>bb2f7ed81b8d5d50ce2b6579b04bcb29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem.niem_user</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_user_role_bb2f7ed81b8d5d50ce2b6579b04bcb29</sys_update_name>
+        <sys_update_version display_value="sys_user_role_bb2f7ed81b8d5d50ce2b6579b04bcb29">5b13da7f1bf3a1103b5084c3604bcb46</sys_update_version>
+        <sys_updated_by>marc.mouries</sys_updated_by>
+        <sys_updated_on>2023-07-19 18:09:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
