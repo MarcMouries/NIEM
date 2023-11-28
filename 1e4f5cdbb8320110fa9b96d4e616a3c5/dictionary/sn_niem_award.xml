@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="137b0569c372b114102c752ed4013100" label="Award" max_length="40" name="sn_niem_award" type="collection">
+        <element label="Award Number" max_length="40" name="award_number" type="string"/>
+        <element label="Recipient" max_length="32" name="recipient" reference="sn_niem_organization" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="recipient"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
