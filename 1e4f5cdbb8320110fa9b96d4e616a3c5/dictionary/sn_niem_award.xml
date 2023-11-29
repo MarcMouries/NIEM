@@ -9,7 +9,7 @@
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="State" max_length="32" name="state" reference="sn_niem_state" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Title" max_length="100" name="title" type="string"/>
+        <element display="true" label="Title" max_length="100" name="title" type="string"/>
         <index name="index">
             <element name="program"/>
         </index>
