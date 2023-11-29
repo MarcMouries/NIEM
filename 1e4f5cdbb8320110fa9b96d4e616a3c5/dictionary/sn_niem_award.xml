@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="137b0569c372b114102c752ed4013100" label="Award" max_length="40" name="sn_niem_award" type="collection">
         <element label="Abstract" max_length="500" name="abstract" type="string"/>
-        <element label="Award Number" max_length="40" name="award_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Award Number" max_length="40" name="award_number" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Program" max_length="32" name="program" reference="sn_niem_award_program" type="reference"/>
         <element attributes="encode_utf8=false" label="Recipient" max_length="32" name="recipient" reference="sn_niem_organization" type="reference"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="State" max_length="32" name="state" reference="sn_niem_state" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
         <index name="index">
-            <element name="recipient"/>
+            <element name="program"/>
         </index>
         <index name="index2">
+            <element name="recipient"/>
+        </index>
+        <index name="index3">
+            <element name="state"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>
