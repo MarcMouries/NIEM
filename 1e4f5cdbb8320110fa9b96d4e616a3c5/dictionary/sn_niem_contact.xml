@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18a70a8a47baf5505d6c8fd4f16d43a4" extends="sn_niem_person" label="Contact" max_length="40" name="sn_niem_contact" type="collection">
+        <element label="Organization" max_length="32" name="organization" reference="sn_niem_organization" type="reference"/>
+        <index name="index">
+            <element name="organization"/>
+        </index>
+    </element>
+</database>

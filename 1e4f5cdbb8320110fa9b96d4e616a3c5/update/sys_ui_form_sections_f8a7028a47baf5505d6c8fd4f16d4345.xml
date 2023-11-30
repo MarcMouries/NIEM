@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f8a7028a47baf5505d6c8fd4f16d4345" sys_domain="global" table="sn_niem_contact" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fca74a8a47baf5505d6c8fd4f16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_contact" name="sn_niem_contact" sys_domain="global" view="Default view">f8a7028a47baf5505d6c8fd4f16d4345</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_contact" sys_domain="global" view="Default view">b0a74a8a47baf5505d6c8fd4f16d4365</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:09:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4a74a8a47baf5505d6c8fd4f16d4364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_contact" name="sn_niem_contact" sys_domain="global" view="Default view">f8a7028a47baf5505d6c8fd4f16d4345</sys_ui_form>
+            <sys_ui_section caption="Photos" display_value="Photos" name="sn_niem_contact" sys_domain="global" view="Default view">3ca7028a47baf5505d6c8fd4f16d4348</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:09:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8a74a8a47baf5505d6c8fd4f16d438d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_contact" name="sn_niem_contact" sys_domain="global" view="Default view">f8a7028a47baf5505d6c8fd4f16d4345</sys_ui_form>
+            <sys_ui_section caption="Demographic Details" display_value="Demographic Details" name="sn_niem_contact" sys_domain="global" view="Default view">7ca74a8a47baf5505d6c8fd4f16d4381</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:09:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:09:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4a74a8a47baf5505d6c8fd4f16d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_contact" name="sn_niem_contact" sys_domain="global" view="Default view">f8a7028a47baf5505d6c8fd4f16d4345</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="sn_niem_contact" sys_domain="global" view="Default view">70a74a8a47baf5505d6c8fd4f16d438e</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:09:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4a74a8a47baf5505d6c8fd4f16d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_contact" name="sn_niem_contact" sys_domain="global" view="Default view">f8a7028a47baf5505d6c8fd4f16d4345</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="sn_niem_contact" sys_domain="global" view="Default view">b4a74a8a47baf5505d6c8fd4f16d437d</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:09:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_niem_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8a7028a47baf5505d6c8fd4f16d4345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_niem_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f8a7028a47baf5505d6c8fd4f16d4345</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:09:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
