@@ -2,8 +2,12 @@
     <element db_object_id="6f6fa3e94716515024e32782846d43c8" label="Assessment Template" max_length="40" name="sn_niem_assessment_definition" type="collection">
         <element label="Assessment for" max_length="32" name="assessment_for" reference="sys_db_object" type="reference"/>
         <element display="true" label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="assessment_for"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>

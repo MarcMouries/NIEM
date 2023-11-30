@@ -5,12 +5,16 @@
         <element label="Category" max_length="255" name="category" type="string_full_utf8"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Points" max_length="40" name="points" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element display="true" label="Text" max_length="255" name="text" type="string_full_utf8"/>
         <index name="index">
             <element name="assessment_definition"/>
         </index>
         <index name="index2">
             <element name="assessment_template"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>
