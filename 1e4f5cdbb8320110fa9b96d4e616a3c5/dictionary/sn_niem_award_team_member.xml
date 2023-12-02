@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="71de064a47faf5505d6c8fd4f16d4312" extends="u_external_user" label="Award Team Member" max_length="40" name="sn_niem_award_team_member" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Organization" max_length="32" name="organization" reference="sn_niem_organization" type="reference"/>
+        <index name="index">
+            <element name="organization"/>
+        </index>
     </element>
 </database>

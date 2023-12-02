@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="12de464a47faf5505d6c8fd4f16d4312" sys_domain="global" table="sn_niem_award_team_member" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>0</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>56de464a47faf5505d6c8fd4f16d4313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d4314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d4314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>3</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d4315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>4</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d4315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>5</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d4316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_password</element>
+            <position>6</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d4316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>password_needs_reset</element>
+            <position>7</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>locked_out</element>
+            <position>8</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>9</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>web_service_access_only</element>
+            <position>10</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>internal_integration_user</element>
+            <position>11</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>13</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d431a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>14</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d431a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notification</element>
+            <position>15</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d431b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calendar_integration</element>
+            <position>16</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d431b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>17</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_format</element>
+            <position>18</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>19</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d431d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>20</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d431d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>photo</element>
+            <position>21</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>92de464a47faf5505d6c8fd4f16d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>middle_name</element>
+            <position>22</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_id>9ade464a47faf5505d6c8fd4f16d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organization</element>
+            <position>23</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 19:08:27</sys_created_on>
+            <sys_id>3b80b6ca47fef5505d6c8fd4f16d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_award_team_member" sys_domain="global" view="Default view">12de464a47faf5505d6c8fd4f16d4312</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 19:08:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_niem_award_team_member</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-11-30 16:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12de464a47faf5505d6c8fd4f16d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_niem_award_team_member</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_section_12de464a47faf5505d6c8fd4f16d4312</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-11-30 16:41:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
