@@ -2,12 +2,7 @@
     <element db_object_id="b963b5aa975a915081dd33271153afb5" label="Assessment Question Response" max_length="40" name="sn_niem_assessment_qtn_resp" type="collection">
         <element label="Assessment" max_length="32" name="assessment" reference="sn_niem_assessment" type="reference"/>
         <element display="true" label="Question" max_length="32" name="question" reference="sn_niem_assessment_question" type="reference"/>
-        <element choice="1" label="Response" max_length="40" name="response" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="No" value="no"/>
-                <element inactive_on_update="false" label="Yes" value="yes"/>
-            </choice>
-        </element>
+        <element choice="1" label="Response" max_length="40" name="response" type="choice"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="assessment"/>
