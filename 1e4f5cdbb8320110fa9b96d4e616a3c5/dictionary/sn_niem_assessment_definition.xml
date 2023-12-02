@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6f6fa3e94716515024e32782846d43c8" label="Assessment Template" max_length="40" name="sn_niem_assessment_definition" type="collection">
         <element label="Assessment for" max_length="32" name="assessment_for" reference="sys_db_object" type="reference"/>
+        <element label="Assessment Type" max_length="255" name="assessment_type" type="string"/>
+        <element label="Choices Table" max_length="32" name="choices_table" reference="sys_db_object" type="reference"/>
         <element display="true" label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element label="Questions Table" max_length="32" name="questions_table" reference="sys_db_object" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="assessment_for"/>
         </index>
         <index name="index2">
+            <element name="choices_table"/>
+        </index>
+        <index name="index3">
+            <element name="questions_table"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>

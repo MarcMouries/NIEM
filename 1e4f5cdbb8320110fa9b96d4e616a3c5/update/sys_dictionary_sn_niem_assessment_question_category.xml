@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">string_full_utf8</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
         <name>sn_niem_assessment_question</name>
@@ -57,6 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_dictionary_sn_niem_assessment_question_category</sys_update_name>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2023-11-30 18:53:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

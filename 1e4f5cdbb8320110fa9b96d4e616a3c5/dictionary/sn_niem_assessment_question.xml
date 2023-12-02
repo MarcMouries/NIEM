@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="48504424971a191081dd33271153afc0" label="Assessment Template Question" max_length="40" name="sn_niem_assessment_question" type="collection">
-        <element label="Assessment Definition" max_length="32" name="assessment_definition" reference="sn_niem_assessment_definition" type="reference"/>
         <element label="Assessment Template" max_length="32" name="assessment_template" reference="sn_niem_assessment_definition" type="reference"/>
-        <element label="Category" max_length="255" name="category" type="string_full_utf8"/>
+        <element label="Category" max_length="255" name="category" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Points" max_length="40" name="points" type="integer"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element display="true" label="Text" max_length="255" name="text" type="string_full_utf8"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Choice" sequence="0" value="choice"/>
+                <element inactive_on_update="false" label="Yes/No" sequence="1" value="yes_no"/>
+                <element inactive_on_update="false" label="Free Text" sequence="2" value="free_text"/>
+            </choice>
+        </element>
         <index name="index">
-            <element name="assessment_definition"/>
-        </index>
-        <index name="index2">
             <element name="assessment_template"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="sn_niem_assessment_question" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>sn_niem_assessment_question</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:53:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_assessment_question_type</sys_update_name>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:53:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice</label>
+            <language>en</language>
+            <name>sn_niem_assessment_question</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:53:13</sys_updated_on>
+            <value>choice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes/No</label>
+            <language>en</language>
+            <name>sn_niem_assessment_question</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:53:13</sys_updated_on>
+            <value>yes_no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Free Text</label>
+            <language>en</language>
+            <name>sn_niem_assessment_question</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:53:13</sys_updated_on>
+            <value>free_text</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

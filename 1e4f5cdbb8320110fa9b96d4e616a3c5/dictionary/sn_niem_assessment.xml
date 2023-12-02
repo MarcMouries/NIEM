@@ -12,11 +12,15 @@
         <element default="0" label="Number of Questions" max_length="40" name="number_of_questions" read_only="true" type="integer"/>
         <element default="0" label="Number of Responses" max_length="40" name="number_of_responses" read_only="true" type="integer"/>
         <element label="Score" max_length="40" name="score" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Template" mandatory="true" max_length="32" name="template" reference="sn_niem_assessment_definition" type="reference"/>
         <index name="index">
             <element name="case"/>
         </index>
         <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
             <element name="template"/>
         </index>
     </element>

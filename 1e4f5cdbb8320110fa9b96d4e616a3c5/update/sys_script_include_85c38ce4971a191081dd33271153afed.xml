@@ -75,8 +75,36 @@ AssessmentHelper.prototype = {
         return assessmentDefGr.sys_id;
     },
 
+//KF - 1-Dec - updated version for NSF demo parametertizing
+    createQtnRespFromAssessmentDefinition: function(question_source, resp_target, assessment_id, assessment_template_id) {
+        gs.warn("AssessmentHelper: assessment_definition: " + assessment_id);
+        //         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
+        //         if (!assessment_definition_id) {
+        //             gs.addErrorMessage("Missing Assessment Definition for: " + assessment_name);
+        //         }
+        // Get All Questions associated with this Assessment definition
+        var questionsGr = new GlideRecord(question_source);
+        questionsGr.addQuery('assessment_template', assessment_template_id);
+        questionsGr.orderBy('category');
+        questionsGr.orderBy('order');
+        questionsGr.query();
+        while (questionsGr.next()) {
+            var category = questionsGr.getValue('category');
+            var text = questionsGr.getValue('text');
+            var points = questionsGr.getValue('points');
+            var questions_SysId = questionsGr.getValue('sys_id');
 
-    createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_template_id) {
+            // Create Question Responses and associate them with the Assessment
+            var qtn_respGr = new GlideRecord(resp_target);
+            qtn_respGr.initialize();
+            qtn_respGr.setValue('assessment', assessment_id);
+            qtn_respGr.setValue('question', questions_SysId);
+            qtn_respGr.insert();
+        }
+    },
+
+/* KF - 1-Dec-23 - deprecated version updated for NSF demo
+	createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_template_id) {
         gs.warn("AssessmentHelper: assessment_definition: " + assessment_id);
         //         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
         //         if (!assessment_definition_id) {
@@ -102,6 +130,7 @@ AssessmentHelper.prototype = {
             qtn_respGr.insert();
         }
     },
+*/
 
     /**
      * Returns the list of quesion_response for a given Case and Assessment name
@@ -119,9 +148,7 @@ AssessmentHelper.prototype = {
      */
     getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
 
-
         gs.warn("AssessmentHelper: getQuestionResponsesForAssessment for: " + caseSysId + " - " + assessmentName);
-
 
         var assessmentGr = new GlideRecord('sn_niem_assessment');
         assessmentGr.addQuery('case', caseSysId);
@@ -182,6 +209,27 @@ AssessmentHelper.prototype = {
         return questionListByCategory;
     },
 
+		//KF 01-Dec-23 new version for NSF
+	    getChoices: function(choice_table, question_id) {
+        var choiceList = [];
+        var grAssessmentChoices = new GlideRecord(choice_table);
+        grAssessmentChoices.addQuery('assessment_template_question', question_id); // the name of your table
+        grAssessmentChoices.orderBy('order');
+        grAssessmentChoices.query();
+        while (grAssessmentChoices.next()) {
+            // gs.info("sequence=" + sysChoice.sequence + "; value=" + sysChoice.value + "; label=" + sysChoice.label);
+            var item = {
+                "id": grAssessmentChoices.getValue('sys_id'),
+                "label": grAssessmentChoices.getValue('label'),
+                "annotation": grAssessmentChoices.getValue('annotation'),
+                "value":  grAssessmentChoices.getValue('value')
+            };
+            choiceList.push(item);
+        }
+        return choiceList;
+    },
+
+/* KF - 01-Dec-23 updating for NSF parameterizing 
     getChoices: function(tableName, fieldName) {
         var choiceList = [];
         var sysChoice = new GlideRecord("sys_choice");
@@ -200,6 +248,7 @@ AssessmentHelper.prototype = {
         }
         return choiceList;
     },
+	*/
 
     /**
      * Increase or decrease the number of responses when a response is provided
@@ -236,13 +285,13 @@ AssessmentHelper.prototype = {
         <sys_created_by>marc.mouries</sys_created_by>
         <sys_created_on>2022-09-29 01:49:49</sys_created_on>
         <sys_id>85c38ce4971a191081dd33271153afed</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>AssessmentHelper</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_script_include_85c38ce4971a191081dd33271153afed</sys_update_name>
-        <sys_updated_by>marc.mouries</sys_updated_by>
-        <sys_updated_on>2022-10-19 21:12:57</sys_updated_on>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2023-12-01 20:57:26</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>create</operation>
+        <source_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>kate.flood</sys_created_by>
+        <sys_created_on>2023-12-01 17:07:39</sys_created_on>
+        <sys_id>448e5fd24736b9505d6c8fd4f16d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_award_mgmt_deliverable_rubric_responses</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_scope_privilege_448e5fd24736b9505d6c8fd4f16d43a5</sys_update_name>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2023-12-01 17:07:39</sys_updated_on>
+        <target_name>x_snc_award_mgmt_deliverable_rubric_responses</target_name>
+        <target_scope display_value="Award Program Management">33a031e147baf1505d6c8fd4f16d438d</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

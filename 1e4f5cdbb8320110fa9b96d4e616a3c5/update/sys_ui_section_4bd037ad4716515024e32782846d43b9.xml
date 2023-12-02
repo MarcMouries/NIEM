@@ -3,28 +3,42 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assessment_for</element>
             <position>0</position>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-02 21:38:43</sys_created_on>
-            <sys_id>cfd037ad4716515024e32782846d43bf</sys_id>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:42:13</sys_created_on>
+            <sys_id>eb8a22ce47bef5505d6c8fd4f16d43f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment_definition" sys_domain="global" view="Default view">4bd037ad4716515024e32782846d43b9</sys_ui_section>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-02 21:38:43</sys_updated_on>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:42:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>1</position>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-02 21:43:45</sys_created_on>
-            <sys_id>3c02b7214756515024e32782846d4304</sys_id>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:42:13</sys_created_on>
+            <sys_id>e38aaece47bef5505d6c8fd4f16d43ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment_definition" sys_domain="global" view="Default view">4bd037ad4716515024e32782846d43b9</sys_ui_section>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-02 21:43:45</sys_updated_on>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:42:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assessment_type</element>
+            <position>2</position>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-11-30 18:42:13</sys_created_on>
+            <sys_id>eb8aaece47bef5505d6c8fd4f16d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment_definition" sys_domain="global" view="Default view">4bd037ad4716515024e32782846d43b9</sys_ui_section>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-11-30 18:42:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -39,12 +53,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4bd037ad4716515024e32782846d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>sn_niem_assessment_definition</sys_name>
             <sys_overrides/>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_ui_section_4bd037ad4716515024e32782846d43b9</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-12-04 03:52:47</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

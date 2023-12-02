@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8acdae4647fef5505d6c8fd4f16d4371" label="Assessment Template Choices" max_length="40" name="sn_niem_assessment_template_choices" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Annotation" max_length="255" name="annotation" type="string"/>
+        <element attributes="encode_utf8=false" label="Assessment Template Question" max_length="32" name="assessment_template_question" reference="sn_niem_assessment_question" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Label" max_length="155" name="label" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Value" max_length="40" name="value" type="integer"/>
+        <index name="index">
+            <element name="assessment_template_question"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
