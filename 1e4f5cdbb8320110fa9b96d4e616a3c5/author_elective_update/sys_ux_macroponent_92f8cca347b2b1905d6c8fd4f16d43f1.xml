@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-12-04 22:47:08</sys_created_on>
+        <sys_id>92f8cca347b2b1905d6c8fd4f16d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ux_macroponent_92f8cca347b2b1905d6c8fd4f16d43f1</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-12-04 22:47:08</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=92f8cca347b2b1905d6c8fd4f16d43f1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>1d68f923dbbe199407072f17d496199e</instance_id>
+        <instance_name>appengine4govdemo</instance_name>
+        <name>sys_ux_macroponent_92f8cca347b2b1905d6c8fd4f16d43f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition/><da_relay_models/><data/><description/><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings/><layout/><macroponent_dependencies/><name>Default</name><output_prop_mapping/><props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_properties/><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-12-04 22:47:08</sys_created_on><sys_id>92f8cca347b2b1905d6c8fd4f16d43f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default</sys_name><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_update_name>sys_ux_macroponent_92f8cca347b2b1905d6c8fd4f16d43f1</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-12-04 22:47:08</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=92f8cca347b2b1905d6c8fd4f16d43f1"/></record_update>]]></payload>
+        <payload_hash>422938747</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>368b495647a755103d2cb28a436d436b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-12-04 22:47:08</sys_created_on>
+        <sys_id>5af8cca347b2b1905d6c8fd4f16d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c37038b0e0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-12-04 22:47:08</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>5ef8cca3bdb2b19084f753c8334fb0f2</update_guid>
+        <update_guid_history>5ef8cca3bdb2b19084f753c8334fb0f2:422938747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-12-04 22:50:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>7444c895ac8943e096a848dc4ff50100</sys_id>
+        <sys_metadata>92f8cca347b2b1905d6c8fd4f16d43f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_92f8cca347b2b1905d6c8fd4f16d43f1</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_92f8cca347b2b1905d6c8fd4f16d43f1">5af8cca347b2b1905d6c8fd4f16d43f3</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-12-04 22:50:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

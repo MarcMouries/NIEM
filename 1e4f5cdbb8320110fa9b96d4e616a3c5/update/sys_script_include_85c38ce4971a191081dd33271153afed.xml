@@ -185,6 +185,8 @@ AssessmentHelper.prototype = {
             var order = parseInt(qtn_resp.question.order, 10);
             var points = parseInt(qtn_resp.question.points, 10);   
             var question_id = qtn_resp.question;
+			var qtn_response = qtn_resp.response + "";
+			var qtn_value = qtn_resp.value + "";
 
             //var helper = new sn_niem.AssessmentHelper();
             //var responseOptions = helper.getChoices(choice_table, question_id);
@@ -203,6 +205,8 @@ AssessmentHelper.prototype = {
                 "sys_id": sys_id,
 				"type": type,
                 "questionText": questionText,
+				"response": qtn_response,
+				"value": qtn_value,
                 "order": order,
                 "points": points,
                 "responseOptions": responseOptions
@@ -355,13 +359,13 @@ getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
         <sys_created_by>marc.mouries</sys_created_by>
         <sys_created_on>2022-09-29 01:49:49</sys_created_on>
         <sys_id>85c38ce4971a191081dd33271153afed</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>AssessmentHelper</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_script_include_85c38ce4971a191081dd33271153afed</sys_update_name>
         <sys_updated_by>kate.flood</sys_updated_by>
-        <sys_updated_on>2023-12-04 20:51:52</sys_updated_on>
+        <sys_updated_on>2023-12-05 21:09:38</sys_updated_on>
     </sys_script_include>
 </record_update>
