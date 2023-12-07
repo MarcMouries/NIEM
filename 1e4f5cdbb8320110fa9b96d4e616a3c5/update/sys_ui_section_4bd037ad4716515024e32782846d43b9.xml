@@ -42,6 +42,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>instruction</element>
+            <position>3</position>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-06 18:11:43</sys_created_on>
+            <sys_id>531dd5088747f11031a07558dabb35d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_assessment_definition" sys_domain="global" view="Default view">4bd037ad4716515024e32782846d43b9</sys_ui_section>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-06 18:11:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

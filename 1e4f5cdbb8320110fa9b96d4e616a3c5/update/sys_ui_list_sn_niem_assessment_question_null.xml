@@ -2,78 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="sn_niem_assessment_question" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assessment_template</element>
-            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0214b0584766119024e32782846d435d</list_id>
+            <element>text</element>
+            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">50ef9d4c8747f11031a07558dabb35d9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:57:16</sys_created_on>
-            <sys_id>8e14b0584766119024e32782846d435d</sys_id>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-06 18:23:48</sys_created_on>
+            <sys_id>5cef9d4c8747f11031a07558dabb35d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:57:16</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>category</element>
-            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0214b0584766119024e32782846d435d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:57:16</sys_created_on>
-            <sys_id>8614b0584766119024e32782846d435e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:57:16</sys_updated_on>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-06 18:23:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>order</element>
-            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0214b0584766119024e32782846d435d</list_id>
+            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">50ef9d4c8747f11031a07558dabb35d9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>2</position>
+            <position>1</position>
             <sum>false</sum>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:57:16</sys_created_on>
-            <sys_id>8a14b0584766119024e32782846d435e</sys_id>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-06 18:23:48</sys_created_on>
+            <sys_id>50ef9d4c8747f11031a07558dabb35da</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:57:16</sys_updated_on>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-06 18:23:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>points</element>
-            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0214b0584766119024e32782846d435d</list_id>
+            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">50ef9d4c8747f11031a07558dabb35d9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>3</position>
+            <position>2</position>
             <sum>false</sum>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:57:16</sys_created_on>
-            <sys_id>8e14b0584766119024e32782846d435e</sys_id>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-06 18:23:48</sys_created_on>
+            <sys_id>54ef9d4c8747f11031a07558dabb35da</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:57:16</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>text</element>
-            <list_id display_value="sn_niem_assessment_question" element="NULL" name="sn_niem_assessment_question" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0214b0584766119024e32782846d435d</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:57:16</sys_created_on>
-            <sys_id>8214b0584766119024e32782846d435f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>marc.mouries</sys_updated_by>
-            <sys_updated_on>2022-10-10 20:57:16</sys_updated_on>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-06 18:23:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -86,16 +56,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>marc.mouries</sys_created_by>
-            <sys_created_on>2022-10-10 20:57:16</sys_created_on>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-06 18:23:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0214b0584766119024e32782846d435d</sys_id>
+            <sys_id>50ef9d4c8747f11031a07558dabb35d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>sn_niem_assessment_question</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
             <sys_update_name>sys_ui_list_sn_niem_assessment_question_null</sys_update_name>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-06 18:23:48</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
