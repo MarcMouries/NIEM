@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>sn_niem_assessment_type</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>kate.flood</sys_created_by>
+        <sys_created_on>2023-12-19 20:11:38</sys_created_on>
+        <sys_id>7635b8144713b5105d6c8fd4f16d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem_assessment_type</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_security_acl_7635b8144713b5105d6c8fd4f16d43ae</sys_update_name>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2023-12-19 20:11:38</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

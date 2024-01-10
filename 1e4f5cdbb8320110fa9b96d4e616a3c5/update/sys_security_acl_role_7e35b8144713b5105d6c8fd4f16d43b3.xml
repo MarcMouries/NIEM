@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>kate.flood</sys_created_by>
+        <sys_created_on>2023-12-19 20:11:38</sys_created_on>
+        <sys_id>7e35b8144713b5105d6c8fd4f16d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem_assessment_type.sn_niem.niem_admin</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_security_acl display_value="sn_niem_assessment_type">7635b8144713b5105d6c8fd4f16d43ae</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7e35b8144713b5105d6c8fd4f16d43b3</sys_update_name>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2023-12-19 20:11:38</sys_updated_on>
+        <sys_user_role display_value="sn_niem.niem_admin" name="sn_niem.niem_admin">315f721c1b8d5d50ce2b6579b04bcb92</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

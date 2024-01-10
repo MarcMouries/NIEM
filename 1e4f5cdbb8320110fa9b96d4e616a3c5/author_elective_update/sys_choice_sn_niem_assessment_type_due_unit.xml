@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="due_unit" table="sn_niem_assessment_type" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>due_unit</element>
+            <name>sn_niem_assessment_type</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-19 20:24:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>due_unit</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_assessment_type_due_unit</sys_update_name>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-19 20:24:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>due_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hours</label>
+            <language>en</language>
+            <name>sn_niem_assessment_type</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-19 20:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-19 20:24:36</sys_updated_on>
+            <value>hours</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>due_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Days</label>
+            <language>en</language>
+            <name>sn_niem_assessment_type</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-19 20:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-19 20:24:36</sys_updated_on>
+            <value>days</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>due_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weeks</label>
+            <language>en</language>
+            <name>sn_niem_assessment_type</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-19 20:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-19 20:24:36</sys_updated_on>
+            <value>weeks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>due_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Months</label>
+            <language>en</language>
+            <name>sn_niem_assessment_type</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-19 20:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-19 20:24:36</sys_updated_on>
+            <value>months</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>due_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Years</label>
+            <language>en</language>
+            <name>sn_niem_assessment_type</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>kate.flood</sys_created_by>
+            <sys_created_on>2023-12-19 20:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kate.flood</sys_updated_by>
+            <sys_updated_on>2023-12-19 20:24:36</sys_updated_on>
+            <value>years</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
