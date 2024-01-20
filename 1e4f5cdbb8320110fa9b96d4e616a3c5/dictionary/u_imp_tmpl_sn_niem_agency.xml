@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3a1c5975478ed51024e32782846d430d" extends="sys_import_set_row" label="Imp Tmpl Sn Niem Agency" max_length="40" name="u_imp_tmpl_sn_niem_agency" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organization Type" label="Organization Type" max_length="40" name="u_organization_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organization / Branch Name" label="Organization / Branch Name" max_length="89" name="u_organization___branch_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=ORI" label="ORI" max_length="9" name="u_ori" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="20" name="u_state" type="string"/>
-    </element>
-</database>

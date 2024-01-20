@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="52f2fbf497d6991081dd33271153afa0" extends="sys_import_set_row" label="Imp Tmpl Sn Niem Assessment Question" max_length="40" name="u_imp_tmpl_sn_niem_assessment_question" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assessment" label="Assessment" max_length="32" name="u_assessment" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category" label="Category" max_length="255" name="u_category" type="string"/>
-        <element attributes="import_attribute_name=Order" label="Order" max_length="40" name="u_order" type="integer"/>
-        <element attributes="import_attribute_name=Points" label="Points" max_length="40" name="u_points" type="integer"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Text" label="Text" max_length="255" name="u_text" type="string"/>
-    </element>
-</database>
