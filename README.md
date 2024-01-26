@@ -10,6 +10,7 @@ ServiceNow's objective is to facilitate the automation of work across internal a
 | Domain        | Name          | Definition   | Notes
 | ------------- | ------------- | ------------ | ------------- |
 | Core          | Address       | A postal location to which paper mail can be directed.
+| Core          | Agency        | A division of a governmental or international body.
 | Core          | Case          | An aggregation of information about a set of related activities and events
 | Core          | Entity        | A person, organization, or item
 | Core          | Incident      | An occurrence or an event that may require a response. | Use the standard Incident table to manage unplanned interruption to or quality reduction of an IT service. 
