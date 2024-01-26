@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="parent_organization" label="Parent Organization" language="en" table="sn_niem_organization">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_organization</element>
+            <help/>
+            <hint/>
+            <label>Parent Organization</label>
+            <language>en</language>
+            <name>sn_niem_organization</name>
+            <plural>Parent Organizations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-26 02:04:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent Organization</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_documentation_sn_niem_organization_parent_organization_en</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-26 02:04:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

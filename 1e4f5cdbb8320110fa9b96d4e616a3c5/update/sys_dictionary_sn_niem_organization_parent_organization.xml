@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="org_parent" table="sn_niem_organization">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="parent_organization" table="sn_niem_organization">
         <active>true</active>
         <array>false</array>
-        <attributes>encode_utf8=false</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Organization Parent</column_label>
+        <column_label>Parent Organization</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>org_parent</element>
+        <element>parent_organization</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -45,13 +50,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>steven.ly</sys_created_by>
-        <sys_created_on>2022-09-01 15:25:15</sys_created_on>
-        <sys_name>Organization Parent</sys_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 02:04:26</sys_created_on>
+        <sys_name>Parent Organization</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_organization_org_parent</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_niem_organization_parent_organization</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 02:04:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

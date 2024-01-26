@@ -13,7 +13,6 @@
         <element attributes="edge_encryption_enabled=true" label="Incorporation Date" max_length="40" name="org_incorporation_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Organization ID #" max_length="40" name="org_indentification" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="License #" max_length="40" name="org_license_indentification" type="string"/>
-        <element attributes="encode_utf8=false" label="Organization Parent" max_length="32" name="org_parent" reference="sn_niem_organization" type="reference"/>
         <element attributes="encode_utf8=false" label="Primary Contact" max_length="32" name="org_primary_contact" reference="sn_niem_person" type="reference"/>
         <element attributes="encode_utf8=false" label="Principal Official" max_length="32" name="org_principal_official" reference="sn_niem_person" type="reference"/>
         <element label="Organization Size" max_length="40" name="org_size" type="integer"/>
@@ -34,6 +33,7 @@
                 <element inactive_on_update="false" label="Foreign Affiliate" sequence="3" value="Foreign Affiliate"/>
             </choice>
         </element>
+        <element label="Parent Organization" max_length="32" name="parent_organization" reference="sn_niem_organization" type="reference"/>
         <element label="SAM Status" max_length="40" name="sam_gov_status" type="string"/>
         <element label="SAM UEI #" max_length="12" name="ueisam" type="string" unique="true"/>
         <element label="Website" max_length="1024" name="website" type="url"/>
@@ -50,13 +50,13 @@
             <element name="org_emergency_contact"/>
         </index>
         <index name="index5">
-            <element name="org_parent"/>
-        </index>
-        <index name="index6">
             <element name="org_primary_contact"/>
         </index>
-        <index name="index7">
+        <index name="index6">
             <element name="org_principal_official"/>
+        </index>
+        <index name="index7">
+            <element name="parent_organization"/>
         </index>
         <index name="index8" unique="true">
             <element name="ueisam"/>
