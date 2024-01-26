@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="9c14fc141b008210b00dddf6b04bcb4f" sys_domain="global" table="u_imp_tmpl_sn_niem_agency" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent_organization</element>
+            <position>0</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-26 02:53:39</sys_created_on>
+            <sys_id>d414fc141b008210b00dddf6b04bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-26 02:53:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_abbreviation</element>
+            <position>1</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-26 02:53:39</sys_created_on>
+            <sys_id>5414fc141b008210b00dddf6b04bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-26 02:53:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_agency</element>
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-26 02:53:39</sys_created_on>
+            <sys_id>5c14fc141b008210b00dddf6b04bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-26 02:53:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>3</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-26 02:53:39</sys_created_on>
+            <sys_id>5414fc141b008210b00dddf6b04bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-26 02:53:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_sn_niem_agency</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-26 02:53:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c14fc141b008210b00dddf6b04bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_sn_niem_agency</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_section_9c14fc141b008210b00dddf6b04bcb4f</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-26 02:53:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_ui_section_9c14fc141b008210b00dddf6b04bcb4f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9c14fc141b008210b00dddf6b04bcb4f" sys_domain="global" table="u_imp_tmpl_sn_niem_agency" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_parent_organization</element><position>0</position><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2024-01-26 02:53:39</sys_created_on><sys_id>d414fc141b008210b00dddf6b04bcb51</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2024-01-26 02:53:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_abbreviation</element><position>1</position><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2024-01-26 02:53:39</sys_created_on><sys_id>5414fc141b008210b00dddf6b04bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2024-01-26 02:53:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_agency</element><position>2</position><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2024-01-26 02:53:39</sys_created_on><sys_id>5c14fc141b008210b00dddf6b04bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2024-01-26 02:53:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>template_import_log.message</element><position>3</position><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2024-01-26 02:53:39</sys_created_on><sys_id>5414fc141b008210b00dddf6b04bcb53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_sn_niem_agency" sys_domain="global" view="Default view">9c14fc141b008210b00dddf6b04bcb4f</sys_ui_section><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2024-01-26 02:53:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_imp_tmpl_sn_niem_agency</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2024-01-26 02:53:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c14fc141b008210b00dddf6b04bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_imp_tmpl_sn_niem_agency</sys_name><sys_overrides/><sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package><sys_policy/><sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope><sys_update_name>sys_ui_section_9c14fc141b008210b00dddf6b04bcb4f</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2024-01-26 02:53:39</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1998316176</payload_hash>
+        <record_name>Imp Tmpl Sn Niem Agency</record_name>
+        <reverted_from/>
+        <source>618bf4661bff3194ce2b6579b04bcb04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 02:53:39</sys_created_on>
+        <sys_id>dc14fc141b008210b00dddf6b04bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d43afee0c0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 02:53:39</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5414fc14cb008210774ba1d07ee18155</update_guid>
+        <update_guid_history>5414fc14cb008210774ba1d07ee18155:1998316176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 03:39:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>234a8ea91cc340ecb557a8c825ce6684</sys_id>
+        <sys_metadata>9c14fc141b008210b00dddf6b04bcb4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_sn_niem_agency</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent display_value="">ef04bc141b008210b00dddf6b04bcb05</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9c14fc141b008210b00dddf6b04bcb4f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9c14fc141b008210b00dddf6b04bcb4f">dc14fc141b008210b00dddf6b04bcb55</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 03:39:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

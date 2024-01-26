@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>search</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var queryParams = request.queryParams;
+    var searchText = queryParams.text.toString();
+
+    // Create a new GlideRecord instance for the federal agency table
+    var gr = new GlideRecord('sn_niem_agency');
+
+    // Add OR condition for name and acronym containing the search text
+    gr.addQuery('name', 'CONTAINS', searchText).addOrCondition('abbreviation', 'CONTAINS', searchText);
+
+    // Execute the query
+    gr.query();
+
+    var result = [];
+    while (gr.next()) {
+        result.push({
+            'name': gr.getValue('name'),
+            'abbreviation': gr.getValue('abbreviation')
+        });
+    }
+
+    // Set the response with the result array
+    response.setBody(result);
+    response.setContentType('application/json');
+    response.setStatus(200);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/sn_niem/agency</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 03:27:42</sys_created_on>
+        <sys_id>18abb4541b408210b00dddf6b04bcb01</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>search</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ws_operation_18abb4541b408210b00dddf6b04bcb01</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 03:37:33</sys_updated_on>
+        <web_service_definition display_value="agency">425b7c141b408210b00dddf6b04bcb8e</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

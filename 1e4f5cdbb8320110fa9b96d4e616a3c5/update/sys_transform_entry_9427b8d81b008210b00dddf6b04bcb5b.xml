@@ -5,9 +5,9 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="u_imp_tmpl_sn_niem_agency">757cd575478ed51024e32782846d438d</map>
+        <map display_value="u_imp_tmpl_sn_niem_agency">1827b8d81b008210b00dddf6b04bcb49</map>
         <reference_value_field/>
-        <source_field>u_organization_type</source_field>
+        <source_field>u_agency_name</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
@@ -16,15 +16,18 @@
 })(source);]]></source_script>
         <source_table>u_imp_tmpl_sn_niem_agency</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
-        <sys_created_by>steven.ly</sys_created_by>
-        <sys_created_on>2022-09-20 19:13:09</sys_created_on>
-        <sys_id>fd7c95b5478ed51024e32782846d435c</sys_id>
-        <sys_name>u_organization_type</sys_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 03:07:01</sys_created_on>
+        <sys_id>9427b8d81b008210b00dddf6b04bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_agency_name</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_transform_entry_fd7c95b5478ed51024e32782846d435c</sys_update_name>
-        <target_field>org_type</target_field>
+        <sys_update_name>sys_transform_entry_9427b8d81b008210b00dddf6b04bcb5b</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 03:07:01</sys_updated_on>
+        <target_field>name</target_field>
         <target_table>sn_niem_agency</target_table>
         <use_source_script>false</use_source_script>
     </sys_transform_entry>

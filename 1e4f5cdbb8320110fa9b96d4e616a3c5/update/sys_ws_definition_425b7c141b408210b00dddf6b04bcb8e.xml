@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/sn_niem/agency</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>agency</name>
+        <namespace>sn_niem</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>agency</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 03:26:10</sys_created_on>
+        <sys_id>425b7c141b408210b00dddf6b04bcb8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>agency</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_ws_definition_425b7c141b408210b00dddf6b04bcb8e</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 03:28:21</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
