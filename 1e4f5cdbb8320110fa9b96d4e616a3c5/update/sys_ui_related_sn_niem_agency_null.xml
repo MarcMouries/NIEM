@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sn_niem_agency" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Agency - Default view" name="sn_niem_agency" related_list="NULL" sys_domain="global" view="Default view">40c22d6c1b884210b00dddf6b04bcb0c</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sn_niem_address.organization</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-27 00:56:06</sys_created_on>
+            <sys_id>44c22d6c1b884210b00dddf6b04bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-27 00:56:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Agency - Default view" name="sn_niem_agency" related_list="NULL" sys_domain="global" view="Default view">40c22d6c1b884210b00dddf6b04bcb0c</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sn_niem_m2m_persons_organizations.organization</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-27 00:56:06</sys_created_on>
+            <sys_id>4cc22d6c1b884210b00dddf6b04bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-27 00:56:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Agency - Default view" name="sn_niem_agency" related_list="NULL" sys_domain="global" view="Default view">40c22d6c1b884210b00dddf6b04bcb0c</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sn_niem_agency.parent_organization</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-27 00:56:06</sys_created_on>
+            <sys_id>40c22d6c1b884210b00dddf6b04bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-27 00:56:06</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Agency - Default view</calculated_name>
+            <filter/>
+            <name>sn_niem_agency</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-01-27 00:56:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40c22d6c1b884210b00dddf6b04bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Agency - Default view</sys_name>
+            <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+            <sys_update_name>sys_ui_related_sn_niem_agency_null</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-01-27 00:56:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -42,7 +42,7 @@
         <reverted_from/>
         <source>618bf4661bff3194ce2b6579b04bcb04</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-01-26 03:02:16</sys_created_on>
         <sys_id>2e06b4581b008210b00dddf6b04bcb49</sys_id>

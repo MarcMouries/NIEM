@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <batch_size>1000</batch_size>
+        <category/>
+        <connection_alias/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>attachment://sys_data_source:a908785c1b008210b00dddf6b04bcbd5/sn_niem_agency_2.xlsx</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+     // Add your code here to insert data to import_set_table
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
+        <data_stream_connection_alias/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path>sn_niem_agency_2.xlsx</file_path>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>Excel</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label/>
+        <import_set_table_name>u_imp_tmpl_sn_niem_agency</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jdbcprobe_result_set_rows/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time/>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit/>
+        <maximum_rows>10000</maximum_rows>
+        <mid_server/>
+        <name>sn_niem_agency_2.xlsx (Uploaded)</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_name>1</sheet_name>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 03:10:56</sys_created_on>
+        <sys_id>a908785c1b008210b00dddf6b04bcbd5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sn_niem_agency_2.xlsx (Uploaded)</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_update_name>sys_data_source_a908785c1b008210b00dddf6b04bcbd5</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 03:10:57</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_variable_value action="DELETE" query="document_key=a908785c1b008210b00dddf6b04bcbd5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_data_source_a908785c1b008210b00dddf6b04bcbd5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_alias/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:a908785c1b008210b00dddf6b04bcbd5/sn_niem_agency_2.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+     // Add your code here to insert data to import_set_table
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]&gt;&lt;/data_loader&gt;&lt;data_stream_action/&gt;&lt;data_stream_action_inputs/&gt;&lt;data_stream_connection_alias/&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;sn_niem_agency_2.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;0&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_imp_tmpl_sn_niem_agency&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jdbcprobe_result_set_rows/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows&gt;10000&lt;/maximum_rows&gt;&lt;mid_server/&gt;&lt;name&gt;sn_niem_agency_2.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-26 03:10:56&lt;/sys_created_on&gt;&lt;sys_id&gt;a908785c1b008210b00dddf6b04bcbd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;sn_niem_agency_2.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="NIEM" source="sn_niem"&gt;1e4f5cdbb8320110fa9b96d4e616a3c5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NIEM"&gt;1e4f5cdbb8320110fa9b96d4e616a3c5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_a908785c1b008210b00dddf6b04bcbd5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-26 03:10:57&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a908785c1b008210b00dddf6b04bcbd5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-744857068</payload_hash>
+        <record_name>sn_niem_agency_2.xlsx (Uploaded)</record_name>
+        <reverted_from/>
+        <source>618bf4661bff3194ce2b6579b04bcb04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-26 03:10:57</sys_created_on>
+        <sys_id>7d08b85c1b008210b00dddf6b04bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d43bfc3c20000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-26 03:10:57</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>3508b85c030082101de5df90838b454c</update_guid>
+        <update_guid_history>3508b85c030082101de5df90838b454c:-744857068,3908b85c3a008210b17a27d3a139464a:-2053904001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-01-27 01:02:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>0d0407f75c874e528b898aa1348b72a4</sys_id>
+        <sys_metadata>a908785c1b008210b00dddf6b04bcbd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem_agency_2.xlsx (Uploaded)</sys_name>
+        <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
+        <sys_scope_delete display_value="">4c40f3f594ec433fb57c143f15630181</sys_scope_delete>
+        <sys_update_name>sys_data_source_a908785c1b008210b00dddf6b04bcbd5</sys_update_name>
+        <sys_update_version display_value="sys_data_source_a908785c1b008210b00dddf6b04bcbd5">7d08b85c1b008210b00dddf6b04bcb4c</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-01-27 01:02:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
