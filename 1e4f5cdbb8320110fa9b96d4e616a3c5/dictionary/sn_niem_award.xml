@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="137b0569c372b114102c752ed4013100" label="Award" max_length="40" name="sn_niem_award" type="collection">
         <element label="Abstract" max_length="500" name="abstract" type="html"/>
-        <element attributes="edge_encryption_enabled=true" label="Award Number" max_length="40" name="award_number" type="string"/>
+        <element label="Award Number" max_length="40" name="award_number" type="string"/>
+        <element attributes="format=none" label="Award Year" max_length="40" name="award_year" type="integer"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Program" max_length="32" name="program" reference="sn_niem_award_program" type="reference"/>
         <element label="Program Manager" max_length="32" name="program_manager" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Recipient" max_length="32" name="recipient" reference="sn_niem_organization" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="State" max_length="32" name="state" reference="sn_niem_state" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element display="true" label="Title" max_length="100" name="title" type="string"/>
         <index name="index">
             <element name="program"/>
