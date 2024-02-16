@@ -9,6 +9,22 @@
         <name>AssessmentHelper</name>
         <script><![CDATA[var AssessmentHelper = Class.create();
 AssessmentHelper.prototype = {
+
+    /* Table for storing individual assessments */
+    ASSESSMENT_TABLE: 'sn_niem_assessment',
+
+    /* Table for storing assessment templates definitions */
+    ASSESSMENT_DEFINITION_TABLE: 'sn_niem_assessment_definition',
+
+    /* Table for storing questions within assessment templates */
+    ASSESSMENT_QUESTION_TABLE: 'sn_niem_assessment_question',
+
+    /* Table for storing choice options for questions in assessment templates */
+    ASSESSMENT_TEMPLATE_CHOICES_TABLE: 'sn_niem_assessment_template_choices',
+
+    /* Table for storing responses to assessment questions */
+    ASSESSMENT_RESPONSE_TABLE: 'sn_niem_assessment_qtn_resp',
+
     initialize: function() {},
 
     type: 'AssessmentHelper',
@@ -20,7 +36,7 @@ AssessmentHelper.prototype = {
      */
     createAssessment: function(caseSysId, assessmentName) {
         // first, check if we already have one for the current case
-        var assessmentGr = new GlideRecord('sn_niem_assessment');
+        var assessmentGr = new GlideRecord(this.ASSESSMENT_TABLE);
         assessmentGr.addQuery('case', caseSysId);
         assessmentGr.addQuery('name', assessmentName);
         assessmentGr.query();
@@ -40,18 +56,16 @@ AssessmentHelper.prototype = {
             assessmentGr.initialize();
             assessmentGr.setValue('case', caseSysId);
             assessmentGr.setValue('name', assessmentName);
-			assessmentGr.setValue('template', assessmentTemplateId);
+            assessmentGr.setValue('template', assessmentTemplateId);
             var assessmentSysId = assessmentGr.insert();
-			gs.warn("AssessmentHelper: created Assessment '" + assessmentName + "' " + assessmentSysId);
+            gs.warn("AssessmentHelper: created Assessment '" + assessmentName + "' " + assessmentSysId);
 
-			// assign assessment to the case
-			var case_recordGR = new GlideRecord("sn_icms_operation_plan");
-			case_recordGR.get(caseSysId);
-			case_recordGR.setValue('risk_assessment', assessmentSysId);
-			var update_result = case_recordGR.update();
-			gs.warn("AssessmentHelper: assigned Assessment '" + assessmentSysId + "' to operation: " + caseSysId + " update_result = " + update_result);
-			
-
+            // assign assessment to the case
+            var case_recordGR = new GlideRecord("sn_icms_operation_plan");
+            case_recordGR.get(caseSysId);
+            case_recordGR.setValue('risk_assessment', assessmentSysId);
+            var update_result = case_recordGR.update();
+            gs.warn("AssessmentHelper: assigned Assessment '" + assessmentSysId + "' to operation: " + caseSysId + " update_result = " + update_result);
             // the creation of questions-responses are handled by a BR on the Assessment
         }
     },
@@ -68,14 +82,14 @@ AssessmentHelper.prototype = {
 
     getAssessmentTemplateId: function(assessment_name) {
         gs.warn("AssessmentHelper: getAssessmentDefinition for: " + assessment_name);
-        var assessmentDefGr = new GlideRecord('sn_niem_assessment_definition');
+        var assessmentDefGr = new GlideRecord(this.ASSESSMENT_DEFINITION_TABLE);
         assessmentDefGr.addQuery('name', assessment_name);
         assessmentDefGr.query();
         assessmentDefGr.next();
         return assessmentDefGr.sys_id;
     },
 
-//KF - 1-Dec-23 - updated version for NSF demo parametertizing
+    //KF - 1-Dec-23 - updated version for NSF demo parametertizing
     createQtnRespFromAssessmentDefinition: function(question_source, resp_target, assessment_id, assessment_template_id) {
         gs.warn("AssessmentHelper: assessment_definition: " + assessment_id);
         //         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
@@ -103,78 +117,31 @@ AssessmentHelper.prototype = {
         }
     },
 
-/* KF - 1-Dec-23 - deprecated version updated for NSF demo
-	createQtnRespFromAssessmentDefinition: function(assessment_id, assessment_template_id) {
-        gs.warn("AssessmentHelper: assessment_definition: " + assessment_id);
-        //         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
-        //         if (!assessment_definition_id) {
-        //             gs.addErrorMessage("Missing Assessment Definition for: " + assessment_name);
-        //         }
-        // Get All Questions associated with this Assessment definition
-        var questionsGr = new GlideRecord('sn_niem_assessment_question');
-        questionsGr.addQuery('assessment_template', assessment_template_id);
-        questionsGr.orderBy('category');
-        questionsGr.orderBy('order');
-        questionsGr.query();
-        while (questionsGr.next()) {
-            var category = questionsGr.getValue('category');
-            var text = questionsGr.getValue('text');
-            var points = questionsGr.getValue('points');
-            var questions_SysId = questionsGr.getValue('sys_id');
+    // KF : Dec  4, 2023: refactoring for NSF
+    // MM : Feb 15, 2024: update to fetch questions and responses from the NIEM model 
+    getAssessmentQuestionResponsesForCase: function(caseSysId) {
+        gs.warn("NIEM: AssessmentHelper: getAssessmentQuestionResponsesForCase for: " + caseSysId);
 
-            // Create Question Responses and associate them with the Assessment
-            var qtn_respGr = new GlideRecord('sn_niem_assessment_qtn_resp');
-            qtn_respGr.initialize();
-            qtn_respGr.setValue('assessment', assessment_id);
-            qtn_respGr.setValue('question', questions_SysId);
-            qtn_respGr.insert();
-        }
-    },
-*/
-
-    /**
-     * Returns the list of quesion_response for a given Case and Assessment name
-     * 
-        var caseSysId = "caee3601470e551024e32782846d436c";
-        var assessmentName = 'Operation Risk Assessment';
-
-        var helper = new sn_niem.AssessmentHelper();
-        var questionListByCategory = helper.getQuestionResponsesForAssessment(caseSysId, assessmentName)
-        gs.info(JSON.stringify(questionListByCategory))
-		
-		
-		case.sys_id=caee3601470e551024e32782846d436c^template.nameSTARTSWITHOperation Risk Assessment
-     * 
-     */
-
-	//KF - 4-Dec-23 refactoring for NSF
-    getQuestionResponsesForAssessment: function(caseSysId, assessmentName, assessment_table, response_table, choice_table) {
-
-        gs.warn("AssessmentHelper: getQuestionResponsesForAssessment for: " + caseSysId + " - " + assessmentName);
-
-        var assessmentGr = new GlideRecord(assessment_table);
+        // Look up the assessment from the case record 
+        var assessmentGr = new GlideRecord(this.ASSESSMENT_TABLE);
         assessmentGr.addQuery('case', caseSysId);
-        //assessmentGr.addQuery('template.name', assessmentName);
         assessmentGr.query();
-        if (!assessmentGr.hasNext())
-        {
-            gs.info("error: no assessment found for case: " + caseSysId + " and assessment: " + assessmentName);
-        }else{
-            gs.info("assessment found for case: " + caseSysId + " and assessment: " + assessmentName);
+        if (!assessmentGr.next()) {
+            gs.info("NIEM: error: no assessment found for case: " + caseSysId);
+        } else {
+            gs.info("NIEM: assessment found for case: " + caseSysId);
         }
-
-        assessmentGr.next();
         var assessment_id = assessmentGr.getValue('sys_id');
-		var assessment_summary = assessmentGr.getValue('summary');
-		var score = assessmentGr.getValue('score');
+        var assessment_summary = assessmentGr.getValue('summary');
+        var score = assessmentGr.getValue('score');
+
 
         // Get the assessment responses
-        var qtn_resp = new GlideRecord(response_table);
+        var qtn_resp = new GlideRecord(this.ASSESSMENT_RESPONSE_TABLE);
         qtn_resp.addQuery('assessment', assessment_id);
         qtn_resp.orderBy('question.category');
         qtn_resp.orderBy('question.order');
         qtn_resp.query();
-
         var questionListByCategory = [];
         var currentCategory = '';
         var categoryObject;
@@ -182,174 +149,79 @@ AssessmentHelper.prototype = {
         while (qtn_resp.next()) {
             var sys_id = qtn_resp.getValue('sys_id');
             var category = qtn_resp.question.category + "";
-			var type = qtn_resp.question.type + "";
-            var questionText = qtn_resp.question.text + "";
-            var order = parseInt(qtn_resp.question.order, 10);
-            var points = parseInt(qtn_resp.question.points, 10);   
-            var question_id = qtn_resp.question;
-			var qtn_response = qtn_resp.response + "";
-			var qtn_value = qtn_resp.value + "";
-
-            //var helper = new sn_niem.AssessmentHelper();
-            //var responseOptions = helper.getChoices(choice_table, question_id);
-			var responseOptions = this.getChoices(choice_table, question_id);
-
-            var newCategory = !category.equals(currentCategory);
-            if (newCategory) {
-                categoryObject = {};
-                categoryObject.category = category;
-                categoryObject.questionList = [];
-				categoryObject.summary = assessment_summary;
-				categoryObject.summary_id = assessment_id;
-				categoryObject.score = score;
-                questionListByCategory.push(categoryObject);
-                currentCategory = category;
-            }
-
-            var question = {
-                "sys_id": sys_id,
-				"type": type,
-                "questionText": questionText,
-				"response": qtn_response,
-				"value": qtn_value,
-                "order": order,
-                "points": points,
-                "responseOptions": responseOptions
-            };
-            categoryObject.questionList.push(question);
-            
-        }
-        //gs.info(JSON.stringify(questionListByCategory))
-        return questionListByCategory;
-    },
-
-/* KF 4-Dec-23 refactoring for NSF
-getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
-
-        gs.warn("AssessmentHelper: getQuestionResponsesForAssessment for: " + caseSysId + " - " + assessmentName);
-
-        var assessmentGr = new GlideRecord('sn_niem_assessment');
-        assessmentGr.addQuery('case', caseSysId);
-        assessmentGr.addQuery('template.name', assessmentName);
-        assessmentGr.query();
-        if (!assessmentGr.hasNext())
-            return [{
-                    "status": "error"
-                },
-                {
-                    "message": "no assessment found for case: " + caseSysId + " and assessment: " + assessmentName
-                }
-            ];
-
-        assessmentGr.next();
-        var assessment_id = assessmentGr.getValue('sys_id');
-
-        // Get the assessment responses
-        var qtn_resp = new GlideRecord('sn_niem_assessment_qtn_resp');
-        qtn_resp.addQuery('assessment', assessment_id);
-        qtn_resp.orderBy('question.category');
-        qtn_resp.orderBy('question.order');
-        qtn_resp.query();
-
-        var responseOptions = this.getChoices('sn_niem_assessment_qtn_resp', 'response');
-        var questionListByCategory = [];
-        var currentCategory = '';
-        var categoryObject;
-
-        while (qtn_resp.next()) {
-            var sys_id = qtn_resp.getValue('sys_id');
-            var category = qtn_resp.question.category + "";
+            var type = qtn_resp.question.type + "";
             var questionText = qtn_resp.question.text + "";
             var order = parseInt(qtn_resp.question.order, 10);
             var points = parseInt(qtn_resp.question.points, 10);
+            var question_id = qtn_resp.question;
+            var qtn_response = qtn_resp.response + "";
+            var qtn_value = qtn_resp.value + "";
 
             var newCategory = !category.equals(currentCategory);
             if (newCategory) {
-                //gs.info(" ✅ New Category:  " + category);
                 categoryObject = {};
                 categoryObject.category = category;
                 categoryObject.questionList = [];
+                categoryObject.summary = assessment_summary;
+                categoryObject.summary_id = assessment_id;
+                categoryObject.score = score;
                 questionListByCategory.push(categoryObject);
                 currentCategory = category;
             }
-            //gs.info("  ⮕ " + questionText);
+
+            var responseOptions = this._fetchChoicesFromTemplate(question_id);
 
             var question = {
                 "sys_id": sys_id,
+                "type": type,
                 "questionText": questionText,
+                "response": qtn_response,
+                "value": qtn_value,
                 "order": order,
                 "points": points,
                 "responseOptions": responseOptions
             };
             categoryObject.questionList.push(question);
+
         }
         //gs.info(JSON.stringify(questionListByCategory))
         return questionListByCategory;
     },
-	*/
 
-		//KF 01-Dec-23 new version for NSF
-	    getChoices: function(choice_table, question_id) {
+
+    /* Fetch questions along with their predefined choices from the sn_niem_assessment_template_choices table */
+    _fetchChoicesFromTemplate: function(questionSysId) {
         var choiceList = [];
-        var grAssessmentChoices = new GlideRecord(choice_table);
-        grAssessmentChoices.addQuery('assessment_template_question', question_id); // the name of your table
+        var grAssessmentChoices = new GlideRecord(this.ASSESSMENT_TEMPLATE_CHOICES_TABLE);
+        grAssessmentChoices.addQuery('assessment_template_question', questionSysId);
         grAssessmentChoices.orderBy('value');
         grAssessmentChoices.query();
+
         while (grAssessmentChoices.next()) {
-            // gs.info("sequence=" + sysChoice.sequence + "; value=" + sysChoice.value + "; label=" + sysChoice.label);
-            var item = {
-                "id": grAssessmentChoices.getValue('sys_id'),
-                "label": grAssessmentChoices.getValue('label'),
-                "sublabel": grAssessmentChoices.getValue('annotation'),
-                "value":  grAssessmentChoices.getValue('value')
-            };
-            choiceList.push(item);
+            choiceList.push({
+                id: grAssessmentChoices.sys_id.toString(),
+                label: grAssessmentChoices.label.toString(),
+                sublabel: grAssessmentChoices.annotation.toString(),
+                value: grAssessmentChoices.value.toString()
+            });
         }
+
         return choiceList;
     },
 
-/* KF - 01-Dec-23 updating for NSF parameterizing 
-    getChoices: function(tableName, fieldName) {
-        var choiceList = [];
-        var sysChoice = new GlideRecord("sys_choice");
-        sysChoice.addQuery("name", tableName); // the name of your htable
-        sysChoice.addQuery("element", fieldName); // the name of the field
-        sysChoice.addQuery("language", "en"); // language of labels, which you need
-        sysChoice.orderBy("sequence");
-        sysChoice.query();
-        while (sysChoice.next()) {
-            // gs.info("sequence=" + sysChoice.sequence + "; value=" + sysChoice.value + "; label=" + sysChoice.label);
-            var item = {
-                "id": sysChoice.getValue('value'),
-                "label": sysChoice.getValue('label')
-            };
-            choiceList.push(item);
-        }
-        return choiceList;
-    },
-	*/
 
     /**
      * Increase or decrease the number of responses when a response is provided
      * Used in the business rule: Update Assessment Response Count
      */
     increaseNumberOfResponses: function(assessment_sysId) {
-        this._increment('sn_niem_assessment', assessment_sysId, 'number_of_responses', +1);
-    },
-    decreaseNumberOfResponses: function(assessment_sysId) {
-        this._increment('sn_niem_assessment', assessment_sysId, 'number_of_responses', -1);
+        this._increment(this.ASSESSMENT_TABLE, assessment_sysId, 'number_of_responses', +1);
     },
 
-    /**
-     * Increase or decrease the number of questions when a question is added
-     * Used in the business rule: Assessment Question Added/Deleted
-     */
-    increaseNumberOfQuestions: function(assessment_sysId) {
-        this._increment('sn_niem_assessment', assessment_sysId, 'number_of_questions', +1);
+    decreaseNumberOfResponses: function(assessment_sysId) {
+        this._increment(this.ASSESSMENT_TABLE, assessment_sysId, 'number_of_responses', -1);
     },
-    decreaseNumberOfQuestions: function(assessment_sysId) {
-        this._increment('sn_niem_assessment', assessment_sysId, 'number_of_questions', -1);
-    },
+
 
     _increment: function(tableName, record_sysId, fieldName, increment) {
         var recordGR = new GlideRecord(tableName);
@@ -363,13 +235,13 @@ getQuestionResponsesForAssessment: function(caseSysId, assessmentName) {
         <sys_created_by>marc.mouries</sys_created_by>
         <sys_created_on>2022-09-29 01:49:49</sys_created_on>
         <sys_id>85c38ce4971a191081dd33271153afed</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>AssessmentHelper</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_script_include_85c38ce4971a191081dd33271153afed</sys_update_name>
-        <sys_updated_by>kate.flood</sys_updated_by>
-        <sys_updated_on>2023-12-11 22:21:29</sys_updated_on>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-02-16 18:53:31</sys_updated_on>
     </sys_script_include>
 </record_update>
