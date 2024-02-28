@@ -2,7 +2,6 @@
     <element db_object_id="137b0569c372b114102c752ed4013100" label="Award" max_length="40" name="sn_niem_award" type="collection">
         <element label="Abstract" max_length="500" name="abstract" type="html"/>
         <element label="Award Number" max_length="40" name="award_number" type="string"/>
-        <element attributes="format=none" label="Award Year" max_length="40" name="award_year" type="integer"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Program" max_length="32" name="program" reference="sn_niem_award_program" type="reference"/>
         <element label="Program Manager" max_length="32" name="program_manager" reference="sys_user" type="reference"/>

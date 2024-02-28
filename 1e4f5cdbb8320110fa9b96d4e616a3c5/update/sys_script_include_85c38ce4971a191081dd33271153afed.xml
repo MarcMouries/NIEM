@@ -41,16 +41,14 @@ AssessmentHelper.prototype = {
         assessmentGr.addQuery('name', assessmentName);
         assessmentGr.query();
         var assesmentExists = assessmentGr.hasNext();
-
-        gs.warn("AssessmentHelper: assesment with name '" + assessmentName + "' exists: " + assesmentExists);
+        gs.warn("NIEM: AssessmentHelper: assesment with name '" + assessmentName + "' exists: " + assesmentExists);
 
         // if not, create a new assessment
         if (!assesmentExists) {
-
             var assessmentTemplateId = this.getAssessmentTemplateId(assessmentName);
-            gs.warn("AssessmentHelper: AssessmentTemplateId for '" + assessmentName + "' = " + assessmentTemplateId);
+            gs.warn("NIEM: AssessmentHelper: AssessmentTemplateId for '" + assessmentName + "' = " + assessmentTemplateId);
             if (!assessmentTemplateId) {
-                gs.warn("AssessmentHelper: AssessmentTemplate not found '" + assessmentName + "' = " + assessmentTemplateId);
+                gs.warn("NIEM: AssessmentHelper: AssessmentTemplate not found '" + assessmentName + "' = " + assessmentTemplateId);
             }
 
             assessmentGr.initialize();
@@ -92,10 +90,6 @@ AssessmentHelper.prototype = {
     //KF - 1-Dec-23 - updated version for NSF demo parametertizing
     createQtnRespFromAssessmentDefinition: function(question_source, resp_target, assessment_id, assessment_template_id) {
         gs.warn("AssessmentHelper: assessment_definition: " + assessment_id);
-        //         var assessment_definition_id = this.getAssessmentDefinitionId(assessment_name);
-        //         if (!assessment_definition_id) {
-        //             gs.addErrorMessage("Missing Assessment Definition for: " + assessment_name);
-        //         }
         // Get All Questions associated with this Assessment definition
         var questionsGr = new GlideRecord(question_source);
         questionsGr.addQuery('assessment_template', assessment_template_id);
@@ -118,9 +112,10 @@ AssessmentHelper.prototype = {
     },
 
     // KF : Dec  4, 2023: refactoring for NSF
-    // MM : Feb 15, 2024: update to fetch questions and responses from the NIEM model 
+    // MM : Feb 15, 2024: update to fetch questions and responses from the NIEM model instead of passing the extended tables
     getAssessmentQuestionResponsesForCase: function(caseSysId) {
-        gs.warn("NIEM: AssessmentHelper: getAssessmentQuestionResponsesForCase for: " + caseSysId);
+        gs.warn("NIEM: AssessmentHelper: getAssessmentQuestionResponsesForCase");
+        gs.warn("- case id  = " + caseSysId);
 
         // Look up the assessment from the case record 
         var assessmentGr = new GlideRecord(this.ASSESSMENT_TABLE);
@@ -128,13 +123,15 @@ AssessmentHelper.prototype = {
         assessmentGr.query();
         if (!assessmentGr.next()) {
             gs.info("NIEM: error: no assessment found for case: " + caseSysId);
-        } else {
-            gs.info("NIEM: assessment found for case: " + caseSysId);
+            return {
+                status: "error",
+                message: "No assessment found for case: " + caseSysId
+            };
         }
         var assessment_id = assessmentGr.getValue('sys_id');
+        gs.warn("- assmt id = " + assessment_id);
         var assessment_summary = assessmentGr.getValue('summary');
         var score = assessmentGr.getValue('score');
-
 
         // Get the assessment responses
         var qtn_resp = new GlideRecord(this.ASSESSMENT_RESPONSE_TABLE);
@@ -169,7 +166,15 @@ AssessmentHelper.prototype = {
                 currentCategory = category;
             }
 
-            var responseOptions = this._fetchChoicesFromTemplate(question_id);
+            // QUESTION TYPE
+            gs.info("NIEM: question Type : : " + type);
+            gs.info("NIEM: question Text : : " + questionText);
+            var responseOptions = [];
+            if (type == "yes_no") {
+                responseOptions = [{"id":"yes","label":"Yes"},{"id":"no","label":"No"}];
+            } else {
+                responseOptions = this._fetchChoicesFromTemplate(question_id);
+            }
 
             var question = {
                 "sys_id": sys_id,
@@ -235,13 +240,13 @@ AssessmentHelper.prototype = {
         <sys_created_by>marc.mouries</sys_created_by>
         <sys_created_on>2022-09-29 01:49:49</sys_created_on>
         <sys_id>85c38ce4971a191081dd33271153afed</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>AssessmentHelper</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
         <sys_update_name>sys_script_include_85c38ce4971a191081dd33271153afed</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-02-16 18:53:31</sys_updated_on>
+        <sys_updated_on>2024-02-16 21:29:38</sys_updated_on>
     </sys_script_include>
 </record_update>

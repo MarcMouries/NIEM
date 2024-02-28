@@ -2,9 +2,10 @@
     <element db_object_id="48504424971a191081dd33271153afc0" label="Assessment Template Question" max_length="40" name="sn_niem_assessment_question" type="collection">
         <element label="Assessment Template" max_length="32" name="assessment_template" reference="sn_niem_assessment_definition" type="reference"/>
         <element label="Category" max_length="255" name="category" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Points" max_length="40" name="points" type="integer"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element display="true" label="Text" max_length="255" name="text" type="string_full_utf8"/>
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>

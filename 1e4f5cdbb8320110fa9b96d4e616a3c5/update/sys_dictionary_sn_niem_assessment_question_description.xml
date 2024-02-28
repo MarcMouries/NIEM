@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="award_year" table="sn_niem_award">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="description" table="sn_niem_assessment_question">
         <active>true</active>
         <array>false</array>
-        <attributes>format=none</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Award Year</column_label>
+        <column_label>Description</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,16 +26,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>award_year</element>
+        <element>description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>sn_niem_award</name>
+        <name>sn_niem_assessment_question</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
-        <sys_created_on>2024-02-15 15:25:54</sys_created_on>
-        <sys_name>Award Year</sys_name>
+        <sys_created_on>2024-02-16 22:29:08</sys_created_on>
+        <sys_name>Description</sys_name>
         <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-        <sys_update_name>sys_dictionary_sn_niem_award_award_year</sys_update_name>
+        <sys_update_name>sys_dictionary_sn_niem_assessment_question_description</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-02-15 15:26:16</sys_updated_on>
+        <sys_updated_on>2024-02-16 22:29:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

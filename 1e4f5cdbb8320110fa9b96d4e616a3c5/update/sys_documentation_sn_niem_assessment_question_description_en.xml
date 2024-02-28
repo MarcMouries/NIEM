@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="award_year" label="Award Year" language="en" table="sn_niem_award">
+    <sys_documentation element="description" label="Description" language="en" table="sn_niem_assessment_question">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>award_year</element>
+            <element>description</element>
             <help/>
             <hint/>
-            <label>Award Year</label>
+            <label>Description</label>
             <language>en</language>
-            <name>sn_niem_award</name>
+            <name>sn_niem_assessment_question</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2024-02-15 15:25:54</sys_created_on>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>Award Year</sys_name>
+            <sys_created_on>2024-02-16 22:29:09</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Description</sys_name>
             <sys_package display_value="NIEM" source="sn_niem">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM">1e4f5cdbb8320110fa9b96d4e616a3c5</sys_scope>
-            <sys_update_name>sys_documentation_sn_niem_award_award_year_en</sys_update_name>
+            <sys_update_name>sys_documentation_sn_niem_assessment_question_description_en</sys_update_name>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2024-02-15 15:26:16</sys_updated_on>
+            <sys_updated_on>2024-02-16 22:29:09</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
